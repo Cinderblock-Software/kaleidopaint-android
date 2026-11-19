@@ -1,0 +1,43 @@
+# id | de | es | fr | it | ja | nl | pt-PT | ru | zh-Hans | zh-Hant | ar
+about|Über|Acerca de|À propos|Informazioni|このアプリについて|Over|Acerca de|О приложении|关于|關於|حول التطبيق
+about_licence_heading|Lizenz|Licencia|Licence|Licenza|ライセンス|Licentie|Licença|Лицензия|许可证|授權條款|الترخيص
+about_original_heading|Das Original|El original|L’original|L’originale|オリジナル|Het origineel|O original|Оригинал|原作|原作|النسخة الأصلية
+about_source_heading|Quellcode|Código fuente|Code source|Codice sorgente|ソースコード|Broncode|Código-fonte|Исходный код|源代码|原始碼|الشيفرة المصدرية
+back|Zurück|Atrás|Retour|Indietro|戻る|Terug|Voltar|Назад|返回|返回|رجوع
+background|Hintergrund|Fondo|Fond|Sfondo|背景|Achtergrond|Fundo|Фон|背景|背景|الخلفية
+brightness|Helligkeit|Brillo|Luminosité|Luminosità|明るさ|Helderheid|Luminosidade|Яркость|亮度|亮度|السطوع
+brush|Pinsel|Pincel|Pinceau|Pennello|ブラシ|Penseel|Pincel|Кисть|画笔|畫筆|الفرشاة
+cell_shape|Zellform|Forma de celda|Forme de la maille|Forma della cella|単位胞の形|Celvorm|Forma da célula|Форма ячейки|晶胞形状|晶胞形狀|شكل الخلية
+color_hex_format|Farbe %1$s|Color %1$s|Couleur %1$s|Colore %1$s|色 %1$s|Kleur %1$s|Cor %1$s|Цвет %1$s|颜色 %1$s|顏色 %1$s|اللون %1$s
+create|Erstellen|Crear|Créer|Crea|作成|Maken|Criar|Создать|创建|建立|إنشاء
+donation_heading|Gathering 4 Gardner unterstützen|Apoyar a Gathering 4 Gardner|Soutenir Gathering 4 Gardner|Sostieni Gathering 4 Gardner|Gathering 4 Gardnerを支援|Steun Gathering 4 Gardner|Apoiar Gathering 4 Gardner|Поддержать Gathering 4 Gardner|支持 Gathering 4 Gardner|支持 Gathering 4 Gardner|ادعم Gathering 4 Gardner
+done|Fertig|Listo|Terminé|Fine|完了|Gereed|Concluído|Готово|完成|完成|تم
+drawing_canvas|Zeichenfläche|Lienzo|Zone de dessin|Area di disegno|描画領域|Tekenveld|Área de desenho|Холст|画布|畫布|لوحة الرسم
+drawing_name|Name der Zeichnung|Nombre del dibujo|Nom du dessin|Nome del disegno|描画名|Naam van de tekening|Nome do desenho|Название рисунка|绘图名称|繪圖名稱|اسم الرسم
+drawing_name_default|Zeichnung|Dibujo|Dessin|Disegno|描画|Tekening|Desenho|Рисунок|绘图|繪圖|رسم
+edit_element|Element bearbeiten|Editar elemento|Modifier l’élément|Modifica elemento|要素を編集|Element bewerken|Editar elemento|Изменить элемент|编辑元素|編輯元素|تعديل العنصر
+export_image|Bild exportieren|Exportar imagen|Exporter l’image|Esporta immagine|画像を書き出す|Afbeelding exporteren|Exportar imagem|Экспорт изображения|导出图像|匯出影像|تصدير صورة
+fill|Füllen|Rellenar|Remplir|Riempi|塗りつぶし|Vullen|Preencher|Заливка|填充|填滿|تعبئة
+help|Hilfe|Ayuda|Aide|Aiuto|ヘルプ|Help|Ajuda|Справка|帮助|說明|المساعدة
+help_android|Android-Bedienung|Controles de Android|Commandes Android|Comandi Android|Androidの操作|Android-bediening|Controlos Android|Управление в Android|Android 操作|Android 操作|عناصر تحكم Android
+hex_color|Hex-Farbe|Color hexadecimal|Couleur hexadécimale|Colore esadecimale|16進数の色|Hexkleur|Cor hexadecimal|Цвет HEX|十六进制颜色|十六進位顏色|اللون الست عشري
+hue|Farbton|Tono|Teinte|Tonalità|色相|Tint|Tonalidade|Цветовой тон|色相|色相|درجة اللون
+keep_copy|Kopie behalten|Guardar una copia|Conserver une copie|Conserva una copia|コピーを保存|Kopie bewaren|Guardar uma cópia|Сохранить копию|保留副本|保留副本|حفظ نسخة
+less|Weniger|Menos|Moins|Meno|弱く|Minder|Menos|Меньше|较弱|較弱|أقل
+more|Mehr|Más|Plus|Più|強く|Meer|Mais|Больше|较强|較強|أكثر
+new_drawing|Neue Zeichnung|Nuevo dibujo|Nouveau dessin|Nuovo disegno|新しい描画|Nieuwe tekening|Novo desenho|Новый рисунок|新建绘图|新增繪圖|رسم جديد
+open_drawing|Zeichnung öffnen|Abrir dibujo|Ouvrir un dessin|Apri disegno|描画を開く|Tekening openen|Abrir desenho|Открыть рисунок|打开绘图|開啟繪圖|فتح رسم
+redo|Wiederholen|Rehacer|Rétablir|Ripristina|やり直す|Opnieuw|Refazer|Повторить|重做|重做|إعادة
+saturation|Sättigung|Saturación|Saturation|Saturazione|彩度|Verzadiging|Saturação|Насыщенность|饱和度|飽和度|التشبع
+save_drawing|Zeichnungsdatei speichern|Guardar archivo de dibujo|Enregistrer le fichier du dessin|Salva file del disegno|描画ファイルを保存|Tekeningbestand opslaan|Guardar ficheiro do desenho|Сохранить файл рисунка|保存绘图文件|儲存繪圖檔案|حفظ ملف الرسم
+saved_drawings|Gespeicherte Zeichnungen|Dibujos guardados|Dessins enregistrés|Disegni salvati|保存した描画|Opgeslagen tekeningen|Desenhos guardados|Сохранённые рисунки|已保存的绘图|已儲存的繪圖|الرسومات المحفوظة
+share_image|Bild teilen|Compartir imagen|Partager l’image|Condividi immagine|画像を共有|Afbeelding delen|Partilhar imagem|Поделиться изображением|分享图像|分享影像|مشاركة الصورة
+storage_error|Zeichnungsspeicher|Almacenamiento de dibujos|Stockage des dessins|Archivio disegni|描画の保存|Opslag van tekeningen|Armazenamento de desenhos|Хранилище рисунков|绘图存储|繪圖儲存|تخزين الرسومات
+undo|Rückgängig|Deshacer|Annuler|Annulla|元に戻す|Ongedaan maken|Desfazer|Отменить|撤销|復原|تراجع
+version_format|Version %1$s|Versión %1$s|Version %1$s|Versione %1$s|バージョン %1$s|Versie %1$s|Versão %1$s|Версия %1$s|版本 %1$s|版本 %1$s|الإصدار %1$s
+working|Bitte warten…|Procesando…|Opération en cours…|Operazione in corso…|処理中…|Bezig…|A processar…|Выполняется…|正在处理…|處理中…|جارٍ التنفيذ…
+delete_copy|Kopie löschen|Eliminar copia|Supprimer la copie|Elimina copia|コピーを削除|Kopie verwijderen|Eliminar cópia|Удалить копию|删除副本|刪除副本|حذف نسخة
+color_spectrum|Spektrum|Espectro|Spectre|Spettro|スペクトル|Spectrum|Espectro|Спектр|光谱|光譜|الطيف
+color_sliders|Regler|Reguladores|Curseurs|Cursori|スライダ|Schuifregelaars|Controlos|Ползунки|滑块|滑桿|أشرطة التمرير
+new_values|Neu|Nuevo|Nouveau|Nuovo|新規|Nieuw|Novo|Новый|新建|新增|جديد
+used_values|Verwendet|En uso|Utilisé|In uso|使用中|In gebruik|Em uso|Используется|已使用|使用中|مستخدم

@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F025284281AB7C200E08488 /* KaleidoPaintCoordinateSystems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F025283281AB7C200E08488 /* KaleidoPaintCoordinateSystems.swift */; };
+		1F025285281AB7C200E08488 /* KaleidoPaintCoordinateSystems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F025283281AB7C200E08488 /* KaleidoPaintCoordinateSystems.swift */; };
+		1F1490142DD796CB000BB322 /* GeometryGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F820524264EA05B00860743 /* GeometryGamesView.swift */; };
+		1F3CA82A286C39EC00699EE8 /* KaleidoPaintHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3CA829286C39EC00699EE8 /* KaleidoPaintHelp.swift */; };
+		1F42A720277D144300C9DA16 /* GeometryGamesSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42A71F277D144300C9DA16 /* GeometryGamesSound.swift */; };
+		1F42A721277D144300C9DA16 /* GeometryGamesSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42A71F277D144300C9DA16 /* GeometryGamesSound.swift */; };
+		1F43B73F29BA71B500D4BE0D /* KaleidoPaintGPUFunctions.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1F43B73D29BA71B500D4BE0D /* KaleidoPaintGPUFunctions.metal */; };
+		1F43B74029BA71B500D4BE0D /* KaleidoPaintGPUFunctions.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1F43B73D29BA71B500D4BE0D /* KaleidoPaintGPUFunctions.metal */; };
+		1F4A40AF273D38C6000CBB5D /* GeometryGamesBufferPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F820527264EA05B00860743 /* GeometryGamesBufferPool.swift */; };
+		1F4ADD13280EE53C000C40BC /* KaleidoPaintCubicSpline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ADD12280EE53C000C40BC /* KaleidoPaintCubicSpline.swift */; };
+		1F4ADD14280EE53C000C40BC /* KaleidoPaintCubicSpline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ADD12280EE53C000C40BC /* KaleidoPaintCubicSpline.swift */; };
+		1F4BDC08277378B500A981CF /* KaleidoPaintLinearDisplayP3Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4BDC07277378B500A981CF /* KaleidoPaintLinearDisplayP3Color.swift */; };
+		1F4BDC09277378B500A981CF /* KaleidoPaintLinearDisplayP3Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4BDC07277378B500A981CF /* KaleidoPaintLinearDisplayP3Color.swift */; };
+		1F5EA171282565FE00CF4BC1 /* KaleidoPaintUnitCellPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5EA170282565FE00CF4BC1 /* KaleidoPaintUnitCellPlacement.swift */; };
+		1F5EA172282565FE00CF4BC1 /* KaleidoPaintUnitCellPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5EA170282565FE00CF4BC1 /* KaleidoPaintUnitCellPlacement.swift */; };
+		1F5EA174282566BE00CF4BC1 /* KaleidoPaintDrawingElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5EA173282566BE00CF4BC1 /* KaleidoPaintDrawingElement.swift */; };
+		1F5EA175282566BE00CF4BC1 /* KaleidoPaintDrawingElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5EA173282566BE00CF4BC1 /* KaleidoPaintDrawingElement.swift */; };
+		1F820545264EA05B00860743 /* GeometryGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F820524264EA05B00860743 /* GeometryGamesView.swift */; };
+		1F820548264EA05B00860743 /* GeometryGamesBufferPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F820527264EA05B00860743 /* GeometryGamesBufferPool.swift */; };
+		1F82054A264EA05B00860743 /* GeometryGamesExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F820529264EA05B00860743 /* GeometryGamesExportView.swift */; };
+		1F82054B264EA05B00860743 /* GeometryGamesLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F82052B264EA05B00860743 /* GeometryGamesLocalizable.strings */; };
+		1F82054E264EA05B00860743 /* GeometryGamesRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F82053F264EA05B00860743 /* GeometryGamesRenderer.swift */; };
+		1F82054F264EA05B00860743 /* GeometryGamesStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F820540264EA05B00860743 /* GeometryGamesStyle.swift */; };
+		1F820550264EA05B00860743 /* GeometryGamesContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F820541264EA05B00860743 /* GeometryGamesContactView.swift */; };
+		1F820551264EA05B00860743 /* GeometryGamesTranslatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F820542264EA05B00860743 /* GeometryGamesTranslatorsView.swift */; };
+		1F820552264EA05B00860743 /* GeometryGamesUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F820543264EA05B00860743 /* GeometryGamesUtilities.swift */; };
+		1F8E6E4F285C688600B8510E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F8E6E51285C688600B8510E /* Localizable.strings */; };
+		1F8E6E52285C68A400B8510E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F8E6E54285C68A400B8510E /* InfoPlist.strings */; };
+		1F963178273EA47500E8E16A /* GeometryGamesUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F820543264EA05B00860743 /* GeometryGamesUtilities.swift */; };
+		1F9C3CF92DA2B0C1006C04CC /* KaleidoPaintGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C3CF82DA2B0B9006C04CC /* KaleidoPaintGestureHandler.swift */; };
+		1F9C3CFA2DA2B0C1006C04CC /* KaleidoPaintGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C3CF82DA2B0B9006C04CC /* KaleidoPaintGestureHandler.swift */; };
+		1F9D4FF12DA810A6009B83F9 /* GeometryGamesPanRecognizerWithInitialTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D4FF02DA8108B009B83F9 /* GeometryGamesPanRecognizerWithInitialTouch.swift */; };
+		1F9D4FF22DA810A6009B83F9 /* GeometryGamesPanRecognizerWithInitialTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D4FF02DA8108B009B83F9 /* GeometryGamesPanRecognizerWithInitialTouch.swift */; };
+		1FA6FBA5281C0B8C001438B9 /* GeometryGamesColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6FBA4281C0B8C001438B9 /* GeometryGamesColor.swift */; };
+		1FA6FBA6281C0B8C001438B9 /* GeometryGamesColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6FBA4281C0B8C001438B9 /* GeometryGamesColor.swift */; };
+		1FAA3FC42879ABD40066ABB6 /* KaleidoPaintBrushstroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAA3FC32879ABD40066ABB6 /* KaleidoPaintBrushstroke.swift */; };
+		1FAA3FC52879ABD40066ABB6 /* KaleidoPaintBrushstroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAA3FC32879ABD40066ABB6 /* KaleidoPaintBrushstroke.swift */; };
+		1FB2BE6826668D5E00361D76 /* KaleidoPaintRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB2BE6726668D5E00361D76 /* KaleidoPaintRenderer.swift */; };
+		1FB4AA122667A428001B9F34 /* QuickLookThumbnailing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB4AA112667A428001B9F34 /* QuickLookThumbnailing.framework */; };
+		1FB4AA192667A428001B9F34 /* KaleidoPaint Thumbnails.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1FB4AA0F2667A428001B9F34 /* KaleidoPaint Thumbnails.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FB4AA202667B652001B9F34 /* GeometryGamesRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F82053F264EA05B00860743 /* GeometryGamesRenderer.swift */; };
+		1FC24600277B56D4003BFC7A /* KaleidoPaintThumbnailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC245FF277B56D4003BFC7A /* KaleidoPaintThumbnailProvider.swift */; };
+		1FC4B4DE28215C40004AFA2C /* KaleidoPaintDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4B4DD28215C40004AFA2C /* KaleidoPaintDot.swift */; };
+		1FC4B4DF28215C40004AFA2C /* KaleidoPaintDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4B4DD28215C40004AFA2C /* KaleidoPaintDot.swift */; };
+		1FC4B4E128215C58004AFA2C /* KaleidoPaintCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4B4E028215C58004AFA2C /* KaleidoPaintCurve.swift */; };
+		1FC4B4E228215C58004AFA2C /* KaleidoPaintCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4B4E028215C58004AFA2C /* KaleidoPaintCurve.swift */; };
+		1FC4B4E428215C6A004AFA2C /* KaleidoPaintFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4B4E328215C6A004AFA2C /* KaleidoPaintFill.swift */; };
+		1FC4B4E528215C6A004AFA2C /* KaleidoPaintFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4B4E328215C6A004AFA2C /* KaleidoPaintFill.swift */; };
+		1FD20CD228B3AD2500C34626 /* KaleidoPaintRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB2BE6726668D5E00361D76 /* KaleidoPaintRenderer.swift */; };
+		1FD55D7F264E9D6D001F1834 /* KaleidoPaintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD55D7E264E9D6D001F1834 /* KaleidoPaintApp.swift */; };
+		1FD55D81264E9D6D001F1834 /* KaleidoPaintDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD55D80264E9D6D001F1834 /* KaleidoPaintDocument.swift */; };
+		1FD55D83264E9D6D001F1834 /* KaleidoPaintContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD55D82264E9D6D001F1834 /* KaleidoPaintContentView.swift */; };
+		1FD55D85264E9D6D001F1834 /* KaleidoPaintAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD55D84264E9D6D001F1834 /* KaleidoPaintAssets.xcassets */; };
+		1FEA77BB275FDB850026F3DD /* KaleidoPaintDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD55D80264E9D6D001F1834 /* KaleidoPaintDocument.swift */; };
+		1FEA77C0275FE2780026F3DD /* GeometryGamesStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F820540264EA05B00860743 /* GeometryGamesStyle.swift */; };
+		1FEE21302806E32B00121C8D /* KaleidoPaintWallpaperGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE212F2806E32B00121C8D /* KaleidoPaintWallpaperGroup.swift */; };
+		1FEE21312806E32B00121C8D /* KaleidoPaintWallpaperGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE212F2806E32B00121C8D /* KaleidoPaintWallpaperGroup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FB4AA172667A428001B9F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FD55D73264E9D6D001F1834 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FB4AA0E2667A428001B9F34;
+			remoteInfo = "KaleidoPaint Thumbnails";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1FB4AA1A2667A428001B9F34 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1FB4AA192667A428001B9F34 /* KaleidoPaint Thumbnails.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F025283281AB7C200E08488 /* KaleidoPaintCoordinateSystems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintCoordinateSystems.swift; sourceTree = "<group>"; };
+		1F32B2A02DB6AE17003BC8D2 /* KaleidoPaint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KaleidoPaint.entitlements; sourceTree = "<group>"; };
+		1F32B2A12DB6B0B4003BC8D2 /* KaleidoPaint Thumbnails.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "KaleidoPaint Thumbnails.entitlements"; sourceTree = "<group>"; };
+		1F3CA829286C39EC00699EE8 /* KaleidoPaintHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintHelp.swift; sourceTree = "<group>"; };
+		1F42A71F277D144300C9DA16 /* GeometryGamesSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryGamesSound.swift; sourceTree = "<group>"; };
+		1F43B73D29BA71B500D4BE0D /* KaleidoPaintGPUFunctions.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = KaleidoPaintGPUFunctions.metal; sourceTree = "<group>"; };
+		1F43B73E29BA71B500D4BE0D /* KaleidoPaintGPUDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaleidoPaintGPUDefinitions.h; sourceTree = "<group>"; };
+		1F4ADD12280EE53C000C40BC /* KaleidoPaintCubicSpline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintCubicSpline.swift; sourceTree = "<group>"; };
+		1F4BDC07277378B500A981CF /* KaleidoPaintLinearDisplayP3Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintLinearDisplayP3Color.swift; sourceTree = "<group>"; };
+		1F5EA170282565FE00CF4BC1 /* KaleidoPaintUnitCellPlacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintUnitCellPlacement.swift; sourceTree = "<group>"; };
+		1F5EA173282566BE00CF4BC1 /* KaleidoPaintDrawingElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintDrawingElement.swift; sourceTree = "<group>"; };
+		1F820524264EA05B00860743 /* GeometryGamesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryGamesView.swift; sourceTree = "<group>"; };
+		1F820527264EA05B00860743 /* GeometryGamesBufferPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryGamesBufferPool.swift; sourceTree = "<group>"; };
+		1F820529264EA05B00860743 /* GeometryGamesExportView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryGamesExportView.swift; sourceTree = "<group>"; };
+		1F82052C264EA05B00860743 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F82052D264EA05B00860743 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F82052E264EA05B00860743 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F82052F264EA05B00860743 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/GeometryGamesLocalizable.strings"; sourceTree = "<group>"; };
+		1F820530264EA05B00860743 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F820531264EA05B00860743 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F820532264EA05B00860743 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F820533264EA05B00860743 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F820534264EA05B00860743 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F820535264EA05B00860743 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/GeometryGamesLocalizable.strings"; sourceTree = "<group>"; };
+		1F820536264EA05B00860743 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F820537264EA05B00860743 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F820538264EA05B00860743 /* cy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cy; path = cy.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F820539264EA05B00860743 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F82053A264EA05B00860743 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F82053B264EA05B00860743 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/GeometryGamesLocalizable.strings; sourceTree = "<group>"; };
+		1F82053C264EA05B00860743 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/GeometryGamesLocalizable.strings"; sourceTree = "<group>"; };
+		1F82053F264EA05B00860743 /* GeometryGamesRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryGamesRenderer.swift; sourceTree = "<group>"; };
+		1F820540264EA05B00860743 /* GeometryGamesStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryGamesStyle.swift; sourceTree = "<group>"; };
+		1F820541264EA05B00860743 /* GeometryGamesContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryGamesContactView.swift; sourceTree = "<group>"; };
+		1F820542264EA05B00860743 /* GeometryGamesTranslatorsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryGamesTranslatorsView.swift; sourceTree = "<group>"; };
+		1F820543264EA05B00860743 /* GeometryGamesUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryGamesUtilities.swift; sourceTree = "<group>"; };
+		1F82068F264EAB3C00860743 /* KaleidoPaintBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaleidoPaintBridgingHeader.h; sourceTree = "<group>"; };
+		1F8E6E50285C688600B8510E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F8E6E53285C68A400B8510E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F8E6E55285C6B7600B8510E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F8E6E56285C6C9000B8510E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F8E6E57285C6D3000B8510E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F8E6E58285C6D7100B8510E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F8E6E59285C6DAF00B8510E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F8E6E5A285C6DE600B8510E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F8E6E5B285C6E2400B8510E /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F8E6E5C285C6E5800B8510E /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1F8E6E5D285C6E9400B8510E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F8E6E5E285C6F3300B8510E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1F8E6E5F285C6F6C00B8510E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1F9C119E285CB28D00809489 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F9C119F285CB2AA00809489 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F9C11A0285CB2BE00809489 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F9C11A1285CB2D400809489 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F9C11A2285CB30E00809489 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F9C11A3285CB31C00809489 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F9C11A4285CB32B00809489 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F9C3CF82DA2B0B9006C04CC /* KaleidoPaintGestureHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintGestureHandler.swift; sourceTree = "<group>"; };
+		1F9D4FF02DA8108B009B83F9 /* GeometryGamesPanRecognizerWithInitialTouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryGamesPanRecognizerWithInitialTouch.swift; sourceTree = "<group>"; };
+		1FA6FBA4281C0B8C001438B9 /* GeometryGamesColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryGamesColor.swift; sourceTree = "<group>"; };
+		1FAA3FC32879ABD40066ABB6 /* KaleidoPaintBrushstroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintBrushstroke.swift; sourceTree = "<group>"; };
+		1FB2BE6726668D5E00361D76 /* KaleidoPaintRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintRenderer.swift; sourceTree = "<group>"; tabWidth = 4; };
+		1FB4AA0F2667A428001B9F34 /* KaleidoPaint Thumbnails.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KaleidoPaint Thumbnails.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB4AA112667A428001B9F34 /* QuickLookThumbnailing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookThumbnailing.framework; path = System/Library/Frameworks/QuickLookThumbnailing.framework; sourceTree = SDKROOT; };
+		1FB4AA162667A428001B9F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB83CED285CB3C300C89938 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1FB83CEE285CB3E400C89938 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FB83CEF285CB3F900C89938 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1FB83CF0285CB41000C89938 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1FC245FF277B56D4003BFC7A /* KaleidoPaintThumbnailProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaleidoPaintThumbnailProvider.swift; sourceTree = "<group>"; };
+		1FC4B4DD28215C40004AFA2C /* KaleidoPaintDot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintDot.swift; sourceTree = "<group>"; };
+		1FC4B4E028215C58004AFA2C /* KaleidoPaintCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintCurve.swift; sourceTree = "<group>"; };
+		1FC4B4E328215C6A004AFA2C /* KaleidoPaintFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintFill.swift; sourceTree = "<group>"; };
+		1FD55D7B264E9D6D001F1834 /* KaleidoPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaleidoPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD55D7E264E9D6D001F1834 /* KaleidoPaintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintApp.swift; sourceTree = "<group>"; };
+		1FD55D80264E9D6D001F1834 /* KaleidoPaintDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintDocument.swift; sourceTree = "<group>"; };
+		1FD55D82264E9D6D001F1834 /* KaleidoPaintContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintContentView.swift; sourceTree = "<group>"; };
+		1FD55D84264E9D6D001F1834 /* KaleidoPaintAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KaleidoPaintAssets.xcassets; sourceTree = "<group>"; };
+		1FD55D89264E9D6D001F1834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEE212F2806E32B00121C8D /* KaleidoPaintWallpaperGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoPaintWallpaperGroup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FB4AA0C2667A428001B9F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB4AA122667A428001B9F34 /* QuickLookThumbnailing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD55D78264E9D6D001F1834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F820522264EA05B00860743 /* Geometry Games - Swift */ = {
+			isa = PBXGroup;
+			children = (
+				1F820524264EA05B00860743 /* GeometryGamesView.swift */,
+				1F82053F264EA05B00860743 /* GeometryGamesRenderer.swift */,
+				1F820527264EA05B00860743 /* GeometryGamesBufferPool.swift */,
+				1F820529264EA05B00860743 /* GeometryGamesExportView.swift */,
+				1F820541264EA05B00860743 /* GeometryGamesContactView.swift */,
+				1F820542264EA05B00860743 /* GeometryGamesTranslatorsView.swift */,
+				1F9D4FF02DA8108B009B83F9 /* GeometryGamesPanRecognizerWithInitialTouch.swift */,
+				1F82052A264EA05B00860743 /* Geometry Games localizable strings */,
+				1F820540264EA05B00860743 /* GeometryGamesStyle.swift */,
+				1FA6FBA4281C0B8C001438B9 /* GeometryGamesColor.swift */,
+				1F42A71F277D144300C9DA16 /* GeometryGamesSound.swift */,
+				1F820543264EA05B00860743 /* GeometryGamesUtilities.swift */,
+			);
+			name = "Geometry Games - Swift";
+			path = "../../Shared/Geometry Games - Swift";
+			sourceTree = "<group>";
+		};
+		1F82052A264EA05B00860743 /* Geometry Games localizable strings */ = {
+			isa = PBXGroup;
+			children = (
+				1F82052B264EA05B00860743 /* GeometryGamesLocalizable.strings */,
+			);
+			path = "Geometry Games localizable strings";
+			sourceTree = "<group>";
+		};
+		1FB4AA102667A428001B9F34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4AA112667A428001B9F34 /* QuickLookThumbnailing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FB4AA132667A428001B9F34 /* KaleidoPaint Thumbnails */ = {
+			isa = PBXGroup;
+			children = (
+				1F32B2A12DB6B0B4003BC8D2 /* KaleidoPaint Thumbnails.entitlements */,
+				1FC245FF277B56D4003BFC7A /* KaleidoPaintThumbnailProvider.swift */,
+				1FB4AA162667A428001B9F34 /* Info.plist */,
+			);
+			path = "KaleidoPaint Thumbnails";
+			sourceTree = "<group>";
+		};
+		1FD55D72264E9D6D001F1834 = {
+			isa = PBXGroup;
+			children = (
+				1F820522264EA05B00860743 /* Geometry Games - Swift */,
+				1FD55D7D264E9D6D001F1834 /* KaleidoPaint */,
+				1FB4AA132667A428001B9F34 /* KaleidoPaint Thumbnails */,
+				1FB4AA102667A428001B9F34 /* Frameworks */,
+				1FD55D7C264E9D6D001F1834 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FD55D7C264E9D6D001F1834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FD55D7B264E9D6D001F1834 /* KaleidoPaint.app */,
+				1FB4AA0F2667A428001B9F34 /* KaleidoPaint Thumbnails.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FD55D7D264E9D6D001F1834 /* KaleidoPaint */ = {
+			isa = PBXGroup;
+			children = (
+				1F32B2A02DB6AE17003BC8D2 /* KaleidoPaint.entitlements */,
+				1F8E6E51285C688600B8510E /* Localizable.strings */,
+				1F82068F264EAB3C00860743 /* KaleidoPaintBridgingHeader.h */,
+				1FD55D7E264E9D6D001F1834 /* KaleidoPaintApp.swift */,
+				1FD55D80264E9D6D001F1834 /* KaleidoPaintDocument.swift */,
+				1F5EA170282565FE00CF4BC1 /* KaleidoPaintUnitCellPlacement.swift */,
+				1F5EA173282566BE00CF4BC1 /* KaleidoPaintDrawingElement.swift */,
+				1FAA3FC32879ABD40066ABB6 /* KaleidoPaintBrushstroke.swift */,
+				1FC4B4DD28215C40004AFA2C /* KaleidoPaintDot.swift */,
+				1FC4B4E028215C58004AFA2C /* KaleidoPaintCurve.swift */,
+				1FC4B4E328215C6A004AFA2C /* KaleidoPaintFill.swift */,
+				1F025283281AB7C200E08488 /* KaleidoPaintCoordinateSystems.swift */,
+				1FEE212F2806E32B00121C8D /* KaleidoPaintWallpaperGroup.swift */,
+				1F4ADD12280EE53C000C40BC /* KaleidoPaintCubicSpline.swift */,
+				1FD55D82264E9D6D001F1834 /* KaleidoPaintContentView.swift */,
+				1F9C3CF82DA2B0B9006C04CC /* KaleidoPaintGestureHandler.swift */,
+				1FB2BE6726668D5E00361D76 /* KaleidoPaintRenderer.swift */,
+				1F4BDC07277378B500A981CF /* KaleidoPaintLinearDisplayP3Color.swift */,
+				1F3CA829286C39EC00699EE8 /* KaleidoPaintHelp.swift */,
+				1F43B73E29BA71B500D4BE0D /* KaleidoPaintGPUDefinitions.h */,
+				1F43B73D29BA71B500D4BE0D /* KaleidoPaintGPUFunctions.metal */,
+				1FD55D84264E9D6D001F1834 /* KaleidoPaintAssets.xcassets */,
+				1FD55D89264E9D6D001F1834 /* Info.plist */,
+				1F8E6E54285C68A400B8510E /* InfoPlist.strings */,
+			);
+			path = KaleidoPaint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FB4AA0E2667A428001B9F34 /* KaleidoPaint Thumbnails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB4AA1D2667A428001B9F34 /* Build configuration list for PBXNativeTarget "KaleidoPaint Thumbnails" */;
+			buildPhases = (
+				1FB4AA0B2667A428001B9F34 /* Sources */,
+				1FB4AA0C2667A428001B9F34 /* Frameworks */,
+				1FB4AA0D2667A428001B9F34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KaleidoPaint Thumbnails";
+			productName = "KaleidoPaint Thumbnails";
+			productReference = 1FB4AA0F2667A428001B9F34 /* KaleidoPaint Thumbnails.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1FD55D7A264E9D6D001F1834 /* KaleidoPaint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD55D8C264E9D6D001F1834 /* Build configuration list for PBXNativeTarget "KaleidoPaint" */;
+			buildPhases = (
+				1FD55D77264E9D6D001F1834 /* Sources */,
+				1FD55D78264E9D6D001F1834 /* Frameworks */,
+				1FD55D79264E9D6D001F1834 /* Resources */,
+				1FB4AA1A2667A428001B9F34 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB4AA182667A428001B9F34 /* PBXTargetDependency */,
+			);
+			name = KaleidoPaint;
+			productName = KaleidoPaint;
+			productReference = 1FD55D7B264E9D6D001F1834 /* KaleidoPaint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FD55D73264E9D6D001F1834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					1FB4AA0E2667A428001B9F34 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					1FD55D7A264E9D6D001F1834 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 1FD55D76264E9D6D001F1834 /* Build configuration list for PBXProject "KaleidoPaint" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				ar,
+				el,
+				"zh-Hans",
+				ja,
+				es,
+				it,
+				ko,
+				"zh-Hant",
+				vi,
+				ru,
+				cy,
+				fr,
+				fi,
+				nl,
+				"pt-PT",
+			);
+			mainGroup = 1FD55D72264E9D6D001F1834;
+			productRefGroup = 1FD55D7C264E9D6D001F1834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FD55D7A264E9D6D001F1834 /* KaleidoPaint */,
+				1FB4AA0E2667A428001B9F34 /* KaleidoPaint Thumbnails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FB4AA0D2667A428001B9F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD55D79264E9D6D001F1834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F82054B264EA05B00860743 /* GeometryGamesLocalizable.strings in Resources */,
+				1F8E6E4F285C688600B8510E /* Localizable.strings in Resources */,
+				1FD55D85264E9D6D001F1834 /* KaleidoPaintAssets.xcassets in Resources */,
+				1F8E6E52285C68A400B8510E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FB4AA0B2667A428001B9F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA6FBA6281C0B8C001438B9 /* GeometryGamesColor.swift in Sources */,
+				1FC4B4DF28215C40004AFA2C /* KaleidoPaintDot.swift in Sources */,
+				1FC24600277B56D4003BFC7A /* KaleidoPaintThumbnailProvider.swift in Sources */,
+				1F4A40AF273D38C6000CBB5D /* GeometryGamesBufferPool.swift in Sources */,
+				1F025285281AB7C200E08488 /* KaleidoPaintCoordinateSystems.swift in Sources */,
+				1F4BDC09277378B500A981CF /* KaleidoPaintLinearDisplayP3Color.swift in Sources */,
+				1F4ADD14280EE53C000C40BC /* KaleidoPaintCubicSpline.swift in Sources */,
+				1F9D4FF22DA810A6009B83F9 /* GeometryGamesPanRecognizerWithInitialTouch.swift in Sources */,
+				1F1490142DD796CB000BB322 /* GeometryGamesView.swift in Sources */,
+				1F5EA175282566BE00CF4BC1 /* KaleidoPaintDrawingElement.swift in Sources */,
+				1F963178273EA47500E8E16A /* GeometryGamesUtilities.swift in Sources */,
+				1FC4B4E528215C6A004AFA2C /* KaleidoPaintFill.swift in Sources */,
+				1F9C3CF92DA2B0C1006C04CC /* KaleidoPaintGestureHandler.swift in Sources */,
+				1F43B74029BA71B500D4BE0D /* KaleidoPaintGPUFunctions.metal in Sources */,
+				1FB4AA202667B652001B9F34 /* GeometryGamesRenderer.swift in Sources */,
+				1FEA77C0275FE2780026F3DD /* GeometryGamesStyle.swift in Sources */,
+				1FD20CD228B3AD2500C34626 /* KaleidoPaintRenderer.swift in Sources */,
+				1F5EA172282565FE00CF4BC1 /* KaleidoPaintUnitCellPlacement.swift in Sources */,
+				1FC4B4E228215C58004AFA2C /* KaleidoPaintCurve.swift in Sources */,
+				1F42A721277D144300C9DA16 /* GeometryGamesSound.swift in Sources */,
+				1FAA3FC52879ABD40066ABB6 /* KaleidoPaintBrushstroke.swift in Sources */,
+				1FEA77BB275FDB850026F3DD /* KaleidoPaintDocument.swift in Sources */,
+				1FEE21312806E32B00121C8D /* KaleidoPaintWallpaperGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD55D77264E9D6D001F1834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEE21302806E32B00121C8D /* KaleidoPaintWallpaperGroup.swift in Sources */,
+				1FC4B4E128215C58004AFA2C /* KaleidoPaintCurve.swift in Sources */,
+				1F9D4FF12DA810A6009B83F9 /* GeometryGamesPanRecognizerWithInitialTouch.swift in Sources */,
+				1FC4B4DE28215C40004AFA2C /* KaleidoPaintDot.swift in Sources */,
+				1F820545264EA05B00860743 /* GeometryGamesView.swift in Sources */,
+				1F42A720277D144300C9DA16 /* GeometryGamesSound.swift in Sources */,
+				1FB2BE6826668D5E00361D76 /* KaleidoPaintRenderer.swift in Sources */,
+				1F820550264EA05B00860743 /* GeometryGamesContactView.swift in Sources */,
+				1FAA3FC42879ABD40066ABB6 /* KaleidoPaintBrushstroke.swift in Sources */,
+				1F5EA174282566BE00CF4BC1 /* KaleidoPaintDrawingElement.swift in Sources */,
+				1FA6FBA5281C0B8C001438B9 /* GeometryGamesColor.swift in Sources */,
+				1FD55D7F264E9D6D001F1834 /* KaleidoPaintApp.swift in Sources */,
+				1FC4B4E428215C6A004AFA2C /* KaleidoPaintFill.swift in Sources */,
+				1F9C3CFA2DA2B0C1006C04CC /* KaleidoPaintGestureHandler.swift in Sources */,
+				1FD55D81264E9D6D001F1834 /* KaleidoPaintDocument.swift in Sources */,
+				1F820551264EA05B00860743 /* GeometryGamesTranslatorsView.swift in Sources */,
+				1F4ADD13280EE53C000C40BC /* KaleidoPaintCubicSpline.swift in Sources */,
+				1F820548264EA05B00860743 /* GeometryGamesBufferPool.swift in Sources */,
+				1F43B73F29BA71B500D4BE0D /* KaleidoPaintGPUFunctions.metal in Sources */,
+				1F3CA82A286C39EC00699EE8 /* KaleidoPaintHelp.swift in Sources */,
+				1F82054A264EA05B00860743 /* GeometryGamesExportView.swift in Sources */,
+				1F4BDC08277378B500A981CF /* KaleidoPaintLinearDisplayP3Color.swift in Sources */,
+				1F025284281AB7C200E08488 /* KaleidoPaintCoordinateSystems.swift in Sources */,
+				1F5EA171282565FE00CF4BC1 /* KaleidoPaintUnitCellPlacement.swift in Sources */,
+				1F82054F264EA05B00860743 /* GeometryGamesStyle.swift in Sources */,
+				1F82054E264EA05B00860743 /* GeometryGamesRenderer.swift in Sources */,
+				1F820552264EA05B00860743 /* GeometryGamesUtilities.swift in Sources */,
+				1FD55D83264E9D6D001F1834 /* KaleidoPaintContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FB4AA182667A428001B9F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FB4AA0E2667A428001B9F34 /* KaleidoPaint Thumbnails */;
+			targetProxy = 1FB4AA172667A428001B9F34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F82052B264EA05B00860743 /* GeometryGamesLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F82052C264EA05B00860743 /* de */,
+				1F82052D264EA05B00860743 /* ar */,
+				1F82052E264EA05B00860743 /* el */,
+				1F82052F264EA05B00860743 /* zh-Hans */,
+				1F820530264EA05B00860743 /* ja */,
+				1F820531264EA05B00860743 /* en */,
+				1F820532264EA05B00860743 /* es */,
+				1F820533264EA05B00860743 /* it */,
+				1F820534264EA05B00860743 /* ko */,
+				1F820535264EA05B00860743 /* zh-Hant */,
+				1F820536264EA05B00860743 /* vi */,
+				1F820537264EA05B00860743 /* ru */,
+				1F820538264EA05B00860743 /* cy */,
+				1F820539264EA05B00860743 /* fr */,
+				1F82053A264EA05B00860743 /* fi */,
+				1F82053B264EA05B00860743 /* nl */,
+				1F82053C264EA05B00860743 /* pt-PT */,
+			);
+			name = GeometryGamesLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		1F8E6E51285C688600B8510E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F8E6E50285C688600B8510E /* en */,
+				1F8E6E55285C6B7600B8510E /* ar */,
+				1F8E6E56285C6C9000B8510E /* de */,
+				1F8E6E57285C6D3000B8510E /* es */,
+				1F8E6E58285C6D7100B8510E /* fr */,
+				1F8E6E59285C6DAF00B8510E /* it */,
+				1F8E6E5A285C6DE600B8510E /* ja */,
+				1F8E6E5B285C6E2400B8510E /* nl */,
+				1F8E6E5C285C6E5800B8510E /* pt-PT */,
+				1F8E6E5D285C6E9400B8510E /* ru */,
+				1F8E6E5E285C6F3300B8510E /* zh-Hans */,
+				1F8E6E5F285C6F6C00B8510E /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			path = localizations/strings;
+			sourceTree = "<group>";
+		};
+		1F8E6E54285C68A400B8510E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F8E6E53285C68A400B8510E /* en */,
+				1F9C119E285CB28D00809489 /* ar */,
+				1F9C119F285CB2AA00809489 /* de */,
+				1F9C11A0285CB2BE00809489 /* es */,
+				1F9C11A1285CB2D400809489 /* fr */,
+				1F9C11A2285CB30E00809489 /* it */,
+				1F9C11A3285CB31C00809489 /* ja */,
+				1F9C11A4285CB32B00809489 /* nl */,
+				1FB83CED285CB3C300C89938 /* pt-PT */,
+				1FB83CEE285CB3E400C89938 /* ru */,
+				1FB83CEF285CB3F900C89938 /* zh-Hans */,
+				1FB83CF0285CB41000C89938 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			path = localizations/strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FB4AA1B2667A428001B9F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_ENTITLEMENTS = "KaleidoPaint Thumbnails/KaleidoPaint Thumbnails.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 55;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				INFOPLIST_FILE = "KaleidoPaint Thumbnails/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 3.1.2;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.geometrygames.KaleidoPaint-mobile.Thumbnails";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FB4AA1C2667A428001B9F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_ENTITLEMENTS = "KaleidoPaint Thumbnails/KaleidoPaint Thumbnails.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 55;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				INFOPLIST_FILE = "KaleidoPaint Thumbnails/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 3.1.2;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.geometrygames.KaleidoPaint-mobile.Thumbnails";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FD55D8A264E9D6D001F1834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6DF5NJ2T2U;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_OBJC_BRIDGING_HEADER = KaleidoPaint/KaleidoPaintBridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1FD55D8B264E9D6D001F1834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6DF5NJ2T2U;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_OBJC_BRIDGING_HEADER = KaleidoPaint/KaleidoPaintBridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FD55D8D264E9D6D001F1834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = KaleidoPaint/KaleidoPaint.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 55;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				INFOPLIST_FILE = KaleidoPaint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 3.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.geometrygames.KaleidoPaint-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FD55D8E264E9D6D001F1834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = KaleidoPaint/KaleidoPaint.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 55;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				INFOPLIST_FILE = KaleidoPaint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 3.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.geometrygames.KaleidoPaint-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FB4AA1D2667A428001B9F34 /* Build configuration list for PBXNativeTarget "KaleidoPaint Thumbnails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB4AA1B2667A428001B9F34 /* Debug */,
+				1FB4AA1C2667A428001B9F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD55D76264E9D6D001F1834 /* Build configuration list for PBXProject "KaleidoPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD55D8A264E9D6D001F1834 /* Debug */,
+				1FD55D8B264E9D6D001F1834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD55D8C264E9D6D001F1834 /* Build configuration list for PBXNativeTarget "KaleidoPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD55D8D264E9D6D001F1834 /* Debug */,
+				1FD55D8E264E9D6D001F1834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FD55D73264E9D6D001F1834 /* Project object */;
+}

@@ -1,0 +1,112 @@
+//	Program:
+//		KaleidoPaint
+//
+//	Language:
+//		Nederlands
+//		Dutch
+//
+//	Translator:
+//		Sebas Eliëns
+//
+//	Localized name:
+//		(full)	KaleidoPaint
+//		(short)	KaleidoPaint
+//
+//	Date:
+//		October 2010
+//
+//	© 2026 by Jeff Weeks
+//	See TermsOfUse.txt
+
+"DrawMode"	= "Teken";
+"EditMode"	= "Wijzig";
+
+//"Resolution"			= "Resolutie";
+//"Low Res - Title"		= "Laag";
+//"Low Res - Subtitle"	= "Sneller maar korreliger";
+//"Medium Res - Title"	= "Gemiddeld";
+//"Medium Res - Subtitle"	= "Geschikt voor dagelijks gebruik";
+//"High Res - Title"		= "Hoog";
+//"High Res - Subtitle"	= "Scherper maar langzamer";
+
+"LockDrawing"	= "Vergrendel %@";
+"UnlockDrawing"	= "Ontgrendel %@";
+
+"Brush color"		= "Penseelkleur";
+"Fill color"		= "Opvulkleur";
+"Brush thickness"	= "Penseeldikte";
+"Line smoothing"	= "Line smoothing";
+
+"New background color"	= "Nieuwe achtergrondkleur";
+
+"Symmetry pattern"	= "Symmetriepatroon";
+"Symmetry"			= "Symmetrie";
+"Notation"			= "Notatie";
+"noNotation"		= "Geen";
+"orbifold"			= "Orbifold";
+"crystallographic"	= "Kristallografisch";
+"Realign"			= "Uitlijnen";
+"Aspect ratio"		= "Beeldverhouding";
+"Shear"				= "Schuif";
+"Grid"				= "Rooster";
+"Color by symmetry"	= "Kleur per symmetrie";
+
+"New dot color"		= "Nieuwe stipkleur";
+"New line color"	= "Nieuwe lijnkleur";
+"New fill color"	= "Nieuwe opvulkleur";
+"Change everything of same color"	= "Verander alles van dezelfde kleur";
+"Apply"				= "Toepassen";
+
+"Dot size"			= "Stipgrootte";
+"Line thickness"	= "Lijndikte";
+"Change everything of same thickness"	= "Verander alles van dezelfde dikte";
+
+"Control point style"	= "Controlepunt stijl";
+"Smooth"				= "Vloeiend";
+"Corner"				= "Hoekig";
+"Delete control point"	= "Verwijder controlepunt";
+"Split control point"	= "Splits controlepunt";
+
+"Delete dot"	= "Verwijder stip";
+"Delete line"	= "Verwijder lijn";
+"Delete fill"	= "Verwijder oppervlak";
+"Delete everything of same color"	= "Verwijder alles van dezelfde kleur";
+"Clear"			= "Wissen";	//	currently unused
+
+"Tileable rectangle"	= "Betegelbare rechthoek";
+"Rectangle"				= "Rechthoek";
+
+//	Quick Start
+
+"Quick Start"		= "Begin direct";
+"OneFinger-tip"		= "Gebruik *één vinger* om te tekenen.";
+"TwoFingers-tip"	= "Gebruik *twee vingers* om te scrollen, roteren of zoomen.";
+"DoubleTap-tip"		= "*Tik tweemaal* op een oppervlak om het te vullen.";
+"HideGrid-tip"		= "Verberg het rooster als de tekening in de grondverf staat.";
+
+//	Using the editor
+
+"Editor-HowTo-short"	= "Bewerkmodus";
+"Editor-HowTo-long"		= "Gebruik van de bewerkmodus";
+"Control-Points"		= "Tik op *wijzig* om de **bewerkmodus** te starten. In de bewerkmodus laat KaleidoPaint de controlepunten van alle stippen, lijnen en oppervlakken zien:";
+"Control-Points-Drag"	= "Sleep een controlepunt om deze te verplaatsen:";
+	//	Was "om het te verplaatsen"
+	//	Amber wrote
+	//		“deze” is just nicer as “het” for a node.
+	//		Although for a surface I’d keep “het” more of a matter of preference though.
+"Control-Points-Tap"	= "Tik op een controlepunt voor andere veranderingen:";
+"No-Arc-Taps"			= "*N.B.:* Om de kleur of dikte van een lijn te veranderen kun je op een willekeurig controlepunt tikken, maar KaleidoPaint reageert niet als je op de lijn tussen de controlepunten tikt.";
+"Performance-Tip"		= "*Tip:*  Beperk onnodig gebruik van oppervlakken. Zij kosten KaleidoPaint meer snelheid dan punten en lijnen. Het is bijvoorbeeld veel beter om bestaande oppervlakken van kleur te veranderen door op een controlepunt te tikken dan om er een nieuw oppervlak overheen te tekenen.";
+"Caption-Bad"			= "slecht";
+"Caption-Good"			= "goed";
+"Subcaption-Bad"		= "twee controlepunten\nvan oppervlakken\nin dezelfde regio";
+"Subcaption-Good"		= "verander de kleur\nvan een enkel\noppervlaktecontrolepunt";
+
+//	Tutorials
+
+"Tutorials"		= "Tutorials";
+
+//	Image Gallery
+
+"Image Gallery"			= "Afbeeldingen galerij";
+"Image-Gallery-text"	= "Een prachtige tekening gemaakt? Stuur deze naar <gallery@geometrygames.org> en hij wordt mogelijk opgenomen in de [Afbeeldingen galerij](https://www.geometrygames.org/KaleidoPaint/Gallery).";

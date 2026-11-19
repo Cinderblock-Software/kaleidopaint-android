@@ -1,0 +1,21 @@
+KaleidoPaint Drawing
+format 1.10
+
+wallpaper group ○
+unit cell placement
+	  0.0000000000000000   0.0000000000000000
+	  0.2500000000000000   0.0000000000000000
+	  0.0000000000000000   0.2500000000000000
+log2 unit cell resolution 11
+background color   0.37636709   0.75232202   0.95496619   1.00000000
+brush color        1.00000000   0.00000000   0.00000000   1.00000000
+fill color         0.25000000   0.00000000   1.00000000   1.00000000
+brush thickness    0.0312500000000000
+smoothing tolerance    0.0085000000000000
+show singularities true
+color by symmetry  false
+content is locked  false
+
+elements
+
+no-more-elements

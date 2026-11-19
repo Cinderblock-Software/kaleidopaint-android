@@ -1,0 +1,67 @@
+KaleidoPaint Drawing
+format 1.10
+
+wallpaper group 632
+unit cell placement
+	  0.0000000000000000   0.0000000000000000
+	  0.2686424829558855   0.0000000000000000
+	  0.1343212414779427   0.2326512147755249
+log2 unit cell resolution 11
+background color   0.37636709   0.75232202   0.95496619   1.00000000
+brush color        1.00000000   0.00000000   0.00000000   1.00000000
+fill color         0.25000000   0.00000000   1.00000000   1.00000000
+brush thickness    0.0127577590769957
+smoothing tolerance    0.0085000000000000
+show singularities true
+color by symmetry  false
+content is locked  false
+
+elements
+
+curve
+	color       1.00000000   0.00000000   0.00000000   1.00000000
+	thickness   0.0127577590769957
+	node        0.09769457   0.79083234   corner
+	node        0.27771019   0.68360084   smooth
+	node        0.38501613   0.67019690   smooth
+	node        0.44195230   0.70594074   smooth
+	node        0.55380066   0.88465991   smooth
+	node        0.63876671   0.91593577   smooth
+	node        0.76171058   0.87125597   smooth
+	node        1.05227811   0.69253680   smooth
+	node        1.16628603   0.66572892   corner
+	no-more-properties
+
+curve
+	color       1.00000000   0.00000000   0.00000000   1.00000000
+	thickness   0.0127577590769957
+	node       -0.36775184   0.03127586   corner
+	node       -0.39472011   0.11616746   smooth
+	node       -0.35934003   0.22339897   smooth
+	node       -0.18837114   0.29935462   smooth
+	node       -0.01563128   0.28148270   smooth
+	node        0.11212617   0.23233493   smooth
+	node        0.27081388   0.11616746   smooth
+	node        0.32873721   0.03127586   corner
+	no-more-properties
+
+curve
+	color       1.00000000   0.00000000   0.00000000   1.00000000
+	thickness   0.0127577590769957
+	node        0.91639997   0.10359090   corner
+	node        0.93622807   0.00976333   smooth
+	node        0.88728366  -0.03938444   smooth
+	node        0.76717238  -0.00810859   smooth
+	node        0.68216336   0.07678302   smooth
+	node        0.64893132   0.19741846   smooth
+	node        0.69787572   0.24656624   smooth
+	node        0.80726959   0.22124769   smooth
+	node        0.91639997   0.10359090   corner
+	no-more-properties
+
+fill
+	color       0.25000000   0.00000000   1.00000000   1.00000000
+	fillPoint   0.7925796928555335   0.1035908976429694
+	no-more-properties
+
+no-more-elements

@@ -1,0 +1,109 @@
+//	Program:
+//		KaleidoPaint
+//
+//	Language:
+//		Português
+//		Portuguese
+//
+//	Translator:
+//		Nuno Fernandes
+//
+//	Localized name:
+//		(full)	KaleidoPaint
+//		(short)	KaleidoPaint
+//
+//	Date:
+//		August 2020
+//
+//	© 2026 by Jeff Weeks
+//	See TermsOfUse.txt
+
+"DrawMode"	= "Desenhar";
+"EditMode"	= "Editar";
+
+//"Resolution"			= "Resolução";
+//"Low Res - Title"		= "Baixa";
+//"Low Res - Subtitle"	= "Para imagens mais rápidas mas menos nítidas";
+//"Medium Res - Title"	= "Média";
+//"Medium Res - Subtitle"	= "Bom para uso geral";
+//"High Res - Title"		= "Alta";
+//"High Res - Subtitle"	= "Para imagens mais nítidas mas menos rápidas";
+
+"LockDrawing"	= "Bloquear %@";	//	= "Lock %@"
+"UnlockDrawing"	= "Desbloquear %@";	//	= "Unlock %@"
+
+"Brush color"		= "Cor de pincel";
+"Fill color"		= "Cor de preenchimento";
+"Brush thickness"	= "Espessura do pincel";
+"Line smoothing"	= "Suavização de linhas";
+
+"New background color"	= "Nova cor de fundo";
+
+"Symmetry pattern"	= "Padrão de simetria";
+"Symmetry"			= "Simetria";
+"Notation"			= "Notação";
+"noNotation"		= "Nenhuma";
+"orbifold"			= "Orbifold";
+"crystallographic"	= "Cristalográfica";
+"Realign"			= "Realinhar";
+"Aspect ratio"		= "Proporçao de imagem";
+"Shear"				= "Cisalhamento";
+"Grid"				= "Grelha";
+"Color by symmetry"	= "Colorir por simetria";
+
+"New dot color"		= "Nova cor do ponto";
+"New line color"	= "Nova cor da linha";
+"New fill color"	= "Nova cor do preenchimento";
+"Change everything of same color"	= "Mudar tudo com a mesma cor";
+"Apply"				= "Aplicar";
+
+"Dot size"			= "Espessura do ponto";
+"Line thickness"	= "Espessura da linha";
+"Change everything of same thickness"	= "Mudar tudo com a mesma espessura";
+
+"Control point style"	= "Estilo do ponto de controlo";
+"Smooth"				= "Suave";
+"Corner"				= "Vértice";
+"Delete control point"	= "Apagar ponto de controlo";
+"Split control point"	= "Dividir ponto de controlo";
+
+"Delete dot"	= "Apagar ponto";
+"Delete line"	= "Apagar linha";
+"Delete fill"	= "Apagar preenchimento";
+"Delete everything of same color"	= "Remover tudo com a mesma cor";
+"Clear"			= "Apagar todo";	//	currently unused
+
+//	The English word "tileable" gets used in Portuguese as well.
+"Tileable rectangle"	= "Retângulo tileable";
+"Rectangle"				= "Retângulo";
+
+//	Quick Start
+
+"Quick Start"		= "Início rápido";
+"OneFinger-tip"		= "Usa *um dedo* para desenhar.";
+"TwoFingers-tip"	= "Usa *dois dedos* para deslocar, girar ou dar zoom.";
+"DoubleTap-tip"		= "*Toca duas vezes* para preencher uma região.";
+"HideGrid-tip"		= "Esconde a grelha quando o teu quadro estiver em bom andamento.";
+
+//	Using the editor
+
+"Editor-HowTo-short"	= "Como usar o editor";
+"Editor-HowTo-long"		= "Como usar o editor";
+"Control-Points"		= "No modo **Editar**, KaleidoPaint mostra os pontos de controlo para todos os pontos, linhas e preenchimentos:";
+"Control-Points-Drag"	= "Arrasta um ponto de controlo para o mover:";
+"Control-Points-Tap"	= "Toca num ponto de controlo para fazer outras mudanças:";
+"No-Arc-Taps"			= "*Nota:* Para mudar a cor ou a espessura de uma linha, podes tocar em qualquer um dos seus pontos de controlo, mas o KaleidoPaint não responde a toques nos arcos entre os pontos de controlo.";
+"Performance-Tip"		= "*Dica para performance:*  Evita preenchimentos desnecessários, que tornam o KaleidoPaint mais lento que pontos ou linhas. Por exemplo, é muito melhor tocar num ponto de controlo dum preenchimento existente para mudar a sua cor que criar um novo preenchimento no topo de um antigo.";
+"Caption-Bad"			= "mau";
+"Caption-Good"			= "bom";
+"Subcaption-Bad"		= "dois pontos\nde enchimento\nnuma só região";
+"Subcaption-Good"		= "mudar a cor\nde um único ponto\nde enchimento";
+
+//	Tutorials
+
+"Tutorials"		= "Tutoriais";
+
+//	Image Gallery
+
+"Image Gallery"			= "Galeria de Imagens";
+"Image-Gallery-text"	= "Criaste um desenho particularmente bonito? Envia-o para <gallery@geometrygames.org> para uma possível inclusão na [Galeria de Imagens](https://www.geometrygames.org/KaleidoPaint/Gallery).";

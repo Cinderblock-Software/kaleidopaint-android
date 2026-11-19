@@ -1,0 +1,116 @@
+//	Program:
+//		KaleidoPaint
+//
+//	Language:
+//		Italiano
+//		Italian
+//
+//	Translator:
+//		Carlo Petronio
+//
+//	Localized name:
+//		(full)	KaleidoPaint
+//		(short)	KaleidoPaint
+//
+//	Date:
+//		October 2010
+//
+//	© 2026 by Jeff Weeks
+//	See TermsOfUse.txt
+
+"DrawMode"	= "Disegna";
+"EditMode"	= "Modifica";
+
+//"Resolution"			= "Risoluzione";
+//"Low Res - Title"		= "Bassa";
+//"Low Res - Subtitle"	= "Più velocità, meno nitidezza";
+//"Medium Res - Title"	= "Media";
+//"Medium Res - Subtitle"	= "Per l'uso quotidiano";
+//"High Res - Title"		= "Alta";
+//"High Res - Subtitle"	= "Più nitidezza, meno velocità";
+
+"LockDrawing"	= "Blocca %@";
+"UnlockDrawing"	= "Sblocca %@";
+
+"Brush color"		= "Colore pennello";
+"Fill color"		= "Colore riempimento";
+"Brush thickness"	= "Spessore pennello";
+"Line smoothing"	= "Lisciatura linee";
+
+"New background color"	= "Nuovo colore sfondo";
+
+"Symmetry pattern"	= "Simmetria";	//	Italian lacks a good word for "pattern"
+"Symmetry"			= "Simmetria";
+"Notation"			= "Notazione";
+"noNotation"		= "Nessuna";
+"orbifold"			= "Orbifold";
+"crystallographic"	= "Cristallografica";
+"Realign"			= "Raddrizza";
+"Aspect ratio"		= "Rapporto di aspetto";
+"Shear"				= "Trasvezione";
+	//	Carlo says
+	//		"Trasvezione" is not very common but used sometimes,
+	//		you can safely employ it.
+	//
+	//	See also
+	//		https://it.frwiki.wiki/wiki/Transvection
+	//		https://www.math.unipd.it/~candiler/didafiles/matdue/trasvezioni.pdf
+	//
+"Grid"				= "Griglia";
+"Color by symmetry"	= "Colora simmetricamente";
+
+"New dot color"		= "Nuovo colore punto";
+"New line color"	= "Nuovo colore linea";
+"New fill color"	= "Nuovo colore riempimento";
+"Change everything of same color"	= "Cambia tutto ciò che ha questo colore";
+"Apply"				= "Applica";
+
+"Dot size"			= "Grandezza punto";
+"Line thickness"	= "Spessore linea";
+"Change everything of same thickness"	= "Cambia tutto ciò che ha questo spessore";
+
+"Control point style"	= "Stile punto di controllo";
+"Smooth"				= "Morbido";
+"Corner"				= "Angolo";
+"Delete control point"	= "Elimina punto di controllo";
+"Split control point"	= "Duplica punto di controllo";
+
+"Delete dot"	= "Elimina punto";
+"Delete line"	= "Elimina linea";
+"Delete fill"	= "Elimina riempimento";
+"Delete everything of same color"	= "Elimina tutto ciò che ha questo colore";
+"Clear"			= "Cancella tutto";	//	currently unused
+
+"Tileable rectangle"	= "Rettangolo piastrellabile";
+"Rectangle"				= "Rettangolo";
+
+//	Quick Start
+
+"Quick Start"		= "Inizia subito";
+"OneFinger-tip"		= "Usa *un solo dito* per disegnare.";
+"TwoFingers-tip"	= "Usa *due dita* per fare scorrere, per ruotare e per ingrandire o rimpicciolire.";
+"DoubleTap-tip"		= "Dai un *doppio tocco* per riempire una regione.";
+"HideGrid-tip"		= "Nascondi la griglia quando il tuo disegno è a buon punto.";
+
+//	Using the editor
+
+"Editor-HowTo-short"	= "Come usare l'editor";
+"Editor-HowTo-long"		= "Come usare l'editor";
+"Control-Points"		= "Tocca il bottone *Modifica* per accedere alla modalità **edit**.  KaleidoPaint mostrerà i punti di controllo per tutti i punti, le linee e le regioni di riempimento:";
+"Control-Points-Drag"	= "Trascina un punto di controllo per spostarlo:";
+"Control-Points-Tap"	= "Tocca un punto di controllo per ulteriori opzioni di modifica:";
+"No-Arc-Taps"			= "*Nota:* per cambiare il colore oppure lo spessore di una linea si può toccare uno qualsiasi dei suoi punti di controllo, ma se si tocca un arco di linea compreso fra due punti di controllo, la linea non viene selezionata.";
+"Performance-Tip"		= "*Suggerimento per migliorare le prestazioni:* evitare inutili riempimenti, che rallentano KaleidoPaint molto più di quanto facciano i punti e le linee. Per esempio, è decisamente preferibile modificare un riempimento esistente, toccandolo per cambiare il suo colore, piuttosto che creare un nuovo riempimento sopra un altro.";
+"Caption-Bad"			= "non va bene";
+"Caption-Good"			= "molto meglio!";
+"Subcaption-Bad"		= "Due punti di riempimento nella stessa regione";
+"Subcaption-Good"		= "Modificare il colore d'un singolo punto di riempimento";
+
+//	Tutorials
+
+"Tutorials"		= "Tutoriali";
+
+//	Image Gallery
+
+"Image Gallery"			= "Galleria di immagini";
+"Image-Gallery-text"	= "Hai creato un dipinto particolarmente bello? Invialo a <gallery@geometrygames.org>: potrà essere selezionato per la [galleria di immagini](https://www.geometrygames.org/KaleidoPaint/Gallery).";

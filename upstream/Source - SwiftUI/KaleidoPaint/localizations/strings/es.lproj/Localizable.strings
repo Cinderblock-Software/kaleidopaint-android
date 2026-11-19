@@ -1,0 +1,108 @@
+//	Program:
+//		KaleidoPaint
+//
+//	Language:
+//		Español
+//		Spanish
+//
+//	Translator:
+//		Joan Porti
+//
+//	Localized name:
+//		(full)	KaleidoPaint
+//		(short)	KaleidoPaint
+//
+//	Date:
+//		October 2010
+//
+//	© 2026 by Jeff Weeks
+//	See TermsOfUse.txt
+
+"DrawMode"	= "Dibujar";
+"EditMode"	= "Editar";
+
+//"Resolution"			= "Resolución";
+//"Low Res - Title"		= "Baja";
+//"Low Res - Subtitle"	= "Para imágenes más rápidas pero menos nítidas";
+//"Medium Res - Title"	= "Media";
+//"Medium Res - Subtitle"	= "Para uso cotidiano";
+//"High Res - Title"		= "Alta";
+//"High Res - Subtitle"	= "Para imágenes más nítidas pero menos rápidas";
+
+"LockDrawing"	= "Bloquear %@";
+"UnlockDrawing"	= "Desbloquear %@";
+
+"Brush color"		= "Color pincel";
+"Fill color"		= "Color región";
+"Brush thickness"	= "Grosor pincel";
+"Line smoothing"	= "Suavizado de líneas";
+
+"New background color"	= "Nuevo color fondo";
+
+"Symmetry pattern"	= "Patrón de simetría";
+"Symmetry"			= "Simetría";
+"Notation"			= "Notación";
+"noNotation"		= "Ninguna";
+"orbifold"			= "Orbifold";
+"crystallographic"	= "Cristalográfica";
+"Realign"			= "Enderezar";
+"Aspect ratio"		= "Relación de aspecto";
+"Shear"				= "Cizallamiento";
+"Grid"				= "Rejilla";
+"Color by symmetry"	= "Colorear por simetría";
+
+"New dot color"		= "Nuevo color punto";
+"New line color"	= "Nuevo color línea";
+"New fill color"	= "Nuevo color región";
+"Change everything of same color"	= "Cambiar todo lo del mismo color";
+"Apply"				= "Aplicar";
+
+"Dot size"			= "Tamaño punto";
+"Line thickness"	= "Grosor línea";
+"Change everything of same thickness"	= "Cambiar todo lo del mismo grosor";
+
+"Control point style"	= "Estilo de punto de control";
+"Smooth"				= "Suavizado";
+"Corner"				= "Vértice";
+"Delete control point"	= "Eliminar punto de control";
+"Split control point"	= "Duplicar punto de control";
+
+"Delete dot"	= "Eliminar punto";
+"Delete line"	= "Eliminar línea";
+"Delete fill"	= "Eliminar región";
+"Delete everything of same color"	= "Borrar todo lo del mismo color";
+"Clear"			= "Borrar todo";	//	currently unused
+
+"Tileable rectangle"	= "Rectángulo enlosable";
+"Rectangle"				= "Rectángulo";
+
+//	Quick Start
+
+"Quick Start"		= "Inicio rápido";
+"OneFinger-tip"		= "Utilizar *un solo dedo* para dibujar.";
+"TwoFingers-tip"	= "Utilizar *dos dedos* para desplazar, girar o ampliar.";
+"DoubleTap-tip"		= "*Pulsar dos veces* para rellenar una región.";
+"HideGrid-tip"		= "Ocultar la rejilla una vez iniciado el dibujo.";
+
+//	Using the editor
+
+"Editor-HowTo-short"	= "Como utilizar el editor";
+"Editor-HowTo-long"		= "Como utilizar el editor";
+"Control-Points"		= "En modo **Editar**, KaleidoPaint muestra los puntos de control para cada punto, línea y región:";
+"Control-Points-Drag"	= "Arrastrar un punto de control para moverlo:";
+"Control-Points-Tap"	= "Pulsar un punto de control para otros cambios:";
+"No-Arc-Taps"			= "*Nota:* para cambiar el color o el grosor de una línea, pulsar cualquier punto de control. Sin embargo KaleidoPaint no responde al pulsar en arcos entre puntos de control.";
+"Performance-Tip"		= "*Consejo:*  Evitar rellenos innecesarios de una región, que ralentizan KaleidoPaint más que las líneas y los puntos. Por ejemplo, es mejor cambiar el color de un punto de región existente que crear una nueva región sobre una antigua.";
+"Caption-Bad"			= "no va bien";
+"Caption-Good"			= "mucho mejor";
+"Subcaption-Bad"		= "dos puntos de control en una región";
+"Subcaption-Good"		= "cambiar el color de un sólo punto de control";
+
+//	Tutorials
+
+"Tutorials"		= "Tutoriales";
+
+//	Image Gallery
+
+"Image Gallery"			= "Galería de imágenes";
+"Image-Gallery-text"	= "Has creado un dibujo particularmente bello? Envíalo a <gallery@geometrygames.org> para una posible inclusión en la [Galería de imágenes](https://www.geometrygames.org/KaleidoPaint/Gallery).";

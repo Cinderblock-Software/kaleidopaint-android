@@ -1,0 +1,59 @@
+KaleidoPaint Drawing
+format 1.10
+
+wallpaper group 22×
+unit cell placement
+	  0.0000000000000000   0.0625000000000000
+	  0.2500000000000000   0.0000000000000000
+	  0.0000000000000000   0.2500000000000000
+log2 unit cell resolution 11
+background color   0.37636709   0.75232202   0.95496619   1.00000000
+brush color        0.00000000   0.50000000   0.25000000   1.00000000
+fill color         0.25000000   0.00000000   1.00000000   1.00000000
+brush thickness    0.0625000000000000
+smoothing tolerance    0.0085000000000000
+show singularities true
+color by symmetry  false
+content is locked  false
+
+elements
+
+curve
+	color       1.00000000   0.00000000   0.00000000   1.00000000
+	thickness   0.0312500000000000
+	node       -0.36476860  -0.25000000   corner
+	node       -0.26749697  -0.06913557   smooth
+	node       -0.17022535   0.03801521   smooth
+	node        0.00000000   0.11476860   smooth
+	node        0.09727163   0.08817089   smooth
+	node        0.19454325   0.01293737   smooth
+	node        0.36476860  -0.22948177   corner
+	no-more-properties
+
+dot
+	color       1.00000000   0.00000000   0.00000000   1.00000000
+	center      0.0000000000000000   0.2059607525875531
+	diameter    0.0312500000000000
+	no-more-properties
+
+curve
+	color       0.00000000   0.50000000   0.25000000   1.00000000
+	thickness   0.0625000000000000
+	node        0.48324448   1.29403925   corner
+	node        0.57443663   1.43082747   smooth
+	node        0.66562878   1.29403925   smooth
+	node        0.75682093   1.43082747   smooth
+	node        0.84801308   1.29403925   smooth
+	node        0.93920523   1.43082747   smooth
+	node        1.03039738   1.29403925   smooth
+	node        1.12158953   1.43082747   smooth
+	node        1.21278168   1.29403925   corner
+	no-more-properties
+
+dot
+	color       0.00000000   0.50000000   0.25000000   1.00000000
+	center      0.3662145539033010   0.6192173335828681
+	diameter    0.0625000000000000
+	no-more-properties
+
+no-more-elements

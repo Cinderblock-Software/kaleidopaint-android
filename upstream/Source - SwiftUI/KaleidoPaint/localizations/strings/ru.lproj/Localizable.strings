@@ -1,0 +1,128 @@
+//	Program:
+//		KaleidoPaint
+//
+//	Language:
+//		Русский
+//		Russian
+//
+//	Translator:
+//		Алексей Пронин (Alexey Pronin)
+//
+//	Localized name:
+//		(full)		Калейдо-пейнт
+//		(short)		КалейдоПейнт
+//		(shorter)	Калейдо
+//
+//	Date:
+//		October 2010
+//
+//	© 2026 by Jeff Weeks
+//	See TermsOfUse.txt
+
+"DrawMode"	= "Рисовать";
+"EditMode"	= "Изменить";
+	//	Alexey says "изменить" sounds much better than "изменять" to his ear,
+	//		in spite of the fact that the pair рисовать/изменить creates
+	//		a mismatch of несовершенный вид / совершенный вид.
+	//		In other words, рисовать/изменить is fine as it is.
+
+//"Resolution"			= "Разрешение";
+//"Low Res - Title"		= "Низкое";
+//"Low Res - Subtitle"	= "Быстрее, но зернистее";
+//"Medium Res - Title"	= "Среднее";
+//"Medium Res - Subtitle"	= "Для повседневного использования";
+//"High Res - Title"		= "Высокое";
+//"High Res - Subtitle"	= "Чётчe, но медленнее";
+
+"LockDrawing"	= "Заблокировать %@";
+"UnlockDrawing"	= "Разблокировать %@";
+
+"Brush color"		= "Цвет кисти";
+"Fill color"		= "Цвет заливки";
+"Brush thickness"	= "Толщина кисти";
+"Line smoothing"	= "Сглаживание линий";
+
+"New background color"	= "Новый цвет фона";
+
+"Symmetry pattern"	= "Выбор узора симметрии";
+"Symmetry"			= "Симметрия";
+"Notation"			= "Обозначения";
+"noNotation"		= "Никакие";
+"orbifold"			= "Орбифолдные";
+"crystallographic"	= "Кристаллографические";
+"Realign"			= "Спрямить";
+"Aspect ratio"		= "Пропорции изображения";
+"Shear"				= "Сдвиг";
+"Grid"				= "Сетка";
+"Color by symmetry"	= "Раскрасить по симметрии";
+
+"New dot color"		= "Новый цвет точки";
+"New line color"	= "Новый цвет линии";
+"New fill color"	= "Новый цвет заливки";
+"Change everything of same color"	= "Изменить всe объекты одного цвета";
+"Apply"				= "Применить";
+
+"Dot size"			= "Размер точки";
+"Line thickness"	= "Толщина линии";
+"Change everything of same thickness"	= "Изменить всe объекты одинаковой толщины";
+
+"Control point style"	= "Стиль контрольной точки";
+"Smooth"				= "Гладкая";
+"Corner"				= "Угловая";
+"Delete control point"	= "Удалить контрольную точку";
+"Split control point"	= "Разделить контрольную точку";
+
+"Delete dot"	= "Удалить точку";
+"Delete line"	= "Удалить линию";
+"Delete fill"	= "Удалить заливку";
+"Delete everything of same color"	= "Удалить всe объекты одного цвета";
+"Clear"			= "Очистить";	//	currently unused
+
+"Tileable rectangle"	= "Базовый прямоугольник";
+"Rectangle"				= "Базовый прямоугольник";
+	//	Note #1. Alexey had suggested
+	//			"Базовый прямоугольник замощения"
+	//		but that's too long.
+	//	Note #2. Unlike in the other languages, the menu commands
+	//		in Russian don't distinguish the straight-across tileable rectangles
+	//		from those that require an offset.
+
+//	Quick Start
+
+"Quick Start"		= "Быстрое начало";
+"OneFinger-tip"		= "Используйте *один палец* для рисования.";
+"TwoFingers-tip"	= "Используйте *два пальца* для прокрутки, вращения и увеличения.";
+"DoubleTap-tip"		= "*Дважды коснитесь*, чтобы заполнить область.";
+							//	Alexey originaly wrote "Стукните дважды…",
+							//	but Apple seems to use "дважды коснитесь".
+							//	Another option might be "нажмите дважды".
+"HideGrid-tip"		= "Включайте сетку в начале работы. Убирайте её, когда она Вам больше не нужна.";
+
+//	Using the editor
+
+"Editor-HowTo-short"	= "Режим правки";
+"Editor-HowTo-long"		= "Как использовать редактор";
+"Control-Points"		= "Чтобы перейти в **режим правки**, нажмите кнопку *Изменить*. В режиме правки Калейдопейнт показывает контрольные точки для всех точек, линий и заливок:";
+	//	In 2010 Alexey originally wrote
+	//
+	//		"Чтобы внести изменения в рисунок, нажмите кнопку «Изменить».
+	//		В режиме внесения изменений…",
+	//
+	//	but in 2022 "режим правки" seems far more common on the internet.
+"Control-Points-Drag"	= "Чтобы изменить положение контрольной точки, протащите её пальцем:";
+"Control-Points-Tap"	= "Нажмите на контрольную точку чтобы внести другие изменения:";
+"No-Arc-Taps"			= "*Замечание:* изменение цвета или толщины линии, может быть достигнуто нажатием на любую из её контрольных точек. Однако, Калейдопейнт игнорирует нажатия на арки, соединяющие контрольные точки.";
+"Performance-Tip"		= "*Совет по улучшению быстродействия:*  избегайте лишних заливок - они замедляют работу Калейдопейнт в гораздо большей степени чем точки и линии. К примеру, это гораздо более эффективно нажать на уже существующую точку заливки, чтобы изменить её цвет, чем создавать новую заливку поверх старой.";
+"Caption-Bad"			= "неправильно";
+"Caption-Good"			= "правильно";
+"Subcaption-Bad"		= "две точки заливки\nв одной области";
+"Subcaption-Good"		= "изменение цвета\nодной точки заливки";
+
+//	Tutorials
+
+"Tutorials"		= "Краткие руководства";
+
+//	Image Gallery
+
+"Image Gallery"			= "Галерея изображений";
+"Image-Gallery-text"	= "У Вас получилось исключительно красивое изображение? Пришлите его нам по адерсу <gallery@geometrygames.org> и, возможно, мы разместим его в нашей [галерее](https://www.geometrygames.org/KaleidoPaint/Gallery).";

@@ -1,0 +1,48 @@
+KaleidoPaint Drawing
+format 1.6
+
+wallpaper group 3*3
+unit cell placement
+	  0.0312500000000000  -0.0625000000000000
+	  0.2165063509461097   0.1250000000000000
+	  0.0000000000000000   0.2500000000000000
+background color 0.9 0.5 0.25 1.0
+brush color      1.0 0.25 0.5 1.0
+brush thickness  0.0078125
+show singularities false
+color by symmetry  true
+content is locked  true
+
+elements
+
+dot
+	color     1.0 0.5 0.0 1.0
+	location  0.3125 0.71875
+	thickness 0.015625
+	no-more-properties
+
+curve
+	node      2.125 -1.25   corner
+	node      2.25 -1.5   smooth
+	thickness 0.01171875
+	node      2.5 -1.375   smooth
+	color     0.6 1.0 0.4 1.0
+	node      2.625 -1.0625   corner
+	node      2.75 -1.25   smooth
+	no-more-properties
+
+fill
+	location  0.6 0.4
+	color     0.5 0.5 0.5 1.0
+	no-more-properties
+
+dot
+	thickness 0.03125
+	color     0.2 0.8 0.5 1.0
+	location  0.0 1.0
+	no-more-properties
+dot
+	color     0.0 0.0 0.0 1.0
+	no-more-properties
+
+no-more-elements

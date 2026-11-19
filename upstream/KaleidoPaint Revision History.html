@@ -1,0 +1,1363 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>KaleidoPaint Revision History</title>
+	<style type="text/css">
+		body		{background-color: #D0F0E0}
+		h1			{text-align: center; margin-top:  2pt; margin-bottom: 16pt; color: #0040C0}
+		h2			{text-align: center; margin-top: 16pt; margin-bottom:  2pt; color: #0040C0; font-style: italic}
+		td			{padding-bottom: 8pt}
+		table		{margin-left: auto; margin-right: auto; padding-left: 16pt;  padding-right: 16pt}
+		tr			{vertical-align: top}
+		td			{padding-left: 4pt;  padding-right: 4pt}
+		td.version	{font-weight: bold}
+		td.date		{text-align: center; font-style: italic; white-space: nowrap}
+		td.changes	{}
+		p			{padding-left: 1em; text-indent: -1em; margin-top: 0; margin-bottom: 0}
+	</style>
+</head>
+
+<body>
+
+<h2>KaleidoPaint</h2>
+
+<h1>Revision History</h1>
+
+<table>
+	<tr>
+		<td class="version"><i>3.1.2</i></td>
+		<td class="date">19 Jan 2026</td>
+		<td class="changes">
+			<p>
+				Enables snapToViewAlignment().
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i>3.1.1</i></td>
+		<td class="date">19 Dec 2025</td>
+		<td class="changes">
+			<p>
+				Fixed bug that was blocking Export panel on narrow displays.
+			</p>
+			<p>
+				Minor changes for better legibility on iOS/iPadOS/macOS 26.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i>3.1</i></td>
+		<td class="date">23 May 2025</td>
+		<td class="changes">
+			<p>
+				Runs on macOS as well as iOS and iPadOS.
+			</p>
+			<p>
+				Exports PNG images as Mail, Messages, AirDrop, Save to Files, Copy, etc
+			</p>
+			<p>
+				Exports KaleidoPaint source code in various ways.
+			</p>
+			<p>
+				Updated for iOS 17+
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i></i></td>
+		<td class="date">14 Nov 2024</td>
+		<td class="changes">
+			<p>
+				Partial Swift 6 Concurrency.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i></i></td>
+		<td class="date">8 Nov 2024</td>
+		<td class="changes">
+			<p>
+				Rewrote undo/redo manager for future compatibility with Swift 6.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i>3.0.6</i></td>
+		<td class="date">4 Nov 2024</td>
+		<td class="changes">
+			<p>
+				Version 3.0.5 produced a completely empty drawing when running
+				on iOS 18.1. Simply re-compiling the app solved the problem.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i>3.0.5</i></td>
+		<td class="date">26 Oct 2023</td>
+		<td class="changes">
+			<p>
+				Removes temporary code needed to work around a bug in iOS 17.0.x.
+				This new version runs correctly on iOS 15, 16 and 17.1 or later.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i>3.0.4</i></td>
+		<td class="date">2 Oct 2023</td>
+		<td class="changes">
+			<p>
+				Adjusted navigation bar for iOS 17 compatibility.
+			</p>
+			<p>
+				When running on iOS 17, the navigation bar includes 
+				a drop-down menu that lets you
+				• export your drawing's source code
+				• rename your drawing  (However, iOS 17.0.2 is a bit quirky about how it updates the navigation bar: you'll see the new name, then the old name, and then — after a short wait — the new name again.)
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i>3.0.3</i></td>
+		<td class="date">13 Sep 2023</td>
+		<td class="changes">
+			<p>
+				Fixed bug that image wasn't getting refreshed after snapToViewAlignment().
+			</p>
+			<p>
+				Shear snaps to half-integers to support precise "half drop" patterns.
+				Thanks to Rebecca Elfast for this suggestion.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i></i></td>
+		<td class="date">11 Sep 2023</td>
+		<td class="changes">
+			<p>
+				Added keepCenteredInUnitCell() to keep a curve properly
+				centered in the unit cell at all times, even if the user
+				"walks it along".  Thanks to Francine Champagne 
+				for reporting this bug.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i>3.0.2</i></td>
+		<td class="date">3 Mar 2023</td>
+		<td class="changes">
+			<p>
+				Removes a no-longer-valid constraint
+				from an older version of KaleidoPaint
+				that was preventing the pen from resizing
+				correctly when you set the aspect ratio
+				to an extreme value.  Thanks to
+				Francine Champagne for reporting this bug.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i>3.0.1</i></td>
+		<td class="date">28 Dec 2022</td>
+		<td class="changes">
+			<p>
+				On iOS 16, moves the drawing title up to the navigation bar, 
+				to allow more space for the drawing itself.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i>3.0</i></td>
+		<td class="date">10 Oct 2022</td>
+		<td class="changes">
+			<p>
+				Entire app re-written in Swift and SwiftUI.
+			</p>
+			<p>
+				File browser lets you organize your drawings into folders.
+			</p>
+			<p>
+				File browser supports iCloud Drive as well as local storage on device.
+			</p>
+			<p>
+				Color picker offers a choice of five color selection methods 
+				(grid, spectrum, sliders, eyedropper or hex code) and 
+				a user-customizable saved-color palette.
+			</p>
+			<p>
+				Separate line color ("paintbrush") and fill color ("paint bucket").
+			</p>
+			<p>
+				You can copy the color of any dot, line or filled region 
+				directly to the paintbrush, the paint bucket or any other
+				dot, line or filled region.
+			</p>
+			<p>
+				You can copy the thickness of any dot or line directly 
+				to the paintbrush or any other dot or line.
+			</p>
+			<p>
+				Options to "change all of same color", "change all of same thickness" 
+				or "delete all of same color".
+			</p>
+			<p>
+				Exports images to any folder.
+			</p>
+			<p>
+				Option to export drawings with transparent background.
+			</p>
+			<p>
+				Adjustable parameter for less vigorous or more vigorous line smoothing.
+			</p>
+			<p>
+				Simple slider-based interface to adjust drawing's aspect ratio and shear.
+			</p>
+			<p>
+				Default grid alignment is now consistent among 
+				the symmetry patterns *2222, 2222, 2*22, 22*, 22×, **, *× and ××, 
+				in the sense that mirror lines and rotation points agree, 
+				to make it easier to see the relationships among those symmetry patterns.
+			</p>
+			<p>
+				Symmetry panel now positions the buttons for the families 
+				(**, *× and ××), (22*, 22×) and (*2222, 2222, 2*22) consistently, 
+				so you can easily see what symmetries change and what symmetries 
+				stay the same as you switch from one pattern to a different pattern 
+				in the same family.  This also lets you see how the drawing's 
+				symmetries relate to the pattern's name in orbifold notation.
+			</p>
+			<p>
+				Many thanks to Francine Champagne, Amber van Hoek and Geneviève Crabe 
+				for their extensive help improving KaleidoPaint.  KaleidoPaint is 
+				far better thanks to their ideas.
+			</p>
+			<p>
+				Special thanks to Francine for creating the icons 
+				for the symmetry pattern buttons as well as for her 
+				instructional videos and web pages.
+			</p>
+			<p>
+				Special thanks to Amber for creating KaleidoPaint's elegant icon and 
+				for providing spectacularly good drawings for KaleidoPaint's
+				App Store screenshots.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i></i></td>
+		<td class="date">28 Aug 2022</td>
+		<td class="changes">
+			<p>
+				Changed iOS Deployment Target to iOS 15,
+				because it's now widely used, and
+				I have no iOS 14 device to test on.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i></i></td>
+		<td class="date">24 Jun 2022</td>
+		<td class="changes">
+			<p>
+				Separate dot/line (paintbrush) and fill (paint bucket) colors.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i></i></td>
+		<td class="date">19 Dec 2021</td>
+		<td class="changes">
+			<p>
+				<i>(legacy iOS)</i>
+				Changed iOS Deployment Target to iOS 14,
+				because Apple has stopped supporting iOS 12.
+				Thus, in particular, I no longer have
+				a maintainable iOS 12 device to test on.
+			</p>
+			<p>
+				<i>(legacy iOS)</i>
+				Added UINavigationBarAppearance so that
+				navigation bars will have an opaque background
+				when running on iOS 15.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"><i></i></td>
+		<td class="date">22 Nov 2020</td>
+		<td class="changes">
+			<p>
+				Changed various GPU uniforms, colors in buffers, etc.
+				to half-precision (__fp16 and faux_simd_half4) where appropriate.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">5 Nov 2020</td>
+		<td class="changes">
+			<p>
+				Removed workaround for bug that function-constant assignments like<br>
+				constant bool gFoo [[ function_constant(0) ]];<br>
+				constant bool gBar = ! gFoo;<br>
+				used to work as expected on iOS but fail on macOS.
+				They now work correctly on both OS’s.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.10.4</td>
+		<td class="date">14 Aug 2020</td>
+		<td class="changes">
+			<p>
+				Added Portuguese translation, thanks to Nuno Fernandes. 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">25 Jun 2020</td>
+		<td class="changes">
+			<p>
+				Uses non-uniform threadgroup sizes on A11 GPUs and later
+				(iPhone 8 and later).  Increases number of threads per threadgroup
+				for more efficient GPU usage. 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">22 May 2020</td>
+		<td class="changes">
+			<p>
+				Implemented -gestureRecognizerShouldBegin: to return NO,
+				to fix a bug that had allowed a drag in KaleidoPaint's color picker
+				to get "stolen" and re-interpreted as a scroll of the enclosing popover.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">28 Apr 2020</td>
+		<td class="changes">
+			<p>
+				Lowered deployment target back to iOS 12.0
+				by letting the intermediate unit cell textures
+				use Linear Display P3 color coordinates,
+				while the final drawing using Gamma-encoded sRGB.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">21 Apr 2020</td>
+		<td class="changes">
+			<p>
+				Raised deployment target to iOS 13.0.
+				Most iDevices that support iOS 13 have A9 processors or higher,
+				which belong to MTLGPUFamilyApple3, which fully supports
+				all the extended range pixel formats.
+				The only exceptions are the iPad Air 2 (which I happen to own)
+				and the iPad Mini 4, which have only an A8 or A8X processor,
+				which belong to MTLGPUFamilyApple2, which doesn't support
+				extended range pixel formats.  But neither of those two devices
+				supports Wide Color, so on either one, KaleidoPaint will fall back
+				to the non-extended BGRA8Unorm_sRGB pixel format, which
+				MTLGPUFamilyApple2 fully supports.  Whew!
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">21 Apr 2020</td>
+		<td class="changes">
+			<p>
+				The FactoredColor struct now keeps itsBase
+				in Linear Display P3 color coordinates,
+				converting to Linear Extended sRGB coordinates
+				only when passing them to the shader,
+				which uses the latter exclusively
+				(Metal will clamp to [0,1] when writing
+				to the frame buffer on non-Wide-Color devices.)
+				KaleidoPaint now saves to File Format 1.4,
+				which stores all colors as Linear Display P3.
+				When reading File Format 1.3 and earlier,
+				KaleidoPaint converts from Linear sRGB to Linear Display P3.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">19 Apr 2020</td>
+		<td class="changes">
+			<p>
+				The new _sRGB pixel formats automatically does the gamma-encoding
+				that had been missing in the previous version, but even though
+				the new version is more correct, it would alter the colors
+				that artists have chosen in their existing drawings.
+				To compensate, when KaleidoPaint opens a drawing in File Format 1.2
+				or earlier, it gamma-decodes them, so that after they get
+				(correctly!) gamma-encoded at render time, the drawing will still
+				look the same as before.  All drawings, with corrected colors,
+				now get saved in File Format 1.3.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">16 Apr 2020</td>
+		<td class="changes">
+			<p>
+				Renders to Wide Color (Display P3) when available.
+			</p>
+			<p>
+				Some of the shared code that won't be needed
+				in the upcoming SwiftUI versions of the Geometry Games apps
+				has been migrated to "-LEGACY" files, to allow
+				the SwiftUI versions to include desired utilities
+				without including legacy cruft like PixelRGBA, ImageRGBA, etc.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.10.3</td>
+		<td class="date">6 Apr 2020</td>
+		<td class="changes">
+			<p>
+				Cropped icon to Apple's "squircle" shape
+				and added a white border.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.10.2</td>
+		<td class="date">31 Mar 2020</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Converted launch screen format from .xib to .storyboard
+				to comply with new App Store requirements.
+			</p>
+			<p>
+				New icon, thanks to Amber van Hoek.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.10.1</td>
+		<td class="date">8 Nov 2019</td>
+		<td class="changes">
+			<p>
+				Replaced functions deprecated in iOS 13 or macOS 10.15
+				with non-deprecated alternatives.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.10</td>
+		<td class="date">11 Nov 2018</td>
+		<td class="changes">
+			<p>
+				<i>(macOS)</i> Enabled Hardened Runtime to allow Notarization by Apple.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">17 Oct 2018</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Table images, toolbar icons and other images
+				re-created at @1x, @2x and @3x.  Source files for those images
+				all simplified and tidied up (now mostly as iDraw files).
+			</p>
+			<p>
+				<i>(iOS)</i> Toolbar icons resized to 24pt,
+				which is the new recommended size.
+			</p>
+			<p>
+				<i>(iOS)</i> KaleidoPaint has a very full toolbar,
+				so on older devices with 320pt wide displays
+				(namely iPhone 5s, iPhone SE and iPod Touch)
+				it downsamples the 24pt toolbar buttons back to 20pt.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">17 Oct 2018</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> KaleidoPaintColorPickerController accounts for safeAreaInsets
+				to keep its brightness slider clear of the iPhone X's Home Indicator.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">16 Sep 2018</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Now Metal-only.  Removed all OpenGL ES code.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">30 Apr 2018</td>
+		<td class="changes">
+			<p>
+				<i>(macOS)</i> On multi-GPU systems, selects the GPU that's 
+				already running the displays attached to the main computer
+				(but ignores any externally attached removable GPUs).
+				If the system switches to a different GPU,
+				this app switches to that GPU as well.
+			</p>
+			<p>
+				<i>(macOS)</i> No longer calls
+				[[NSNotificationCenter defaultCenter] removeObserver:self]
+				because it's no longer necessary.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">14 Apr 2018</td>
+		<td class="changes">
+			<p>
+				<i>(macOS)</i> Main content view is now layer-backed.
+				When going fullscreen, avoids macOS 10.13.4 bug.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.9</td>
+		<td class="date">29 Oct 2017</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Graphics rewritten using Apple's “Metal” graphics library,
+				with fallback to OpenGL ES on older devices (pre-A7) or on iOS 9.
+			</p>
+			<p>
+				<i>(iOS)</i> Computes flood-fills directly on the GPU.
+				Makes use of the GPU's parallel processing capabilities
+				to achieve a 2-fold to 24-fold speed-up,
+				depending on number of symmetries in the particular wallpaper group.
+				(Metal version only)
+			</p>
+			<p>
+				<i>(iOS)</i> KaleidoPaint's memory demands have been reduced 1000-fold
+				by storing flood-fills using run-length encoding (RLE) instead of raw bitmaps.
+				For example, at Medium Resolution, each filled region required 
+				a 1 MB mask in the previous version of KaleidoPaint,
+				but in the new version the same filled region requires only ~1 KB.
+				(Metal version only)
+			</p>
+			<p>
+				<i>(iOS)</i> Redraws flood-fills from RLE data directly on the GPU,
+				making full use of the GPU's parallel processing capabilities.
+				(Metal version only)
+			</p>
+			<p>
+				<i>(iOS)</i>  Added High Resolution. (Metal version only)
+			</p>
+			<p>
+				Improved support for iPencil and other stylus input.
+				Thanks to Francine Champagne for reporting this issue.
+				(Metal and OpenGL ES both)
+			</p>
+			<p>
+				Fixed bug that was causing slowly-drawn lines
+				to retain too many nodes.
+				Again, thanks to Francine Champagne for reporting this bug.
+				(Metal and OpenGL ES both)
+			</p>
+			<p>
+				Offsets input touches so that the curve-in-progress
+				will appear even when the user starts drawing
+				in a distant translate of the main unit cell.
+				Thanks to Jeff Racinski for reporting this bug.
+				(Metal and OpenGL ES both)
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">27 Sep 2017</td>
+		<td class="changes">
+			<p>
+				CPU code consistently uses "double" (rather than "float")
+				for essentially everything except colors.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.8.3</td>
+		<td class="date">29 Dec 2016</td>
+		<td class="changes">
+			<p>
+				Saves exported images with the current screen's
+				color profile (either sRGB or Display P3 on iOS,
+				the display's color profile on macOS).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">22 Dec 2016</td>
+		<td class="changes">
+			<p>
+				Save Tileable Image uses a new algorithm
+				which handles all 17 wallpaper groups, including
+				the two which may be arbitrary parallelograms
+				(namely o and 2222).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">12 Dec 2016</td>
+		<td class="changes">
+			<p>
+				<i>(macOS)</i> Exports images as PNG instead of TIFF.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">30 Nov 2016</td>
+		<td class="changes">
+			<p>
+				Created a single project document
+				with targets for iOS and macOS.
+			</p>
+			<p>
+				Created that single project document from scratch,
+				to get rid of years of legacy cruft. 
+			</p>
+			<p>
+				Retired the Android code.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.8.2</td>
+		<td class="date">24 Aug 2016</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Added "Save Tileable Rectangle"
+				(thanks to Ellie Baker and others for this suggestion).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">24 Aug 2016</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Supports 400% size image export on iPad Pro
+				(thanks to Herman van Boeijen for reporting this bug).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">24 Aug 2016</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> KaleidoPaint is now "device-assignable"
+				for easy installation on school iPads via MDM
+				(thanks to James Eichmiller for this suggestion).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">15 May 2016</td>
+		<td class="changes">
+			<p>
+				Separated OpenGL(ES)-specific data and code
+				from graphics-system-independent data and code,
+				in preparation for a migration from OpenGL(ES)
+				to Metal on iOS and Mac (and maybe eventually
+				to Vulkan on Android and to DX12 on Windows).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.8.1</td>
+		<td class="date">5 Apr 2016</td>
+		<td class="changes">
+			<p>
+				<i>(Android)</i> Disabled COMPILE_ANDROID_FOR_GLES2,
+				so app now requires OpenGL ES 3 on Android.
+			</p>
+			<p>
+				<i>(Android)</i> Disabled
+				USE_UNIFORMS_INSTEAD_OF_CONSTANT_VERTEX_ATTRIBUTES,
+				so app now requires Android 4.4 or higher to avoid
+				constant vertex attributes bug on Nexus 7
+				(and maybe on lots of other devices too).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.8</td>
+		<td class="date">27 Mar 2016</td>
+		<td class="changes">
+			<p>
+				Added version for Android.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">18 Mar 2016</td>
+		<td class="changes">
+			<p>
+				New HSB color picker
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.7</td>
+		<td class="date">15 Feb 2016</td>
+		<td class="changes">
+			<p>
+				Symmetry group changes now undoable.
+			</p>
+			<p>
+				3-finger reshaping (skew) now undoable,
+				but 2-finger reshaping (translation, rotation, dilation)
+				remains intentionally not undoable because it’s
+				not considered an intrinsic part of the drawing.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">11 Feb 2016</td>
+		<td class="changes">
+			<p>
+				Added menu to select among the line thicknesses
+				already present in the drawing (analogous to the menu
+				that lets the user select among the colors already
+				present in the drawing).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">12 Jan 2016</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Updated for iOS 8/9.  Extensive internal changes.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">17 Nov 2015</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> Updated code for Mac OS X 10.10,
+				replacing all deprecated method calls.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">12 Nov 2015</td>
+		<td class="changes">
+			<p>
+				<i>(iOS, Mac)</i> Converted memory management
+				from Manual Retain-Release (MRR)
+				to Automatic Reference Counting (ARC).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.6.1</td>
+		<td class="date">21 Oct 2015</td>
+		<td class="changes">
+			<p>
+				Added Editor help pages in Japanese and German. 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">16 Oct 2015</td>
+		<td class="changes">
+			<p>
+				Suppressed the Language menu to avoid displaying UniHan characters incorrectly
+				(and also because the Language menu wasn't really useful
+				except in the Torus Games). 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">28 Sep 2015</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Updated to require iOS 6.
+				Removed -viewDidUnload and -shouldAutorotateToInterfaceOrientation.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.6</td>
+		<td class="date">22 Sep 2015</td>
+		<td class="changes">
+			<p>
+				Rewrote Editor to let user edit all dots, lines and fills at once
+				(no more scrolling list).
+			</p>
+			<p>
+				Added support for iPhone and iPod Touch.
+			</p>
+			<p>
+				Small local improvements.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.5</td>
+		<td class="date">21 Jul 2015</td>
+		<td class="changes">
+			<p>
+				Added current-color marker to Color Picker.
+				Thanks to Francine Champagne for suggesting this.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">16 Jul 2015</td>
+		<td class="changes">
+			<p>
+				Added MOTION_THRESHOLD so that even on newer iPads
+				with higher-resolution touch sensors, tiny (unintended!) finger motions
+				don't get interpreted as lines, when really the user is trying
+				to tap, double-tap or pinch/rotate.
+				Thanks to Francine Champagne for reporting the problem
+				with double-taps and pinch/rotate gestures.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">15 Jul 2015</td>
+		<td class="changes">
+			<p>
+				Added "Realign" button to undo current skew 
+				(and also translation, rotation and rescaling).
+				Thanks to Francine Champagne for reporting the problem
+				with undoing unintentional skews.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">25 Jan 2015</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Finally figured out how to get separator lines
+				to span full width of used-colors table in iOS 7 and iOS 8.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">19 Dec 2014</td>
+		<td class="changes">
+			<p>
+				Set KaleidoPaintDrawingController’s root view’s background color to white,
+				so the translucent navigation bar looks cleaner and brighter.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.4</td>
+		<td class="date">8 Dec 2014</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Drawing picker completely written with App Kit instead of OpenGL.
+				Caches thumbnails for vastly improved performance when handling
+				large numbers of drawings (800+).
+			</p>
+			<p>
+				<i>(iOS)</i> Portfolio-based user interface moved into code shared with 4D Draw.
+			</p>
+			<p>
+				<i>(iOS)</i> Drag thumbnails to re-order drawings.
+			</p>
+			<p>
+				<i>(iOS)</i> Lock/unlock drawings.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.3.2</td>
+		<td class="date">22 Aug 2014</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Minor changes for 64-bit iOS compatibility.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">22 Aug 2014</td>
+		<td class="changes">
+			<p>
+				Further migration to Char16.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">21 Aug 2014</td>
+		<td class="changes">
+			<p>
+				Expanded visibility of OpenGL headers,
+				so the ModelData can refer to OpenGL objects as GLuint
+				instead of "unsigned int", thus improving clarity
+				and avoiding integer conversion warnings.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">20 Aug 2014</td>
+		<td class="changes">
+			<p>
+				Replaced L"…" → u"…" and L'·' → u'·'.
+				The L syntax required -fshort-wchar to get 16-bit wide characters
+				and generated copious warnings in Android,
+				while the u syntax is part of the C11 standard.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">19 Aug 2014</td>
+		<td class="changes">
+			<p>
+				Completed deferred maintenance of Windows version
+				(accommodated changes from last 15 months
+				when I had no Windows computer).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">22 Apr 2014</td>
+		<td class="changes">
+			<p>
+				Curve Editor lists elements newest-to-oldest,
+				because the user typically wants to edit the most
+				recently drawn element.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">16 Dec 2013</td>
+		<td class="changes">
+			<p>
+				Handles localized text as UTF-16 instead of UTF-8.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.3.1</td>
+		<td class="date">2 Sep 2013</td>
+		<td class="changes">
+			<p>
+				Thumbnails impose a minimum line thickness
+				to avoid too thin lines that would let
+				flood fills leak through.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">30 Aug 2013</td>
+		<td class="changes">
+			<p>
+				Export at 1×, 2×, 4×.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.3</td>
+		<td class="date">9 May 2013</td>
+		<td class="changes">
+			<p>
+				First version requiring OpenGL 3.2 or OpenGL ES 2.0.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.2</td>
+		<td class="date">2 May 2013</td>
+		<td class="changes">
+			<p>
+				Last version compatible with OpenGL 2.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">24 Apr 2013</td>
+		<td class="changes">
+			<p>
+				<i>(Win)</i> Moved much functionality from
+				individual applications to shared code.
+			</p>
+			<p>
+				<i>(Win)</i> Simplified implementation of various features.  Removed cruft.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">5 Apr 2013</td>
+		<td class="changes">
+			<p>
+				Added traditional Chinese (Hant) localization,
+				separate from simplified Chinese (Hans) localization.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">1 Apr 2013</td>
+		<td class="changes">
+			<p>
+				<i>(Mac, iOS)</i> Added traditional Chinese (Hant) localization
+				of infoPlist.strings, so app will launch in Chinese 
+				when user's preferred language is zh-Hant.
+				Otherwise on a zh-Hant system the app would launch in English,
+				not zh-Hans.  On iOS it seems that English is always
+				the second-choice language – no way to change that.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">22 Mar 2013</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Moved much functionality from
+				individual applications to shared code.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">8 Mar 2013</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> Moved much functionality from
+				individual applications to shared code.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">5 Mar 2013</td>
+		<td class="changes">
+			<p>
+				Replaced platform-specific language lists 
+				with a single language list in app's common code.
+				Simplified language menu handling.
+			</p>
+			<p>
+				Moved endonyms and Win32 LANGIDs to Geometry Games shared code.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">28 Feb 2013</td>
+		<td class="changes">
+			<p>
+				<i>(iOS, Mac)</i> Updated Objective-C syntax to use @{}, @[], @() and @autorelease.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.1</td>
+		<td class="date">29 Jan 2013</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Curve editor
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">21 Nov 2012</td>
+		<td class="changes">
+			<p>
+				<i>(iOS, Mac)</i> Re-organized instance variables,
+				moving them from .h to .m files (@interface to @implementation)
+				as allowed by the “new” Objective-C runtime.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">2 Oct 2012</td>
+		<td class="changes">
+			<p>
+				<i>(Win)</i> To avoid bugs in Intel Integrated Graphics drivers,
+				ignores VAO extension and directs all OpenGL 2 users (on Windows)
+				to the legacy version of the program.
+			</p>
+			<p>
+				Simplified extensions handling.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.0.2</td>
+		<td class="date">23 May 2012</td>
+		<td class="changes">
+			<p>
+				Better algorithm for clamping to valid colors in color selector,
+				in particular now clamps to corners easily.
+			</p>
+			<p>
+				Suppressed light-dark checkerboard pattern
+				from wooden desktop background texture.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.0.1</td>
+		<td class="date">16 May 2012</td>
+		<td class="changes">
+			<p>
+				Released under GNU Public Licence.
+			</p>
+			<p>
+				Brought Windows version up-to-date, in the sense
+				that it compiles and runs cleanly, even though there
+				is still no Windows user interface.
+			</p>
+			<p>
+				Posted source code online.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">14 May 2012</td>
+		<td class="changes">
+			<p>
+				Added run-time option to increase unit cell resolution
+				from 512×512 to 1024×1024.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.0</td>
+		<td class="date">26 Apr 2012</td>
+		<td class="changes">
+			<p>
+				Re-written from scratch using OpenGL for all animations,
+				to minimize demands on the system.  Unlike version 1.0.x,
+				version 2.0 never crashes, even when other apps are using
+				lots of memory.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">1.0.4</td>
+		<td class="date">20 Jan 2012</td>
+		<td class="changes">
+			<p>
+				First version to require Vertex Array Objects.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">1.0.3</td>
+		<td class="date">20 Jan 2012</td>
+		<td class="changes">
+			<p>
+				Last version to run without Vertex Array Objects.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">18 Jan 2012</td>
+		<td class="changes">
+			<p>
+				Disentangled Vertex Array Object (VAO) code
+				from Vertex Buffer Object (VBO) code.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">1 Jun 2011</td>
+		<td class="changes">
+			<p>
+				<i>(iOS)</i> Reorganized project.
+			</p>
+			<p>
+				<i>(iOS)</i> New project document uses Xcode 4.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">1.0.2</td>
+		<td class="date">2 Mar 2011</td>
+		<td class="changes">
+			<p>
+				Shows Help panel at first launch.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">28 Feb 2011</td>
+		<td class="changes">
+			<p>
+				Moved SetUpOneShader() to shared code,
+				and simplified parameter handling.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">24 Feb 2011</td>
+		<td class="changes">
+			<p>
+				Replaced application-wide texture settings (for mipmapping, anisotropic filtering, etc.)
+				with per-texture settings.  The finer control lays the foundation
+				for iOS versions of the software, where trilinear mipmapping
+				and anisotropic filtering are computationally more expensive.
+			</p>
+			<p>
+				Moved SetUpOneTexture() to shared code.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">23 Feb 2011</td>
+		<td class="changes">
+			<p>
+				Render() now takes aConceptualWidthPt and aConceptualHeightPt
+				as md->itsConceptualWidthPt and md->itsConceptualHeightPt,
+				for consistency with the other Geometry Games,
+				so it can share the same callback syntax.
+			</p>
+			<p>
+				For offscreen drawing, CreateDrawingPixels() no longer
+				creates its own buffers, but instead calls
+				the shared RenderToBuffer().
+			</p>
+			<p>
+				Various cascading simplifications.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">11 Feb 2011</td>
+		<td class="changes">
+			<p>
+				Extension checking moved to shared Geometry Games utilities.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">7 Feb 2011</td>
+		<td class="changes">
+			<p>
+				Eliminated KPDrawingLayer, KPColorPickerLayer and -drawRect.
+				(Eliminating -drawRect may avoid the problems KaleidoPaint was
+				having under iOS 3.2 when Safari had too much memory in use.
+				I can't confirm this directly, though, because I've been
+				unable to reproduce the problem since installing iOS 4.2.)
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">28 Jan 2011</td>
+		<td class="changes">
+			<p>
+				Eliminated itsDrawingWidth, itsDrawingHeight.
+			</p>
+			<p>
+				Passes conceptual and actual dimensions at render time.
+			</p>
+			<p>
+				Enabled VAO usage in KPColorPickerView.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">1.0.1</td>
+		<td class="date">6 Jan 2011</td>
+		<td class="changes">
+			<p>
+				Allows rotation and skewing even while
+				keeping the unit cell's area from
+				dropping below the minimum.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">31 Dec 2010</td>
+		<td class="changes">
+			<p>
+				When memory is low, provides instructions
+				to close pages in Safari.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">9 Nov 2010</td>
+		<td class="changes">
+			<p>
+				Uses shared Geometry Games utilities,
+				except for *UserPref*() and GetLocalizedText(),
+				which it handles with the native iOS equivalents
+				NSUserDefaults and NSLocalizedString.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">2 Nov 2010</td>
+		<td class="changes">
+			<p>Enabled VAO usage, tested on pre-release iOS 4.2 simulator.</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">1.0</td>
+		<td class="date">29 Oct 2010</td>
+		<td class="changes">
+			<p>Initial release</p>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

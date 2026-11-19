@@ -1,0 +1,17 @@
+.DS_Store
+xcuserdata/
+captures/
+build/
+.gradle/
+local.properties
+*.iml
+.idea/
+.kotlin/
+*.apk
+*.aab
+*.jks
+*.keystore
+tools/reference/.build/
+geometry/src/test/external-drawings/
+
+__pycache__/

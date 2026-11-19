@@ -1,0 +1,108 @@
+//	Program:
+//		KaleidoPaint
+//
+//	Language:
+//		Français
+//		French
+//
+//	Translator:
+//		Roland Lehoucq
+//
+//	Localized name:
+//		(full)	KaleidoPaint
+//		(short)	KaleidoPaint
+//
+//	Date:
+//		October 2010
+//
+//	© 2026 by Jeff Weeks
+//	See TermsOfUse.txt
+
+"DrawMode"	= "Dessiner";
+"EditMode"	= "Modifier";
+
+//"Resolution"			= "Résolution";
+//"Low Res - Title"		= "Basse";
+//"Low Res - Subtitle"	= "Calcul plus rapide mais image plus granuleuse";
+//"Medium Res - Title"	= "Moyenne";
+//"Medium Res - Subtitle"	= "Pour l’usage courant";
+//"High Res - Title"		= "Haute";
+//"High Res - Subtitle"	= "Image plus nette mais calcul plus lent";
+
+"LockDrawing"	= "Verrouiller %@";
+"UnlockDrawing"	= "Déverrouiller %@";
+
+"Brush color"		= "Couleur du pinceau";
+"Fill color"		= "Couleur de remplissage";
+"Brush thickness"	= "Épaisseur du pinceau";
+"Line smoothing"	= "Lissage des lignes";
+
+"New background color"	= "Nouvelle couleur de fond";
+
+"Symmetry pattern"	= "Symétrie";
+"Symmetry"			= "Symétrie";
+"Notation"			= "Notation";
+"noNotation"		= "Aucune";
+"orbifold"			= "Orbifold";
+"crystallographic"	= "Cristallographique";
+"Realign"			= "Réaligner";
+"Aspect ratio"		= "Rapport de cadre";
+"Shear"				= "Transvection";
+"Grid"				= "Grille";
+"Color by symmetry"	= "Colorier par symétrie";
+
+"New dot color"		= "Nouvelle couleur du point";
+"New line color"	= "Nouvelle couleur de la ligne";
+"New fill color"	= "Nouvelle couleur de la région";
+"Change everything of same color"	= "Mofifier tous de couleur identique";
+"Apply"				= "Appliquer";
+
+"Dot size"			= "Taille du point";
+"Line thickness"	= "Épaisseur de la ligne";
+"Change everything of same thickness"	= "Mofifier tous d'épaisseur identique";
+
+"Control point style"	= "Style du point de contrôle";
+"Smooth"				= "Doux";	//	or "courbe douce" / "ligne douce"
+"Corner"				= "Pointu";
+"Delete control point"	= "Supprimer le point de contrôle";
+"Split control point"	= "Subdiviser le point de contrôle";	//	was "Dupliquer le point de contrôle"
+
+"Delete dot"	= "Supprimer le point";
+"Delete line"	= "Supprimer la ligne";
+"Delete fill"	= "Supprimer la région";
+"Delete everything of same color"	= "Effacer tous de couleur identique";
+"Clear"			= "Tout effacer";	//	currently unused
+
+"Tileable rectangle"	= "Rectangle pavable";
+"Rectangle"				= "Rectangle";
+
+//	Quick Start
+
+"Quick Start"		= "Démarrage rapide";
+"OneFinger-tip"		= "*Un doigt* permet de dessiner.";
+"TwoFingers-tip"	= "*Deux doigts* permettent de faire défiler le dessin, le faire tourner, l’agrandir ou le réduire.";
+"DoubleTap-tip"		= "*Tapotez deux fois* sur une région pour la colorier.";
+"HideGrid-tip"		= "Masquez la grille une fois que votre dessin est commencé.";
+
+//	Using the editor
+
+"Editor-HowTo-short"	= "L’éditeur";
+"Editor-HowTo-long"		= "Comment utiliser l’éditeur";
+"Control-Points"		= "Touchez le bouton *Modifier* pour activer le mode d’édition. En **mode édition**, KaleidoPaint affiche les points de contrôle de chaque point, chaque ligne et chaque région:";
+"Control-Points-Drag"	= "Tirez sur un point de contrôle pour le déplacer:";
+"Control-Points-Tap"	= "Touchez un point de contrôle pour faire d’autres modifications:";
+"No-Arc-Taps"			= "Notez que changer la couleur ou l’épaisseur d’une ligne se fait en touchant n’importe lequel de ses points de contrôle. En revanche, KaleidoPaint ne réagit pas si l’on touche un arc joignant deux points de contrôle.";
+"Performance-Tip"		= "*Astuce* : évitez de créer des régions inutiles qui ralentissent KaleidoPaint bien plus que ne le font les lignes et les points. Ainsi, il est bien plus efficace de toucher une région existante pour modifier sa couleur plutôt que de recouvrir une ancienne région par une nouvelle.";
+"Caption-Bad"			= "À éviter";
+"Caption-Good"			= "À faire";
+"Subcaption-Bad"		= "une région contenant deux points de contrôle";
+"Subcaption-Good"		= "modifier la couleur d’un unique point de contrôle";
+
+//	Tutorials
+
+"Tutorials"		= "Tutoriels";
+
+//	Image Gallery
+
+"Image Gallery"			= "Galerie d’images";
+"Image-Gallery-text"	= "Vous avez créé une peinture particulièrement belle ? Soumettez-là à <gallery@geometrygames.org> pour qu’elle soit éventuellement incluse dans la [galerie d’images](https://www.geometrygames.org/KaleidoPaint/Gallery).";

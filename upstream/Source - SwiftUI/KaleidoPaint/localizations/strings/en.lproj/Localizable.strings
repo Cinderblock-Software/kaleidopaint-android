@@ -1,0 +1,104 @@
+//	Program:
+//		KaleidoPaint
+//
+//	Language:
+//		English
+//		English
+//
+//	Translator:
+//		N/A
+//
+//	Date:
+//		N/A
+//
+//	© 2026 by Jeff Weeks
+//	See TermsOfUse.txt
+
+"DrawMode"	= "Draw";
+"EditMode"	= "Edit";
+
+//"Resolution"			= "Resolution";
+//"Low Res - Title"		= "Low";
+//"Low Res - Subtitle"	= "Faster but grainier";
+//"Medium Res - Title"	= "Medium";
+//"Medium Res - Subtitle"	= "Good for everyday use";
+//"High Res - Title"		= "High";
+//"High Res - Subtitle"	= "Sharper but slower";
+
+"LockDrawing"	= "Lock %@";
+"UnlockDrawing"	= "Unlock %@";
+
+"Brush color"		= "Brush color";
+"Fill color"		= "Fill color";
+"Brush thickness"	= "Brush thickness";
+"Line smoothing"	= "Line smoothing";
+
+"New background color"	= "New background color";
+
+"Symmetry pattern"	= "Symmetry pattern";
+"Symmetry"			= "Symmetry";
+"Notation"			= "Notation";
+"noNotation"		= "None";
+"orbifold"			= "Orbifold";
+"crystallographic"	= "Crystallographic";
+"Realign"			= "Realign";
+"Aspect ratio"		= "Aspect ratio";
+"Shear"				= "Shear";
+"Grid"				= "Grid";
+"Color by symmetry"	= "Color by symmetry";
+
+"New dot color"		= "New dot color";
+"New line color"	= "New line color";
+"New fill color"	= "New fill color";
+"Change everything of same color"	= "Change everything of same color";
+"Apply"				= "Apply";
+
+"Dot size"			= "Dot size";
+"Line thickness"	= "Line thickness";
+"Change everything of same thickness"	= "Change everything of same thickness";
+
+"Control point style"	= "Control point style";
+"Smooth"				= "Smooth";
+"Corner"				= "Corner";
+"Delete control point"	= "Delete control point";
+"Split control point"	= "Split control point"	;
+
+"Delete dot"	= "Delete dot";
+"Delete line"	= "Delete line";
+"Delete fill"	= "Delete fill";
+"Delete everything of same color"	= "Delete everything of same color";
+"Clear"			= "Clear";	//	currently unused
+
+"Tileable rectangle"	= "Tileable rectangle";
+"Rectangle"				= "Rectangle";
+
+//	Quick Start
+
+"Quick Start"		= "Quick Start";
+"OneFinger-tip"		= "Use *one finger* to draw.";
+"TwoFingers-tip"	= "Use *two fingers* to scroll, rotate or zoom.";
+"DoubleTap-tip"		= "*Double-tap* to fill a region.";
+"HideGrid-tip"		= "Hide the grid once your painting is underway.";
+
+//	Using the editor
+
+"Editor-HowTo-short"	= "Using the Editor";
+"Editor-HowTo-long"		= "Using the Editor";
+"Control-Points"		= "In **Edit** mode, KaleidoPaint shows the control points for all dots, lines and fills:";
+"Control-Points-Drag"	= "Drag a control point to move it:";
+"Control-Points-Tap"	= "Tap a control point to make other changes:";
+"No-Arc-Taps"			= "*Note:* To change a line's color or thickness, you may tap on any of its control points, but KaleidoPaint does not respond to taps on the arcs between control points.";
+"Performance-Tip"		= "*Performance tip:*  Avoid unnecessary fills, which slow KaleidoPaint down far more than dots and lines do. For example, it's much better to tap on an existing fill-point to change its color than to create a new fill on top of an old one.";
+"Caption-Bad"			= "bad";
+"Caption-Good"			= "good";
+"Subcaption-Bad"		= "two fill-points\nin one region";
+"Subcaption-Good"		= "changing the color\nof a single fill-point";
+
+//	Tutorials
+
+"Tutorials"		= "Tutorials";
+
+//	Image Gallery
+
+"Image Gallery"			= "Image Gallery";
+"Image-Gallery-text"	= "Created a particularly beautiful painting? Submit it to <gallery@geometrygames.org> for possible inclusion in the [Image Gallery](https://www.geometrygames.org/KaleidoPaint/Gallery).";

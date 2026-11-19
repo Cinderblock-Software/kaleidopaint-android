@@ -1,0 +1,54 @@
+KaleidoPaint Drawing
+format 1.10
+
+wallpaper group *×
+unit cell placement
+	  0.0312500000000000  -0.0625000000000000
+	  0.2165063509461097   0.1250000000000000
+	  0.0000000000000000   0.2500000000000000
+log2 unit cell resolution 11
+background color   0.90000000   0.50000000   0.25000000   1.00000000
+brush color        1.00000000   0.25000000   0.50000000   1.00000000
+fill color         0.25000000   0.00000000   1.00000000   1.00000000
+brush thickness    0.0078125000000000
+smoothing tolerance    0.0125000000000000
+show singularities false
+color by symmetry  true
+content is locked  true
+
+elements
+
+dot
+	color       1.00000000   0.50000000   0.00000000   1.00000000
+	center      0.3125000000000000   0.7187500000000000
+	diameter    0.0156250000000000
+	no-more-properties
+
+curve
+	color       0.60000000   1.00000000   0.40000000   1.00000000
+	thickness   0.0117187500000000
+	node        0.12500000   0.75000000   corner
+	node        0.25000000   0.50000000   smooth
+	node        0.50000000   0.62500000   smooth
+	node        0.62500000   0.93750000   corner
+	node        0.75000000   0.75000000   smooth
+	no-more-properties
+
+fill
+	color       0.50000000   0.50000000   0.50000000   1.00000000
+	fillPoint   0.6000000000000000   0.4000000000000000
+	no-more-properties
+
+dot
+	color       0.20000000   0.80000000   0.50000000   1.00000000
+	center      0.0000000000000000   1.0000000000000000
+	diameter    0.0312500000000000
+	no-more-properties
+
+dot
+	color       0.00000000   0.00000000   0.00000000   1.00000000
+	center      0.0000000000000000   0.0000000000000000
+	diameter    0.0100000000000000
+	no-more-properties
+
+no-more-elements

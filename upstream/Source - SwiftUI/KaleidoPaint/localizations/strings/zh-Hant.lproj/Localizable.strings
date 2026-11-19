@@ -1,0 +1,162 @@
+//	Program:
+//		KaleidoPaint
+//
+//	Language:
+//		繁體中文
+//		Chinese (Mandarin, traditional characters)
+//
+//	Translators:
+//		馬楚媛 (Clara Ma)
+//		鄒燕清 (Yanqing Zou)
+//
+//	Localized name:
+//
+//		(full)	鏡花緣 (KaleidoPaint)
+//			Clara says it's standard to include
+//			the English title in parentheses.
+//
+//		(short)	鏡花緣
+//				(literally: flowers in the mirror, affinity / relation)
+//			Second choice for localized name:
+//				鏡花園 (literally: flowers in the mirror, garden)
+//			鏡花緣 and 鏡花園 are homonyms.
+//			The former has deeper cultural roots -- it's the name
+//			of a classic book -- and Clara preferred it for that reason.
+//			The latter, with the notion of "garden" included, would have
+//			brought out the notion of repetition more explicitly.
+//
+//	Date:
+//		October 2010
+//
+//	© 2026 by Jeff Weeks
+//	See TermsOfUse.txt
+
+"DrawMode"	= "畫圖";
+"EditMode"	= "編輯";
+
+//	The usual term for the "resolution" of a computer image
+//	is different in mainland China and Taiwan.
+//
+//	The YouTube video
+//
+//		https://www.microsoft.com/language/en-US/search.aspx
+//
+//	contains a frame at time 0:26 saying
+//
+//		大陸：分辨率		[Mainland: 分辨率]
+//		臺灣：解析度		[Taiwan:   解析度]
+//
+//	Note:  Even though the labels are written in traditional Chinese characters,
+//	each of the words 分辨率 and 解析度 is written the same way
+//	in simplified chadracters as in traditional characters.
+//
+//	Moreover, the Microsoft Language Portal translates "resolution"
+//	as 解析度 for both "Traditional (Taiwan)" and "Traditional (Hong Kong)",
+//	but as 分辨率 for "Simplified".
+//
+//"Resolution"			= "解析度";	//	but "分辨率" in mainland China
+//"Low Res - Title"		= "低";
+//"Low Res - Subtitle"	= "畫質粗糙但速度較快";
+//"Medium Res - Title"	= "中";
+//"Medium Res - Subtitle"	= "畫質一般速度正常";
+//"High Res - Title"		= "高";
+//"High Res - Subtitle"	= "畫質細膩但速度較慢";
+
+"LockDrawing"	= "鎖定%@";
+"UnlockDrawing"	= "解鎖%@";
+
+"Brush color"		= "畫筆色";	//	"pen color" would be "鋼筆色"
+"Fill color"		= "區域色";
+"Brush thickness"	= "畫筆寬度";
+"Line smoothing"	= "線平滑化";	//	In simplified Chinese:
+								//		线条平滑 appears at
+								//			https://shouyou.3dmgame.com/gl/285772.html
+								//		线平滑化 appears at
+								//			https://support.esri.com/zh-cn/other-resources/gis-dictionary/term/e12e2848-a8c5-49d5-9794-92aaa4d79e73
+
+"New background color"	= "新背景色";
+
+"Symmetry pattern"	= "對稱群";	//	lit. "symmetry group"
+"Symmetry"			= "對稱性";
+"Notation"			= "符號";
+"noNotation"		= "無";
+"orbifold"			= "角形";
+"crystallographic"	= "結晶群";
+"Realign"			= "初始位置";	//	lit. "initial position" or "home position"
+"Aspect ratio"		= "寬高比";
+"Shear"				= "錯切";
+"Grid"				= "網格";
+"Color by symmetry"	= "根據對稱性來著色";
+
+"New dot color"		= "新點色";
+"New line color"	= "新線條色";
+"New fill color"	= "新填充色";
+"Change everything of same color"	= "修改同色區域";
+"Apply"				= "應用";
+
+"Dot size"			= "點大小";
+"Line thickness"	= "線條粗細";
+"Change everything of same thickness"	= "修改相同粗細區域";
+
+"Control point style"	= "控制點樣式";
+"Smooth"				= "平滑";
+"Corner"				= "角";
+	//	Regarding the old "Convert control point" = "轉換控制點",
+	//	Clara said:  Again, I have checked the Photoshop
+	//	in Chinese version, they used 轉換錨點 for this function
+	//	錨 means anchor, so anchor point can summarize
+	//	both 平滑點 and 角點.
+	//
+	//	BTW  www.tudou.com/programs/view/LhipGDBhZo4
+	//	says "平滑點和角點之間轉換" which is more informative
+	//	but breaks the parallelism with the other items.
+	//
+"Delete control point"	= "刪除控制點";
+"Split control point"	= "複製控制點";	//	lit. duplicate control point
+										//	Clara says:  I would suggest to use 複製控制點.
+										//		It means duplicate more directly.
+										//		重復 just means replete[repeat?].
+
+"Delete dot"	= "刪除點";
+"Delete line"	= "刪除線條";
+"Delete fill"	= "刪除區域";	//	lit. "delete area";  better than "刪除面積"
+"Delete everything of same color"	= "刪除同色區域";
+"Clear"			= "清除";	//	Clara says:  清除 or 全部刪除 have the same meaning.
+										//	I guess for the spacing issue, 清除 will be good.
+										//	(currently unused)
+
+"Tileable rectangle"	= "平鋪方形";	//	"平鋪方塊" is also OK
+"Rectangle"				= "方形";		//	NOT CHECKED BY NATIVE SPEAKER
+
+//	Quick Start
+
+"Quick Start"		= "快速開始";
+"OneFinger-tip"		= "使用一隻手指：在屏幕上畫圖。";
+"TwoFingers-tip"	= "使用兩只手指：放大，縮小，旋轉或移動圖像。";
+"DoubleTap-tip"		= "雙按屏幕，填滿所選面積。";
+"HideGrid-tip"		= "需要時，可隱藏網格。";
+
+//	Using the editor
+
+"Editor-HowTo-short"	= "使用編輯器";
+"Editor-HowTo-long"		= "使用編輯器";
+"Control-Points"		= "在**編輯**模式中，每一個點，線條或者填充物都設定有控制點：";
+"Control-Points-Drag"	= "按住控制點以移動它：";
+							//	Even though the preceding sentence begins with "按住",
+							//	Ning reassured me that the sentence really does mean "drag".
+"Control-Points-Tap"	= "點擊控制點以作其它修改：";
+"No-Arc-Taps"			= "欲改變線條的顏色或者加粗線條，你只需要點擊它上的任意一個控制點。記住，一定要點擊控制點，否則系統無反應。";
+"Performance-Tip"		= "小貼士：盡量避免不必要的填充以防止系統運行過慢。例如，相比於在舊的填充點上加入一個填充點之後再編輯顏色，點擊原有填充點以改變它的顏色更好。";
+"Caption-Bad"			= "效果差";
+"Caption-Good"			= "效果好";
+"Subcaption-Bad"		= "兩個填充點在同一區域";
+"Subcaption-Good"		= "改變單一填充點顏色";
+
+//	Tutorials
+
+"Tutorials"		= "教程";
+
+//	Image Gallery
+
+"Image Gallery"			= "鏡花畫廊";
+"Image-Gallery-text"	= "剛畫了一幅美麗的圖案？把它傳至<gallery@geometrygames.org>吧。你的作品有機會可在[鏡花畫廊](https://www.geometrygames.org/KaleidoPaint/Gallery)中展出喔！";

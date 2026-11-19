@@ -1,0 +1,117 @@
+//	Program:
+//		KaleidoPaint
+//
+//	Language:
+//		العربية
+//		Arabic
+//
+//	Translator:
+//		حمزة خليف
+//		Hamza Khelif
+//
+//	Localized name:
+//		(full)	راسم الزخارف العربية
+//		(short)	راسم الزخارف
+//
+//		"راسم" means "grapher, plotter, tracer" and appears
+//			in phrases like "curve plotter", "digital plotter", etc.
+//		"لزخارف العربية" means "arabesque decorations".
+//
+//	Date:
+//		March 2012
+//
+//	© 2026 by Jeff Weeks
+//	See TermsOfUse.txt
+
+"DrawMode"	= "رسْم";
+"EditMode"	= "تعديل";
+
+//"Resolution"			= "الدقة";
+//"Low Res - Title"		= "منخفض";
+//"Low Res - Subtitle"	= "حساب أسرع، وضوح أقل";
+//"Medium Res - Title"	= "متوسط";
+//"Medium Res - Subtitle"	= "للاستعمال اليومي";
+//"High Res - Title"		= "أعلى"	;//	lit. "top" or "highest", so if I ever add "Extra High",
+//								//	this may need to change
+//"High Res - Subtitle"	= "وضوح أكثر، سرعة أقل";
+
+"LockDrawing"	= "أغلقوا %@";
+"UnlockDrawing"	= "أفتحوا %@";
+
+"Brush color"		= "لون الفرشاة";
+"Fill color"		= "لون التعبئة";
+"Brush thickness"	= "سُمك الفرشاة";
+"Line smoothing"	= "تمليس المنحنيات";
+	//	"Curves smoothing" is "تمليس المنحنيات"
+	//	"Smoothing the curve" is "تمليس المنحني"
+
+"New background color"	= "لون الخلفية الجديد";
+
+"Symmetry pattern"	= "نمط تناظر";
+"Symmetry"			= "تناظر";
+"Notation"			= "ترميز";
+"noNotation"		= "لا شيء";			//	literally: "nothing"
+"orbifold"			= "منوعة دائرية";	//	literally: "orbit-manifold"
+"crystallographic"	= "بلورية";
+"Realign"			= "تعديل";	//	literally: "the action of correcting,
+								//	rectifying, adjusting, straightening, ..."
+"Aspect ratio"		= "نسبة البعدين";
+"Shear"				= "تحويل مِقصّي";
+"Grid"				= "شبكة";
+"Color by symmetry"	= "تلوين بالتناظر";
+
+"New dot color"		= "لون النقطة الجديد";
+"New line color"	= "لون المنحني الجديد";
+"New fill color"	= "لون التعبئة الجديد";
+"Change everything of same color"	= "تغيير كل شيء من نفس اللون";
+"Apply"				= "طبّق";
+
+"Dot size"			= "حجم النقطة";
+"Line thickness"	= "سُمك المنحني";
+"Change everything of same thickness"	= "تغيير كل شيء من نفس السُّمك";
+
+"Control point style"	= "نوع نقطة المراقبة";
+"Smooth"				= "ملساء";
+"Corner"				= "زاوية";
+"Delete control point"	= "حذف نقطة المراقبة";
+"Split control point"	= "تكرار نقطة المراقبة";
+
+"Delete dot"	= "حذف النقطة";
+"Delete line"	= "حذف المنحني";		//	literally: "delete curve"
+"Delete fill"	= "حذف المنطقة";		//	literally: "delete the area"
+"Delete everything of same color"	= "حذف كل شيء من نفس اللون";
+"Clear"			= "أمح";	//	currently unused
+
+"Tileable rectangle"	= "مستطيل قابل للتبليط";
+"Rectangle"				= "مستطيل";
+
+//	Quick Start
+
+"Quick Start"		= "البدء السريع";
+"OneFinger-tip"		= "أرسموا بإصبع واحدة.";
+"TwoFingers-tip"	= "استعملوا إصبعين لعرض الصورة، لتدويرها، لتكبيرها أو تصغيرها.";
+"DoubleTap-tip"		= "أنقروا مرتين لتلوين منطقة.";
+"HideGrid-tip"		= "أخفوا الشبكة حالما يبدأ الرسم.";
+
+//	Using the editor
+
+"Editor-HowTo-short"	= "استعمال المحرر";
+"Editor-HowTo-long"		= "استعمال المحرر";
+"Control-Points"		= "في وضع التحرير، يُظهر راسم الزخارف نقط المراقبة بالنسبة إلى كل النقط، كل المنحنيات وكل المناطق:";
+"Control-Points-Drag"	= "أسحبوا نقطة المراقبة لتحريكها:";
+"Control-Points-Tap"	= "أنقر على نقطة مراقبة للقيام بتعديلات أخرى:";
+"No-Arc-Taps"			= "ملاحظة : لتغيير لون منحن أو سُمكه، عليكم أن تنقروا على أي من نقط المراقبة فيه، لكن راسم الزخارف لا يستجيب إذا كانت النقرات على الأقواس بين نقط المراقبة.";
+"Performance-Tip"		= "نصيحة لأداء جيد : تجنبوا المناطق غير الضرورية لأنها تُبطيء راسم الزخارف أكثر من النقط  والمنحنيات. على سبيل المثال، من المستحسن جداالنقر على نقطة تعبئة موجودة لتغيير لونها بدل القيام بتعبئة جديدة على نقطة قديمة.";
+"Caption-Bad"			= "رديء";
+"Caption-Good"			= "جيد";
+"Subcaption-Bad"		= "نقطتا تعبئة في منطقة واحدة";
+"Subcaption-Good"		= "تغيير لون نقطة تعبئة وحيدة";
+
+//	Tutorials
+
+"Tutorials"		= "برامج تعليمية";
+
+//	Image Gallery
+
+"Image Gallery"			= "معرض الصور";
+"Image-Gallery-text"	= "هل لديكم رسوم جميلة؟ قدموها لــ <gallery@geometrygames.org> لعلها تحظى بالعرض في [معرض الصور](https://www.geometrygames.org/KaleidoPaint/Gallery).";

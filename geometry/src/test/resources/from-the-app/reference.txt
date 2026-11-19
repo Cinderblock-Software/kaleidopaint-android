@@ -1,0 +1,146 @@
+external.names	S	new-drawing.kaleidopaint/three-strokes-and-a-fill.kaleidopaint
+external.new-drawing.kaleidopaint.result	S	accepted
+external.new-drawing.kaleidopaint.wallpaperGroup	S	632
+external.new-drawing.kaleidopaint.placement.corner	D	0.0 0.0
+external.new-drawing.kaleidopaint.placement.translations	D	0.2686424829558855 0.0 0.1343212414779427 0.2326512147755249
+external.new-drawing.kaleidopaint.placement.metric	D	1.1547005383792517 0.5773502691896256 0.5773502691896256 1.1547005383792512
+external.new-drawing.kaleidopaint.placement.degenerate	I	0
+external.new-drawing.kaleidopaint.backgroundColor	D	0.37636709 0.75232202 0.95496619 1.0
+external.new-drawing.kaleidopaint.brushColor	D	1.0 0.0 0.0 1.0
+external.new-drawing.kaleidopaint.fillColor	D	0.25 0.0 1.0 1.0
+external.new-drawing.kaleidopaint.brushThickness	D	0.0127577590769957
+external.new-drawing.kaleidopaint.smoothingTolerance	D	0.0085
+external.new-drawing.kaleidopaint.flags	I	1 0 0
+external.new-drawing.kaleidopaint.elementCount	I	0
+external.three-strokes-and-a-fill.kaleidopaint.result	S	accepted
+external.three-strokes-and-a-fill.kaleidopaint.wallpaperGroup	S	632
+external.three-strokes-and-a-fill.kaleidopaint.placement.corner	D	0.0 0.0
+external.three-strokes-and-a-fill.kaleidopaint.placement.translations	D	0.2686424829558855 0.0 0.1343212414779427 0.2326512147755249
+external.three-strokes-and-a-fill.kaleidopaint.placement.metric	D	1.1547005383792517 0.5773502691896256 0.5773502691896256 1.1547005383792512
+external.three-strokes-and-a-fill.kaleidopaint.placement.degenerate	I	0
+external.three-strokes-and-a-fill.kaleidopaint.backgroundColor	D	0.37636709 0.75232202 0.95496619 1.0
+external.three-strokes-and-a-fill.kaleidopaint.brushColor	D	1.0 0.0 0.0 1.0
+external.three-strokes-and-a-fill.kaleidopaint.fillColor	D	0.25 0.0 1.0 1.0
+external.three-strokes-and-a-fill.kaleidopaint.brushThickness	D	0.0127577590769957
+external.three-strokes-and-a-fill.kaleidopaint.smoothingTolerance	D	0.0085
+external.three-strokes-and-a-fill.kaleidopaint.flags	I	1 0 0
+external.three-strokes-and-a-fill.kaleidopaint.elementCount	I	4
+external.three-strokes-and-a-fill.kaleidopaint.element.0.color	D	1.0 0.0 0.0 1.0
+external.three-strokes-and-a-fill.kaleidopaint.element.0.kind	S	curve
+external.three-strokes-and-a-fill.kaleidopaint.element.0.thickness	D	0.0127577590769957
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.nodeCount	I	9
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.0.location	D	0.09769457 0.79083234
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.0.type	S	corner
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.0.ξ	D	0.09769457 0.79083234 0.2661180612991038 0.6689954827986855 0.0 0.0 0.011592128700896194 0.014605357201314551
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.0.samples	D	0.09769457 0.79083234 0.1187701472887569 0.7756312589381196 0.13998156983572743 0.7606013344059418 0.18335533173716392 0.731739581049507 0.22890261777001844 0.7056163321683188 0.2528309454812615 0.6940095382301992 0.27771019 0.68360084
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.1.location	D	0.27771019 0.68360084
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.1.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.1.ξ	D	0.2746225362497823 0.6797105893739503 0.3887566741420118 0.6511149213471418 0.0030876537502177626 0.0038902506260495933 -0.0037405441420117883 0.019081978652858197
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.1.samples	D	0.27771019 0.68360084 0.2909504845257303 0.6787795643537787 0.30440022864649385 0.6745010277665637 0.3316079938969228 0.6682842840204095 0.3586933421988903 0.6663748332640506 0.3719900651340772 0.6674804129140797 0.38501613 0.6701969
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.2.location	D	0.38501613 0.6701969
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.2.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.2.ξ	D	0.38646169982058626 0.6628224829605565 0.4461014636357995 0.702756427661863 -0.001445569820586232 0.007374417039443563 -0.004149163635799488 0.00318431233813698
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.2.samples	D	0.38501613 0.6701969 0.39294014761761126 0.6727607286983512 0.4006969603245204 0.6759668062046817 0.41558224004614464 0.6841092964834072 0.4294185072446966 0.6942315485204291 0.43586405429776537 0.6999123282246301 0.4419523 0.70594074
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.3.location	D	0.4419523 0.70594074
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.3.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.3.ξ	D	0.48276188996987623 0.674621059152959 0.508336532489176 0.9237798179421219 -0.0408095899698762 0.03131968084704093 0.045464127510824 -0.039119907942121945
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.3.samples	D	0.4419523 0.70594074 0.45870828037823264 0.7266712372488562 0.47264938182351623 0.7495124906459995 0.49613102842214457 0.7982254101606553 0.5204854008097006 0.8454757870949836 0.5355174094911439 0.8664888622667173 0.55380066 0.88465991
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.4.location	D	0.55380066 0.88465991
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.4.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.4.ξ	D	0.5454163395766313 0.8918742537271802 0.6401239410576143 0.9268306103163779 0.008384320423368686 -0.007214343727180244 -0.0013572310576142645 -0.010894840316377915
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.4.samples	D	0.55380066 0.88465991 0.5628689785784686 0.8913894726392299 0.5726091683902106 0.897399559734632 0.5936485264878422 0.9070887840163343 0.6160054638415526 0.9133825362898694 0.6273926277233931 0.9151482833750626 0.63876671 0.91593577
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.5.location	D	0.63876671 0.91593577
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.5.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.5.ξ	D	0.6415998285483825 0.9386779361247963 0.764050553651762 0.8737337688492733 -0.0028331185483825706 -0.02274216612479624 -0.0023399736517619304 -0.002477798849273394
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.5.samples	D	0.63876671 0.91593577 0.6550036308352366 0.9153196011925935 0.6709807258483196 0.9128088273649972 0.7021785545750542 0.9030533568652761 0.7324064285142616 0.8885691429329171 0.7471710800429358 0.8801474398145231 0.76171058 0.87125597
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.6.location	D	0.76171058 0.87125597
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.6.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.6.ξ	D	0.7776240376141694 0.8881067353642426 1.030905856436361 0.6488071369352846 -0.015913457614169457 -0.01685076536424252 0.021372253563639164 0.043729663064715325
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.6.samples	D	0.7617105799999999 0.87125597 0.7986652342870675 0.8469909987307976 0.8345649438506715 0.8218561951043495 0.9049472965189489 0.7718167983623225 0.976353173427752 0.7268171949391345 1.0135322882920128 0.7079821329612347 1.05227811 0.6925368
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.7.location	D	1.05227811 0.6925368
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.7.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.7.ξ	D	1.0497589748375002 0.6873824099146226 1.16628603 0.66572892 0.0025191351624997737 0.0051543900853773285 0.0 0.0
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.7.samples	D	1.05227811 0.6925368 1.066012480484253 0.6881287623457722 1.0799534987748047 0.6841435457532354 1.1083373943140626 0.6771999637179834 1.137193627696289 0.6712228298237397 1.1517250682905518 0.6684456734074632 1.16628603 0.66572892
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.8.location	D	1.16628603 0.66572892
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.8.type	S	corner
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.8.ξ	D	0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+external.three-strokes-and-a-fill.kaleidopaint.element.0.spline.node.8.samples	D	0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+external.three-strokes-and-a-fill.kaleidopaint.element.1.color	D	1.0 0.0 0.0 1.0
+external.three-strokes-and-a-fill.kaleidopaint.element.1.kind	S	curve
+external.three-strokes-and-a-fill.kaleidopaint.element.1.thickness	D	0.0127577590769957
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.nodeCount	I	8
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.0.location	D	0.6322481600000001 0.03127586
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.0.type	S	corner
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.0.ξ	D	0.6322481600000001 0.03127586 0.5949054614487632 0.1144354187480649 0.0 0.0 0.010374428551236776 0.0017320412519350975
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.0.samples	D	0.6322481600000001 0.03127586 0.6276005852368597 0.0416741877365783 0.6230745858083039 0.05209281283157772 0.6148736142932862 0.07307214453052432 0.6086178481316254 0.09437623396420879 0.6065233553947659 0.10520080622763049 0.60527989 0.11616746
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.1.location	D	0.60527989 0.11616746
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.1.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.1.ξ	D	0.5886073784061553 0.11338393532572165 0.630740528388676 0.2337435062616005 0.016672511593844794 0.0027835246742783505 0.009919441611323944 -0.010344536261600498
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.1.samples	D	0.60527989 0.11616746 0.6050626762912753 0.1302734215892219 0.6063293730056157 0.14448649415256504 0.6129979475480616 0.17261859434524582 0.624652513316477 0.1993330048653037 0.6321516990632787 0.21177396533786821 0.64065997 0.22339897
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.2.location	D	0.64065997 0.22339897
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.2.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.2.ξ	D	0.6134311648941887 0.2517946572588036 0.8142275383594172 0.314603051695867 0.027228805105811292 -0.028395687258803613 -0.0025986783594172383 -0.015248431695866989
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.2.samples	D	0.64065997 0.22339897 0.6567668082041663 0.24059303241994923 0.6750768060651441 0.25527906856051374 0.7169081174701022 0.2777433396080014 0.7633575776400092 0.29202433835148844 0.7874402614571732 0.29648128411205205 0.81162886 0.29935462
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.3.location	D	0.81162886 0.29935462
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.3.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.3.ξ	D	0.8138680884539844 0.3124938844296616 0.9863062587742297 0.2889152041188828 -0.0022392284539843525 -0.013139264429661582 -0.0019375387742297267 -0.007432504118882813
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.3.samples	D	0.81162886 0.29935462 0.8339189673641499 0.3007297521183674 0.8560026824866738 0.30093995429384585 0.8995650777105804 0.29813307320570415 0.9423443290791967 0.29146898551471034 0.9634491143826078 0.2868576794366237 0.98436872 0.2814827
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.4.location	D	0.98436872 0.2814827
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.4.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.4.ξ	D	0.985572513815207 0.28610051854836394 1.1132997554697794 0.2360862470292107 -0.0012037938152071011 -0.004617818548363976 -0.0011735854697793094 -0.0037513170292107017
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.4.samples	D	0.98436872 0.2814827 1.000729679053111 0.27674783015706733 1.0169781364400943 0.2715901941399032 1.0491389622318699 0.2600472408415905 1.0808540294077105 0.24693507462248254 1.0965452885247753 0.2398159224543243 1.11212617 0.23233493
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.5.location	D	1.11212617 0.23233493
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.5.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.5.ξ	D	1.1145486091031545 0.2400781556055433 1.2857299737907182 0.12882381928023626 -0.0024224391031543234 -0.0077432256055433015 -0.014916093790718168 -0.012656359280236245
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.5.samples	D	1.11212617 0.23233493 1.1342943017473566 0.2209592878969471 1.156088919812922 0.20880014260812427 1.1979719748352022 0.18190103933216736 1.2366040549398813 0.15117701389012675 1.2543349543584454 0.13423671589369932 1.27081388 0.11616746000000001
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.6.location	D	1.27081388 0.11616746
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.6.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.6.ξ	D	1.2748871170488927 0.11962361629987765 1.32873721 0.03127586 -0.004073237048892806 -0.0034561562998776546 0.0 0.0
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.6.samples	D	1.27081388 0.11616746 1.2788896280666673 0.10626479205368586 1.2866312434066678 0.09607861128589734 1.3013030088933348 0.07501771861245413 1.315211042433334 0.053308796632783824 1.3219979928400003 0.04231257923221152 1.32873721 0.03127586
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.7.location	D	1.32873721 0.03127586
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.7.type	S	corner
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.7.ξ	D	0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+external.three-strokes-and-a-fill.kaleidopaint.element.1.spline.node.7.samples	D	0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+external.three-strokes-and-a-fill.kaleidopaint.element.2.color	D	1.0 0.0 0.0 1.0
+external.three-strokes-and-a-fill.kaleidopaint.element.2.kind	S	curve
+external.three-strokes-and-a-fill.kaleidopaint.element.2.thickness	D	0.0127577590769957
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.nodeCount	I	9
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.0.location	D	0.91639997 0.1035909
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.0.type	S	corner
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.0.ξ	D	0.91639997 0.1035909 0.960867913345959 0.0068213794078889785 0.0 0.0 -0.02463984334595899 0.002941950592111022
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.0.samples	D	0.91639997 0.1035909 0.9219103382242099 0.09150045592323633 0.9271319582842091 0.07944448782997397 0.9355539612547346 0.05557388352795836 0.9393559935978928 0.03225489496196357 0.9388026503736829 0.020888446538727234 0.93622807 0.00976333
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.1.location	D	0.93622807 0.00976333
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.1.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.1.ξ	D	0.9491177883756049 0.008224322057667672 0.8891470717489884 -0.05076600707033127 -0.012889718375604929 0.0015390079423323278 -0.0018634117489883906 0.01138156707033127
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.1.samples	D	0.93622807 0.00976333 0.9329827050187983 0.00190377562621921 0.9286581434706646 -0.005696154263186687 0.9172882887967226 -0.01965577062974885 0.9031522222244193 -0.031192779181436585 0.8953698958033338 -0.03576444930224945 0.88728366 -0.03938444
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.2.location	D	0.88728366 -0.03938444
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.2.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.2.ξ	D	0.8932502613688164 -0.07582795480448667 0.7580352404913203 -0.01095634732831615 -0.0059666013688162755 0.03644351480448667 0.00913713950867969 0.002847757328316149
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.2.samples	D	0.88728366 -0.03938444000000001 0.8723690729583573 -0.04329913407452153 0.8570721140017961 -0.04419094891904629 0.8260390681975514 -0.038480742049801064 0.7956004982945308 -0.0254034216556553 0.7810466342145002 -0.017086344594054406 0.76717238 -0.008108590000000002
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.3.location	D	0.76717238 -0.00810859
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.3.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.3.ξ	D	0.7586116340616804 -0.010776703686843022 0.6799459150814787 0.06828920213620368 0.008560745938319621 0.002668113686843022 0.002217444918521238 0.008493817863796318
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.3.samples	D	0.76717238 -0.00810859 0.7545177811066595 0.0009105517528560836 0.7425914165862104 0.010248099134677372 0.7206260484286847 0.030151490668510247 0.7006815910568166 0.052147744368088 0.6912813650184397 0.06410136945709038 0.68216336 0.07678302
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.4.location	D	0.68216336 0.07678302
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.4.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.4.ξ	D	0.6797578403467601 0.06756879076177048 0.6119692197314136 0.20410225692561135 0.0024055196532398594 0.009214229238229508 0.036962100268586415 -0.006683796925611369
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.4.samples	D	0.68216336 0.07678302 0.6729679646083767 0.09079523346933478 0.6644030466133308 0.1054849759356461 0.6507844825293152 0.1361518278827682 0.6445473471806419 0.16729313588850617 0.645209215104774 0.18257594842808736 0.64893132 0.19741846
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.5.location	D	0.64893132 0.19741846
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.5.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.5.ξ	D	0.6375738649692702 0.19947221025946987 0.6955362265911046 0.25787954796347423 0.011357455030729808 -0.0020537502594698857 0.002339493408895361 -0.011313307963474233
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.5.samples	D	0.64893132 0.19741846 0.6524323370644785 0.20537517894324844 0.6568924363003319 0.2130308483578278 0.6682671643351406 0.22700499683360403 0.6822100702023788 0.2384728218925782 0.6898803917287695 0.24299558703615506 0.69787572 0.24656624
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.6.location	D	0.69787572 0.24656624
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.6.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.6.ξ	D	0.6917447523095036 0.27621433617884167 0.8153311624065688 0.2268788460770399 0.006130967690496369 -0.029648096178841656 -0.008061572406568785 -0.005631156077039906
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.6.samples	D	0.69787572 0.24656624000000002 0.7112845776838119 0.2501744933820936 0.7251018947593454 0.25128468626423867 0.7532966317685271 0.24713668459595556 0.7811293803934453 0.23637382312969474 0.7944942119886493 0.22921544126436758 0.80726959 0.22124769
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.7.location	D	0.80726959 0.22124769
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.7.type	S	smooth
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.7.ξ	D	0.8237357496704548 0.23274960431863065 0.91639997 0.1035909 -0.01646615967045487 -0.011501914318630664 0.0 0.0
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.7.samples	D	0.80726959 0.22124769 0.8242877366511674 0.20889938227237542 0.839955143641868 0.1956075581358007 0.8680095898764205 0.1667325128694865 0.8929766311727627 0.13570085866842907 0.9047847819907004 0.11971327336342526 0.91639997 0.1035909
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.8.location	D	0.91639997 0.1035909
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.8.type	S	corner
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.8.ξ	D	0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+external.three-strokes-and-a-fill.kaleidopaint.element.2.spline.node.8.samples	D	0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+external.three-strokes-and-a-fill.kaleidopaint.element.3.color	D	0.25 0.0 1.0 1.0
+external.three-strokes-and-a-fill.kaleidopaint.element.3.kind	S	fill
+external.three-strokes-and-a-fill.kaleidopaint.element.3.fillPoint	D	0.7925796928555335 0.1035908976429694

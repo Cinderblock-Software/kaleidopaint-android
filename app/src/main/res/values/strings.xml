@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KaleidoPaint © Jeff Weeks, GPLv2+; Android port GPLv3+. See upstream for translator credits. -->
+<resources>
+    <string name="app_name" translatable="false">KaleidoPaint</string>
+    <string name="app_full_name" translatable="false">KaleidoPaint for Android</string>
+    <string name="drawing_canvas">Drawing canvas</string>
+    <string name="symmetry_format">Symmetry %1$s</string>
+    <string name="storage_error">Drawing storage</string>
+    <string name="save_failed">Unable to save. Keep the app open and free storage.</string>
+    <string name="restore_failed">Unable to open the saved drawing. The original is preserved; autosave is disabled.</string>
+    <string name="edit_mode">Edit</string>
+    <string name="draw_mode">Draw</string>
+    <string name="edit_element">Edit element</string>
+    <string name="make_smooth">Make smooth</string>
+    <string name="make_corner">Make corner</string>
+    <string name="split_point">Split point</string>
+    <string name="delete_point">Delete point</string>
+    <string name="done">Done</string>
+    <string name="cell_shape">Cell shape</string>
+    <string name="aspect_ratio">Aspect ratio</string>
+    <string name="shear">Shear</string>
+    <string name="new_drawing">New drawing</string>
+    <string name="new_drawing_explanation">Your current drawing will be kept in Saved drawings.</string>
+    <string name="saved_drawings">Saved drawings</string>
+    <string name="no_saved_drawings">No saved drawings yet.</string>
+    <string name="save">"Save"</string>
+    <string name="drawing_name">Drawing name</string>
+    <string name="drawing_name_default">Drawing</string>
+    <string name="realign">Realign</string>
+    <string name="delete_copy">Delete copy</string>
+    <string name="delete_copy_confirmation">Delete this saved copy? Your current drawing is unchanged.</string>
+    <string name="keep_copy">Keep a copy</string>
+    <string name="open_drawing">Open drawing</string>
+    <string name="save_drawing">Save drawing file</string>
+    <string name="export_tile">Export tileable rectangle</string>
+    <string name="export_image">Export image</string>
+    <string name="share_image">Share image</string>
+    <string name="create">Create</string>
+    <string name="working">Working…</string>
+    <string name="file_operation_failed">Unable to complete the file operation. Your drawing is preserved.</string>
+    <string name="symmetry_guides">Symmetry guides</string>
+    <string name="color_by_symmetry">Colour by symmetry</string>
+    <string name="lock_drawing">"Lock %1$s"</string>
+    <string name="unlock">"Unlock %1$s"</string>
+    <string name="help_android">Android controls</string>
+    <string name="help_illustrations">Original illustrations; Android panels differ.</string>
+    <string name="help_tile">Sheared ○ and 2222 tiles require an offset between rows.</string>
+    <string name="donation_heading">Support Gathering 4 Gardner</string>
+    <string name="donation_body">Support recreational mathematics and John Conway’s community.</string>
+    <string name="donation_url" translatable="false">https://www.gathering4gardner.org/donate/</string>
+    <string name="help_tutorial_url" translatable="false">https://tessellations.ca/2022/08/26/kaleidopaint-ipad-app-help/</string>
+    <string name="help_gallery_url" translatable="false">https://www.geometrygames.org/KaleidoPaint/Gallery</string>
+    <string name="help">Help</string>
+    <string name="line_smoothing">Line smoothing</string>
+    <string name="smoothing_explanation">Smooth new strokes; existing strokes stay unchanged.</string>
+    <string name="less">Less</string>
+    <string name="more">More</string>
+    <string name="clear_drawing">"Clear"</string>
+    <string name="clear">Clear</string>
+    <string name="clear_explanation">Remove all elements? Undo is available until the app closes.</string>
+    <string name="help_body">Tap %1$s, then a region. %2$s shows handles. %3$s offers saved drawings and export. Drawings save automatically; undo history lasts for this session.</string>
+    <string name="fill">Fill</string>
+    <string name="paint">Paint</string>
+    <string name="fill_color">Fill colour</string>
+    <string name="match_color">All elements with this colour</string>
+    <string name="match_width">All strokes with this width</string>
+    <string name="delete_matching_color">Delete all with this colour</string>
+    <string name="brush">Brush</string>
+    <string name="background">Background</string>
+    <string name="hex_color">Hex colour</string>
+    <string name="color_hex_format">Colour %1$s</string>
+    <string name="hue">Hue</string>
+    <string name="saturation">Saturation</string>
+    <string name="brightness">Brightness</string>
+    <string name="brush_width">Brush width</string>
+    <string name="apply">Apply</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="about">About</string>
+    <string name="back">Back</string>
+    <string name="version_format">Version %1$s</string>
+    <string name="about_credit">Android port of Jeff Weeks’s KaleidoPaint, with permission.</string>
+    <string name="about_original_heading">The original</string>
+    <string name="about_original_body">KaleidoPaint and its mathematics are by Jeff Weeks.</string>
+    <string name="about_original_url" translatable="false">https://www.geometrygames.org/KaleidoPaint/</string>
+    <string name="about_copyright" translatable="false">KaleidoPaint © 2026 Jeff Weeks\nAndroid port © 2026 Cinderblock Software</string>
+    <string name="about_licence_heading">Licence</string>
+    <string name="about_licence_body" translatable="false">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</string>
+    <string name="about_licence_url" translatable="false">https://www.gnu.org/licenses/gpl-3.0.html</string>
+    <string name="about_source_heading">Source code</string>
+    <string name="about_source_body">Source accompanies public release under the same licence.</string>
+    <string name="about_source_url" translatable="false">https://github.com/Cinderblock-Software/kaleidopaint-android</string>
+    <string name="help_editor_title">"Using the Editor"</string>
+    <string name="help_control_points">"In **Edit** mode, KaleidoPaint shows the control points for all dots, lines and fills:"</string>
+    <string name="help_control_drag">"Drag a control point to move it:"</string>
+    <string name="help_control_tap">"Tap a control point to make other changes:"</string>
+    <string name="help_no_arc_taps">"*Note:* To change a line's color or thickness, you may tap on any of its control points, but KaleidoPaint does not respond to taps on the arcs between control points."</string>
+    <string name="help_performance">"*Performance tip:*  Avoid unnecessary fills, which slow KaleidoPaint down far more than dots and lines do. For example, it's much better to tap on an existing fill-point to change its color than to create a new fill on top of an old one."</string>
+    <string name="help_bad">"bad"</string>
+    <string name="help_good">"good"</string>
+    <string name="help_bad_caption">"two fill-points\nin one region"</string>
+    <string name="help_good_caption">"changing the color\nof a single fill-point"</string>
+    <string name="help_tutorials">"Tutorials"</string>
+    <string name="help_gallery">"Image Gallery"</string>
+    <string name="help_gallery_text">"Created a particularly beautiful painting? Submit it to &lt;gallery@geometrygames.org&gt; for possible inclusion in the [Image Gallery](https://www.geometrygames.org/KaleidoPaint/Gallery)."</string>
+    <string name="color_grid">"Grid"</string>
+    <string name="color_spectrum">Spectrum</string>
+    <string name="color_sliders">Sliders</string>
+    <string name="help_double_tap">"*Double-tap* to fill a region."</string>
+    <string name="brush_color">Brush color</string>
+    <string name="new_values">New</string>
+    <string name="used_values">In use</string>
+    <string name="new_dot_color">"New dot color"</string>
+    <string name="new_line_color">"New line color"</string>
+    <string name="new_fill_color">"New fill color"</string>
+    <string name="dot_size">"Dot size"</string>
+    <string name="line_thickness">"Line thickness"</string>
+    <string name="delete_dot">"Delete dot"</string>
+    <string name="delete_line">"Delete line"</string>
+    <string name="delete_fill">"Delete fill"</string>
+    <string name="point_style">"Control point style"</string>
+    <string name="rectangle">"Rectangle"</string>
+    <string name="image_size">"Image size"</string>
+    <string name="transparent_background">"Transparent background"</string>
+    <string name="performance" translatable="false">Performance</string>
+    <string name="performance_explanation" translatable="false">Run the same synthetic scenes on each version or phone. The stress test adds 60 seconds of sustained drawing and fills after the benchmark. Your current drawing is preserved.</string>
+    <string name="run_benchmark" translatable="false">Run benchmark</string>
+    <string name="run_stress" translatable="false">Run 60-second stress test</string>
+    <string name="stop" translatable="false">Stop</string>
+    <string name="record_explanation" translatable="false">Start recording, go back to your drawing, and reproduce slowdowns. Return here to stop recording and share the report.</string>
+    <string name="start_recording" translatable="false">Start recording</string>
+    <string name="stop_recording" translatable="false">Stop recording</string>
+    <string name="recording_active" translatable="false">Recording is active while you draw.</string>
+    <string name="report_contents" translatable="false">Report contents: device and GPU details, timings, memory, thermal state and action counts. Benchmark and recording data are saved locally; sharing opens the Android chooser.</string>
+    <string name="share_report" translatable="false">Share performance report</string>
+    <string name="save_report" translatable="false">Save performance report</string>
+    <string name="benchmark_complete" translatable="false">Benchmark complete</string>
+    <string name="benchmark_stopped" translatable="false">Benchmark stopped</string>
+    <string name="benchmark_failed" translatable="false">Benchmark failed; details are in the report.</string>
+    <string name="recording_badge" translatable="false">● Recording</string>
+    <string name="benchmark_interrupted" translatable="false">Benchmark interrupted; partial results are available.</string>
+    <string name="use_gpu_fills" translatable="false">Use GPU fills</string>
+    <string name="render_failed" translatable="false">Unable to render this drawing. Your drawing file is preserved.</string>
+    <string name="help_one_finger">"Use *one finger* to draw."</string>
+    <string name="help_two_fingers">"Use *two fingers* to scroll, rotate or zoom."</string>
+</resources>

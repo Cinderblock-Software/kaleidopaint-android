@@ -1,0 +1,114 @@
+//	Program:
+//		KaleidoPaint
+//
+//	Language:
+//		Deutsch
+//		German
+//
+//	Translator:
+//		Frank Lutz
+//
+//	Localized name:
+//		(full)	KaleidoPaint
+//		(short)	KaleidoPaint
+//
+//	Date:
+//		October 2010
+//
+//	© 2026 by Jeff Weeks
+//	See TermsOfUse.txt
+
+"DrawMode"	= "Zeichnen";
+"EditMode"	= "Bearbeiten";
+
+//"Resolution"			= "Auflösung";
+//"Low Res - Title"		= "Niedrig";
+//"Low Res - Subtitle"	= "Schneller, aber grobkörniger";
+//"Medium Res - Title"	= "Mittel";
+//"Medium Res - Subtitle"	= "Für den Alltagsgebrauch geeignet";
+//"High Res - Title"		= "Hoch";
+//"High Res - Subtitle"	= "Schärfer, aber langsamer";
+
+"LockDrawing"	= "%@ sperren";
+"UnlockDrawing"	= "%@ entsperren";
+
+"Brush color"		= "Pinselfarbe";
+"Fill color"		= "Füllfarbe";
+"Brush thickness"	= "Pinselbreite";
+"Line smoothing"	= "Linienglättung";
+
+"New background color"	= "Neue Hintergrundfarbe";
+
+"Symmetry pattern"	= "Symmetrietyp";
+"Symmetry"			= "Symmetrietyp";
+"Notation"			= "Bezeichnung";
+"noNotation"		= "Keine";
+"orbifold"			= "Orbifold";
+"crystallographic"	= "Kristallografisch";
+"Realign"			= "Ausrichten";
+"Aspect ratio"		= "Seitenverhältnis";
+"Shear"				= "Scherung";
+"Grid"				= "Gitter";
+"Color by symmetry"	= "Einfärben nach Symmetrie";
+
+"New dot color"		= "Neue Punktfarbe";
+"New line color"	= "Neue Linienfarbe";
+"New fill color"	= "Neue Füllfarbe";
+"Change everything of same color"	= "Alle gleichfarbigen Elemente verändern";
+"Apply"				= "Übernehmen";
+
+"Dot size"			= "Punktgröße";
+"Line thickness"	= "Linienbreite";
+"Change everything of same thickness"	= "Alle gleichbreiten Elemente verändern";
+
+"Control point style"	= "Kontrollpunktstil";
+"Smooth"				= "Glatt";	//	Illustrator uses Übergangspunkt
+									//	(transition from one arc to the next)
+"Corner"				= "Ecke";	//	Illustrator uses Eckpunkt
+"Delete control point"	= "Kontrollpunkt löschen";
+"Split control point"	= "Kontrollpunkt aufspalten";
+
+"Delete dot"	= "Punkt löschen";
+"Delete line"	= "Linie löschen";
+"Delete fill"	= "Bereich löschen";
+"Delete everything of same color"	= "Alle gleichfarbigen Elemente löschen";
+"Clear"			= "Löschen";	//	currently unused
+
+"Tileable rectangle"	= "Kachelbares Rechteck";
+	//	NOT CONFIRMED BY NATIVE SPEAKER.
+	//	A fuller version would be "nahtlos kachelbares Rechteck",
+	//	but online one often sees "kachelbar" without "nahtlos",
+	//	just as one sees both "tileable" and "seamlessly tileable"
+	//	in English.
+"Rectangle"				= "Rechteck";
+
+//	Quick Start
+
+"Quick Start"		= "Schnellstart";
+"OneFinger-tip"		= "*Ein-Finger-Einsatz* zum Zeichnen";
+"TwoFingers-tip"	= "*Zwei-Finger-Einsatz* zum Scrollen, Drehen oder Zoomen.";
+"DoubleTap-tip"		= "*Doppeltes Antippen*, um einen Bereich einzufärben";
+"HideGrid-tip"		= "Blende das Gitter aus, wenn dein Bild vorangeschritten oder fertig ist.";
+
+//	Using the editor
+
+"Editor-HowTo-short"	= "Bearbeitungsmodus";
+"Editor-HowTo-long"		= "Benutzungshinweise für den Bearbeitungsmodus";
+"Control-Points"		= "Im **Bearbeitungsmodus** zeigt KaleidoPaint die Kontrollpunkte für alle Punkte, Linien und Flächen:";
+"Control-Points-Drag"	= "Ziehe an einem Kontrollpunkt, um ihn zu verschieben:";
+"Control-Points-Tap"	= "Tippe auf einen Kontrollpunkt, um weitere Änderungen vorzunehmen:";
+"No-Arc-Taps"			= "*Hinweis:* Zum Ändern einer Linienfarbe oder -breite lassen sich die entsprechenden Kontrollpunkte antippen. KaleidoPaint reagiert jedoch nicht auf das Antippen der Bögen zwischen Kontrollpunkten.";
+"Performance-Tip"		= "*Hinweis:*  Für eine gute Performance ist es empfehlenswert, Ausfülloperationen nur gezielt einzusetzen, da das Verwalten von Punkten und Linien KaleidoPaint weniger beansprucht, als ausgefüllte Flächenstücke.  Z.B. ist es vorteilhaft, einen bereits vorhandenen Farbauswahlpunkt anzutippen, um die Farbe eines Bereiches zu änderen, statt einen zusätzlichen Farbauswahlpunkt einzufügen.";
+"Caption-Bad"			= "zu vermeiden";
+"Caption-Good"			= "empfehlenswert";
+"Subcaption-Bad"		= "zwei\nFarbauswahlpunkte\nim selben Bereich";
+"Subcaption-Good"		= "Wechseln der Farbe\nmithilfe eines einzigen\nFarbauswahlpunktes";
+
+//	Tutorials
+
+"Tutorials"		= "Tutorials";
+
+//	Image Gallery
+
+"Image Gallery"			= "Bildergalerie";
+"Image-Gallery-text"	= "Hast du ein besonders schönes Bild entworfen? Schicke es an <gallery@geometrygames.org> für eine mögliche Veröffentlichung in der [Bildergalerie](https://www.geometrygames.org/KaleidoPaint/Gallery).";
