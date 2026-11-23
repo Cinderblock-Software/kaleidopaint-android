@@ -69,15 +69,20 @@ fun DrawingHelp(onDismiss: () -> Unit) {
                     )
                     Text(emphasis(stringResource(R.string.help_one_finger)))
                     Text(emphasis(stringResource(R.string.help_two_fingers)))
+                    Text(emphasis(stringResource(R.string.help_double_tap)))
                     Text(
                         stringResource(
-                            R.string.help_body,
-                            stringResource(R.string.fill),
+                            R.string.help_modes,
+                            stringResource(R.string.draw_mode),
                             stringResource(R.string.edit_mode),
+                        )
+                    )
+                    Text(
+                        stringResource(
+                            R.string.help_files,
                             stringResource(R.string.drawing_name_default),
                         )
                     )
-                    Text(emphasis(stringResource(R.string.help_double_tap)))
                     Text(
                         stringResource(R.string.help_editor_title),
                         style = MaterialTheme.typography.titleLarge,

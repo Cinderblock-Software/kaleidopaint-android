@@ -53,9 +53,8 @@
     <string name="clear_drawing">"أمح"</string>
     <string name="clear">"أمح"</string>
     <string name="clear_explanation">"هل تريد إزالة كل العناصر؟ يمكنك التراجع حتى إغلاق التطبيق."</string>
-    <string name="help_body">"اضغط %1$s ثم منطقة لتعبئتها. يُظهر %2$s نقاط التحكم. تتضمن %3$s الرسومات المحفوظة والتصدير. تُحفظ الرسومات تلقائيًا، ويستمر سجل التراجع خلال هذه الجلسة فقط."</string>
-    <string name="fill">"تعبئة"</string>
-    <string name="paint">"رسْم"</string>
+    <string name="help_modes">"في وضع %1$s ترسم. وفي وضع %2$s يمكنك تحديد ما رسمته وتحريكه."</string>
+    <string name="help_files">"تحتوي قائمة %1$s على الرسومات الجديدة والمحفوظة. تُحفظ الرسومات تلقائيًا، ويستمر سجل التراجع خلال هذه الجلسة فقط."</string>
     <string name="fill_color">"لون التعبئة"</string>
     <string name="match_color">"تغيير كل شيء من نفس اللون"</string>
     <string name="match_width">"تغيير كل شيء من نفس السُّمك"</string>
@@ -79,7 +78,8 @@
     <string name="about_original_body">"KaleidoPaint وأساسه الرياضي من إبداع جيف ويكس."</string>
     <string name="about_licence_heading">"الترخيص"</string>
     <string name="about_source_heading">"الشيفرة المصدرية"</string>
-    <string name="about_source_body">"ستنشر الشيفرة المصدرية مع الإصدار العام بموجب الترخيص نفسه."</string>
+    <string name="about_source_body">"الشيفرة المصدرية منشورة بموجب الترخيص نفسه."</string>
+    <string name="about_privacy_heading">"سياسة الخصوصية"</string>
     <string name="help_editor_title">"استعمال المحرر"</string>
     <string name="help_control_points">"في وضع التحرير، يُظهر راسم الزخارف نقط المراقبة بالنسبة إلى كل النقط، كل المنحنيات وكل المناطق:"</string>
     <string name="help_control_drag">"أسحبوا نقطة المراقبة لتحريكها:"</string>
@@ -114,4 +114,8 @@
     <string name="transparent_background">"خلفية شفافة"</string>
     <string name="help_one_finger">"أرسموا بإصبع واحدة."</string>
     <string name="help_two_fingers">"استعملوا إصبعين لعرض الصورة، لتدويرها، لتكبيرها أو تصغيرها."</string>
+    <string name="notation">"ترميز"</string>
+    <string name="notation_none">"لا شيء"</string>
+    <string name="notation_orbifold">"منوعة دائرية"</string>
+    <string name="notation_crystallographic">"بلورية"</string>
 </resources>

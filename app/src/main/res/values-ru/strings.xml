@@ -53,9 +53,8 @@
     <string name="clear_drawing">"Очистить"</string>
     <string name="clear">"Очистить"</string>
     <string name="clear_explanation">"Удалить все элементы? Отмена доступна до закрытия приложения."</string>
-    <string name="help_body">"Нажмите %1$s, затем область. %2$s показывает контрольные точки. В %3$s доступны сохранённые рисунки и экспорт. Рисунки сохраняются автоматически; история отмены действует в текущем сеансе."</string>
-    <string name="fill">"Заливка"</string>
-    <string name="paint">"Рисовать"</string>
+    <string name="help_modes">"В режиме %1$s вы рисуете. В режиме %2$s можно выбирать и перемещать нарисованное."</string>
+    <string name="help_files">"В меню %1$s находятся новые и сохранённые рисунки. Рисунки сохраняются автоматически; история отмены действует в текущем сеансе."</string>
     <string name="fill_color">"Цвет заливки"</string>
     <string name="match_color">"Изменить всe объекты одного цвета"</string>
     <string name="match_width">"Изменить всe объекты одинаковой толщины"</string>
@@ -79,7 +78,8 @@
     <string name="about_original_body">"KaleidoPaint и его математическая основа созданы Джеффом Уиксом."</string>
     <string name="about_licence_heading">"Лицензия"</string>
     <string name="about_source_heading">"Исходный код"</string>
-    <string name="about_source_body">"Исходный код будет опубликован вместе с общедоступной версией на условиях той же лицензии."</string>
+    <string name="about_source_body">"Исходный код опубликован на условиях той же лицензии."</string>
+    <string name="about_privacy_heading">"Политика конфиденциальности"</string>
     <string name="help_editor_title">"Как использовать редактор"</string>
     <string name="help_control_points">"Чтобы перейти в **режим правки**, нажмите кнопку *Изменить*. В режиме правки Калейдопейнт показывает контрольные точки для всех точек, линий и заливок:"</string>
     <string name="help_control_drag">"Чтобы изменить положение контрольной точки, протащите её пальцем:"</string>
@@ -114,4 +114,8 @@
     <string name="transparent_background">"Прозрачный фон"</string>
     <string name="help_one_finger">"Используйте *один палец* для рисования."</string>
     <string name="help_two_fingers">"Используйте *два пальца* для прокрутки, вращения и увеличения."</string>
+    <string name="notation">"Обозначения"</string>
+    <string name="notation_none">"Никакие"</string>
+    <string name="notation_orbifold">"Орбифолдные"</string>
+    <string name="notation_crystallographic">"Кристаллографические"</string>
 </resources>

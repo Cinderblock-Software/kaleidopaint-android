@@ -53,9 +53,8 @@
     <string name="clear_drawing">"Wissen"</string>
     <string name="clear">"Wissen"</string>
     <string name="clear_explanation">"Alle elementen verwijderen? Ongedaan maken kan totdat de app sluit."</string>
-    <string name="help_body">"Tik op %1$s en daarna op een gebied. %2$s toont de controlepunten. %3$s bevat opgeslagen tekeningen en export. Tekeningen worden automatisch opgeslagen; de geschiedenis voor ongedaan maken blijft deze sessie bewaard."</string>
-    <string name="fill">"Vullen"</string>
-    <string name="paint">"Teken"</string>
+    <string name="help_modes">"In de modus %1$s teken je. In de modus %2$s kun je selecteren en verplaatsen wat je hebt getekend."</string>
+    <string name="help_files">"Het menu %1$s bevat nieuwe en opgeslagen tekeningen. Tekeningen worden automatisch opgeslagen; de geschiedenis voor ongedaan maken blijft deze sessie bewaard."</string>
     <string name="fill_color">"Opvulkleur"</string>
     <string name="match_color">"Verander alles van dezelfde kleur"</string>
     <string name="match_width">"Verander alles van dezelfde dikte"</string>
@@ -79,7 +78,8 @@
     <string name="about_original_body">"KaleidoPaint en de bijbehorende wiskunde zijn van Jeff Weeks."</string>
     <string name="about_licence_heading">"Licentie"</string>
     <string name="about_source_heading">"Broncode"</string>
-    <string name="about_source_body">"De broncode verschijnt bij de openbare versie onder dezelfde licentie."</string>
+    <string name="about_source_body">"De broncode is gepubliceerd onder dezelfde licentie."</string>
+    <string name="about_privacy_heading">"Privacybeleid"</string>
     <string name="help_editor_title">"Gebruik van de bewerkmodus"</string>
     <string name="help_control_points">"Tik op *wijzig* om de **bewerkmodus** te starten. In de bewerkmodus laat KaleidoPaint de controlepunten van alle stippen, lijnen en oppervlakken zien:"</string>
     <string name="help_control_drag">"Sleep een controlepunt om deze te verplaatsen:"</string>
@@ -114,4 +114,8 @@
     <string name="transparent_background">"Transparante achtergrond"</string>
     <string name="help_one_finger">"Gebruik *één vinger* om te tekenen."</string>
     <string name="help_two_fingers">"Gebruik *twee vingers* om te scrollen, roteren of zoomen."</string>
+    <string name="notation">"Notatie"</string>
+    <string name="notation_none">"Geen"</string>
+    <string name="notation_orbifold">"Orbifold"</string>
+    <string name="notation_crystallographic">"Kristallografisch"</string>
 </resources>

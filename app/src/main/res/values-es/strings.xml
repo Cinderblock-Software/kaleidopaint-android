@@ -53,9 +53,8 @@
     <string name="clear_drawing">"Borrar todo"</string>
     <string name="clear">"Borrar todo"</string>
     <string name="clear_explanation">"¿Eliminar todos los elementos? Podrás deshacerlo hasta que cierres la aplicación."</string>
-    <string name="help_body">"Toca %1$s y luego una región. %2$s muestra los puntos de control. %3$s ofrece dibujos guardados y exportación. Los dibujos se guardan automáticamente; el historial de deshacer dura esta sesión."</string>
-    <string name="fill">"Rellenar"</string>
-    <string name="paint">"Dibujar"</string>
+    <string name="help_modes">"En el modo %1$s dibujas. En el modo %2$s puedes seleccionar y mover lo que has dibujado."</string>
+    <string name="help_files">"El menú %1$s contiene los dibujos nuevos y guardados. Los dibujos se guardan automáticamente; el historial de deshacer dura esta sesión."</string>
     <string name="fill_color">"Color región"</string>
     <string name="match_color">"Cambiar todo lo del mismo color"</string>
     <string name="match_width">"Cambiar todo lo del mismo grosor"</string>
@@ -79,7 +78,8 @@
     <string name="about_original_body">"KaleidoPaint y sus matemáticas son obra de Jeff Weeks."</string>
     <string name="about_licence_heading">"Licencia"</string>
     <string name="about_source_heading">"Código fuente"</string>
-    <string name="about_source_body">"El código fuente se publicará con la versión pública bajo la misma licencia."</string>
+    <string name="about_source_body">"El código fuente está publicado bajo la misma licencia."</string>
+    <string name="about_privacy_heading">"Política de privacidad"</string>
     <string name="help_editor_title">"Como utilizar el editor"</string>
     <string name="help_control_points">"En modo **Editar**, KaleidoPaint muestra los puntos de control para cada punto, línea y región:"</string>
     <string name="help_control_drag">"Arrastrar un punto de control para moverlo:"</string>
@@ -114,4 +114,8 @@
     <string name="transparent_background">"Fondo transparente"</string>
     <string name="help_one_finger">"Utilizar *un solo dedo* para dibujar."</string>
     <string name="help_two_fingers">"Utilizar *dos dedos* para desplazar, girar o ampliar."</string>
+    <string name="notation">"Notación"</string>
+    <string name="notation_none">"Ninguna"</string>
+    <string name="notation_orbifold">"Orbifold"</string>
+    <string name="notation_crystallographic">"Cristalográfica"</string>
 </resources>

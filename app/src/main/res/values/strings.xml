@@ -58,9 +58,8 @@
     <string name="clear_drawing">"Clear"</string>
     <string name="clear">Clear</string>
     <string name="clear_explanation">Remove all elements? Undo is available until the app closes.</string>
-    <string name="help_body">Tap %1$s, then a region. %2$s shows handles. %3$s offers saved drawings and export. Drawings save automatically; undo history lasts for this session.</string>
-    <string name="fill">Fill</string>
-    <string name="paint">Paint</string>
+    <string name="help_modes">In %1$s mode you draw. In %2$s mode you can select and move what you have drawn.</string>
+    <string name="help_files">The %1$s menu holds new and saved drawings. Drawings save automatically; undo history lasts for this session.</string>
     <string name="fill_color">Fill colour</string>
     <string name="match_color">All elements with this colour</string>
     <string name="match_width">All strokes with this width</string>
@@ -85,11 +84,13 @@
     <string name="about_original_url" translatable="false">https://www.geometrygames.org/KaleidoPaint/</string>
     <string name="about_copyright" translatable="false">KaleidoPaint © 2026 Jeff Weeks\nAndroid port © 2026 Cinderblock Software</string>
     <string name="about_licence_heading">Licence</string>
-    <string name="about_licence_body" translatable="false">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</string>
+    <string name="about_licence_body" translatable="false">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version\u00A03 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</string>
     <string name="about_licence_url" translatable="false">https://www.gnu.org/licenses/gpl-3.0.html</string>
     <string name="about_source_heading">Source code</string>
-    <string name="about_source_body">Source accompanies public release under the same licence.</string>
+    <string name="about_source_body">The source code is published under the same licence.</string>
     <string name="about_source_url" translatable="false">https://github.com/Cinderblock-Software/kaleidopaint-android</string>
+    <string name="about_privacy_heading">Privacy policy</string>
+    <string name="about_privacy_url" translatable="false">https://www.cinderblocksoftware.com/kaleidopaint/privacy/</string>
     <string name="help_editor_title">"Using the Editor"</string>
     <string name="help_control_points">"In **Edit** mode, KaleidoPaint shows the control points for all dots, lines and fills:"</string>
     <string name="help_control_drag">"Drag a control point to move it:"</string>
@@ -122,25 +123,11 @@
     <string name="rectangle">"Rectangle"</string>
     <string name="image_size">"Image size"</string>
     <string name="transparent_background">"Transparent background"</string>
-    <string name="performance" translatable="false">Performance</string>
-    <string name="performance_explanation" translatable="false">Run the same synthetic scenes on each version or phone. The stress test adds 60 seconds of sustained drawing and fills after the benchmark. Your current drawing is preserved.</string>
-    <string name="run_benchmark" translatable="false">Run benchmark</string>
-    <string name="run_stress" translatable="false">Run 60-second stress test</string>
-    <string name="stop" translatable="false">Stop</string>
-    <string name="record_explanation" translatable="false">Start recording, go back to your drawing, and reproduce slowdowns. Return here to stop recording and share the report.</string>
-    <string name="start_recording" translatable="false">Start recording</string>
-    <string name="stop_recording" translatable="false">Stop recording</string>
-    <string name="recording_active" translatable="false">Recording is active while you draw.</string>
-    <string name="report_contents" translatable="false">Report contents: device and GPU details, timings, memory, thermal state and action counts. Benchmark and recording data are saved locally; sharing opens the Android chooser.</string>
-    <string name="share_report" translatable="false">Share performance report</string>
-    <string name="save_report" translatable="false">Save performance report</string>
-    <string name="benchmark_complete" translatable="false">Benchmark complete</string>
-    <string name="benchmark_stopped" translatable="false">Benchmark stopped</string>
-    <string name="benchmark_failed" translatable="false">Benchmark failed; details are in the report.</string>
-    <string name="recording_badge" translatable="false">● Recording</string>
-    <string name="benchmark_interrupted" translatable="false">Benchmark interrupted; partial results are available.</string>
-    <string name="use_gpu_fills" translatable="false">Use GPU fills</string>
     <string name="render_failed" translatable="false">Unable to render this drawing. Your drawing file is preserved.</string>
     <string name="help_one_finger">"Use *one finger* to draw."</string>
     <string name="help_two_fingers">"Use *two fingers* to scroll, rotate or zoom."</string>
+    <string name="notation">"Notation"</string>
+    <string name="notation_none">"None"</string>
+    <string name="notation_orbifold">"Orbifold"</string>
+    <string name="notation_crystallographic">"Crystallographic"</string>
 </resources>

@@ -56,13 +56,26 @@ internal fun OriginalExportPanel(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(6.dp),
     ) {
+        // Share and Save side by side, like the original's Mac layout: Android's share
+        // sheet does not reliably offer saving to a file, as the Mac's does not.
         Row(
-            Modifier.clickable { onExport(settings, true) }.padding(vertical = 4.dp),
+            horizontalArrangement = Arrangement.spacedBy(32.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            EditorGlyph("share", modifier = Modifier.size(22.dp))
-            Spacer(Modifier.width(6.dp))
-            Text(stringResource(R.string.share_image), color = EditorBlue)
+            Row(
+                Modifier.clickable { onExport(settings, true) }.padding(vertical = 4.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                EditorGlyph("share", modifier = Modifier.size(22.dp))
+                Spacer(Modifier.width(6.dp))
+                Text(stringResource(R.string.share_image), color = EditorBlue)
+            }
+            Text(
+                stringResource(R.string.save),
+                color = EditorBlue,
+                modifier =
+                    Modifier.clickable { onExport(settings, false) }.padding(vertical = 4.dp),
+            )
         }
         Row(
             Modifier.fillMaxWidth(),
@@ -139,11 +152,6 @@ internal fun OriginalExportPanel(
             bidi.unicodeWrap(dims, android.text.TextDirectionHeuristics.LTR),
             style = MaterialTheme.typography.bodySmall,
             color = Color.Gray,
-        )
-        Text(
-            stringResource(R.string.export_image),
-            color = EditorBlue,
-            modifier = Modifier.clickable { onExport(settings, false) }.padding(vertical = 4.dp),
         )
     }
 }

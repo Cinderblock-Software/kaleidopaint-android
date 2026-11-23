@@ -53,9 +53,8 @@
     <string name="clear_drawing">"Tout effacer"</string>
     <string name="clear">"Tout effacer"</string>
     <string name="clear_explanation">"Supprimer tous les éléments ? Vous pourrez annuler jusqu’à la fermeture de l’application."</string>
-    <string name="help_body">"Touchez %1$s, puis une région. %2$s affiche les points de contrôle. %3$s donne accès aux dessins enregistrés et à l’exportation. L’enregistrement est automatique ; l’historique d’annulation dure cette session."</string>
-    <string name="fill">"Remplir"</string>
-    <string name="paint">"Dessiner"</string>
+    <string name="help_modes">"En mode %1$s, vous dessinez. En mode %2$s, vous pouvez sélectionner et déplacer ce que vous avez dessiné."</string>
+    <string name="help_files">"Le menu %1$s contient les dessins nouveaux et enregistrés. L’enregistrement est automatique ; l’historique d’annulation dure cette session."</string>
     <string name="fill_color">"Couleur de remplissage"</string>
     <string name="match_color">"Mofifier tous de couleur identique"</string>
     <string name="match_width">"Mofifier tous d'épaisseur identique"</string>
@@ -79,7 +78,8 @@
     <string name="about_original_body">"KaleidoPaint et ses mathématiques sont l’œuvre de Jeff Weeks."</string>
     <string name="about_licence_heading">"Licence"</string>
     <string name="about_source_heading">"Code source"</string>
-    <string name="about_source_body">"Le code source accompagnera la version publique sous la même licence."</string>
+    <string name="about_source_body">"Le code source est publié sous la même licence."</string>
+    <string name="about_privacy_heading">"Politique de confidentialité"</string>
     <string name="help_editor_title">"Comment utiliser l’éditeur"</string>
     <string name="help_control_points">"Touchez le bouton *Modifier* pour activer le mode d’édition. En **mode édition**, KaleidoPaint affiche les points de contrôle de chaque point, chaque ligne et chaque région:"</string>
     <string name="help_control_drag">"Tirez sur un point de contrôle pour le déplacer:"</string>
@@ -114,4 +114,8 @@
     <string name="transparent_background">"Arrière-plan transparent"</string>
     <string name="help_one_finger">"*Un doigt* permet de dessiner."</string>
     <string name="help_two_fingers">"*Deux doigts* permettent de faire défiler le dessin, le faire tourner, l’agrandir ou le réduire."</string>
+    <string name="notation">"Notation"</string>
+    <string name="notation_none">"Aucune"</string>
+    <string name="notation_orbifold">"Orbifold"</string>
+    <string name="notation_crystallographic">"Cristallographique"</string>
 </resources>

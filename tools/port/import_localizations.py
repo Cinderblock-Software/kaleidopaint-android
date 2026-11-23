@@ -13,7 +13,7 @@ MAPPING={
  'new_dot_color':'New dot color','new_line_color':'New line color','new_fill_color':'New fill color',
  'dot_size':'Dot size','line_thickness':'Line thickness','delete_dot':'Delete dot','delete_line':'Delete line','delete_fill':'Delete fill',
  'point_style':'Control point style','rectangle':'Rectangle','image_size':'Image size','transparent_background':'Transparent background',
- 'brush_color':'Brush color','help_double_tap':'DoubleTap-tip','realign':'Realign','edit_mode':'EditMode','draw_mode':'DrawMode','paint':'DrawMode',
+ 'brush_color':'Brush color','help_double_tap':'DoubleTap-tip','realign':'Realign','edit_mode':'EditMode','draw_mode':'DrawMode',
  'make_smooth':'Smooth','make_corner':'Corner','split_point':'Split control point',
  'delete_point':'Delete control point','aspect_ratio':'Aspect ratio','shear':'Shear',
  'export_tile':'Tileable rectangle','symmetry_guides':'Grid','color_by_symmetry':'Color by symmetry',
@@ -24,7 +24,8 @@ MAPPING={
  'help_control_drag':'Control-Points-Drag','help_control_tap':'Control-Points-Tap',
  'help_no_arc_taps':'No-Arc-Taps','help_performance':'Performance-Tip',
  'help_bad':'Caption-Bad','help_good':'Caption-Good','help_bad_caption':'Subcaption-Bad',
- 'help_good_caption':'Subcaption-Good','help_tutorials':'Tutorials','help_gallery':'Image Gallery','help_gallery_text':'Image-Gallery-text',
+ 'help_good_caption':'Subcaption-Good',
+ 'notation':'Notation','notation_none':'noNotation','notation_orbifold':'orbifold','notation_crystallographic':'crystallographic','help_tutorials':'Tutorials','help_gallery':'Image Gallery','help_gallery_text':'Image-Gallery-text',
 }
 REUSED_KEYS={'lock_drawing': 'LockDrawing', 'unlock': 'UnlockDrawing', 'clear_drawing': 'Clear', 'save': 'Save', 'color_grid': 'Grid', 'help_one_finger': 'OneFinger-tip', 'help_two_fingers': 'TwoFingers-tip'}
 MAPPING.update(REUSED_KEYS)

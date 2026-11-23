@@ -53,9 +53,8 @@
     <string name="clear_drawing">"画像をクリア"</string>
     <string name="clear">"画像をクリア"</string>
     <string name="clear_explanation">"すべての要素を消去しますか？アプリを閉じるまでは元に戻せます。"</string>
-    <string name="help_body">"%1$sを選んで領域をタップすると塗りつぶせます。%2$sで制御点を表示します。%3$sから保存した描画や書き出しを利用できます。描画は自動保存され、元に戻す履歴はこのセッション中保持されます。"</string>
-    <string name="fill">"塗りつぶし"</string>
-    <string name="paint">"描画"</string>
+    <string name="help_modes">"%1$sモードでは描画します。%2$sモードでは描いたものを選択して移動できます。"</string>
+    <string name="help_files">"%1$sメニューには新しい描画と保存した描画があります。描画は自動保存され、元に戻す履歴はこのセッション中保持されます。"</string>
     <string name="fill_color">"塗りつぶしの色"</string>
     <string name="match_color">"同色の図形の色を変える"</string>
     <string name="match_width">"同じ幅の図形の幅を変える"</string>
@@ -79,7 +78,8 @@
     <string name="about_original_body">"KaleidoPaintとその数学はJeff Weeksの作品です。"</string>
     <string name="about_licence_heading">"ライセンス"</string>
     <string name="about_source_heading">"ソースコード"</string>
-    <string name="about_source_body">"公開リリース時に、同じライセンスでソースコードを公開します。"</string>
+    <string name="about_source_body">"ソースコードは同じライセンスで公開されています。"</string>
+    <string name="about_privacy_heading">"プライバシーポリシー"</string>
     <string name="help_editor_title">"エディターの使い方"</string>
     <string name="help_control_points">"**編集モード**では、点、線、塗りつぶし領域の、全ての固定点が表示されます："</string>
     <string name="help_control_drag">"固定点は、ドラッグすることによって移動できます："</string>
@@ -114,4 +114,8 @@
     <string name="transparent_background">"背景なし"</string>
     <string name="help_one_finger">"指１本で、線を描きます。"</string>
     <string name="help_two_fingers">"指２本で、画像のスクロール、回転、及びズームを行います。"</string>
+    <string name="notation">"群表記"</string>
+    <string name="notation_none">"なし"</string>
+    <string name="notation_orbifold">"オービフォルド記法"</string>
+    <string name="notation_crystallographic">"結晶学記法"</string>
 </resources>

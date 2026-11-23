@@ -29,7 +29,6 @@ class CanvasView(
     private var drawing = false
     private var cancelled = false
     private var previousPair: Pair<DisplayPoint, DisplayPoint>? = null
-    var fillMode = false
     private var navigated = false
 
     private fun pair(event: MotionEvent, skip: Int = -1): Pair<DisplayPoint, DisplayPoint>? {
@@ -41,7 +40,6 @@ class CanvasView(
 
     private fun finishNavigation() {
         if (navigated) {
-            DiagnosticReports.event("navigation")
             document.itsUnitCellPlacement.snapToViewAlignment()
             document.itsUnitCellPlacement.centerTheUnitCell()
             document.changeCount++
@@ -60,15 +58,10 @@ class CanvasView(
                 override fun onDown(event: MotionEvent) = true
 
                 override fun onSingleTapConfirmed(event: MotionEvent): Boolean {
-                    if (
-                        fillMode ||
-                            document.itsContentIsLocked ||
-                            document.itsTouchMode != TouchMode.draw
-                    )
+                    if (document.itsContentIsLocked || document.itsTouchMode != TouchMode.draw)
                         return false
                     synchronized(document) {
                         document.singleTapForDrawing(point(event.x, event.y))
-                        DiagnosticReports.event("dot")
                     }
                     requestRender()
                     onChanged()
@@ -91,7 +84,6 @@ class CanvasView(
                     ) {
                         synchronized(document) {
                             document.doubleTapForDrawing(point(event.x, event.y))
-                            DiagnosticReports.event("fill_gesture")
                         }
                         requestRender()
                         onChanged()
@@ -212,7 +204,7 @@ class CanvasView(
 
     private fun handleTouch(event: MotionEvent): Boolean {
         if (width == 0 || height == 0) return true
-        if (!fillMode && document.itsTouchMode == TouchMode.draw && !document.itsContentIsLocked)
+        if (document.itsTouchMode == TouchMode.draw && !document.itsContentIsLocked)
             taps.onTouchEvent(event)
         synchronized(document) {
             when (event.actionMasked) {
@@ -261,7 +253,6 @@ class CanvasView(
                     } else if (!cancelled && event.pointerCount == 1) {
                         if (
                             !drawing &&
-                                !fillMode &&
                                 !doubleTapping &&
                                 hypot(event.x - downX, event.y - downY) > slop
                         ) {
@@ -282,16 +273,11 @@ class CanvasView(
                         if (drawing) {
                             document.touchMoved(point(event.x, event.y))
                             document.touchEnded()
-                            DiagnosticReports.event("stroke")
                         } else {
-                            if (document.itsTouchMode == TouchMode.draw) {
-                                if (fillMode) {
-                                    document.doubleTapForDrawing(point(event.x, event.y))
-                                    DiagnosticReports.event("fill_gesture")
-                                }
-                                // Normal dots wait for single-tap confirmation, so a
-                                // double-tap creates one fill without leaving a dot.
-                            } else document.singleTapForEditing(point(event.x, event.y))
+                            // In Draw mode, dots wait for single-tap confirmation, so a
+                            // double-tap creates one fill without leaving a dot.
+                            if (document.itsTouchMode != TouchMode.draw)
+                                document.singleTapForEditing(point(event.x, event.y))
                             performClick()
                         }
                     }

@@ -53,9 +53,8 @@
     <string name="clear_drawing">"Löschen"</string>
     <string name="clear">"Löschen"</string>
     <string name="clear_explanation">"Alle Elemente entfernen? Rückgängig ist möglich, bis die App geschlossen wird."</string>
-    <string name="help_body">"Tippen Sie auf %1$s und dann auf eine Fläche. %2$s zeigt die Kontrollpunkte. Unter %3$s finden Sie gespeicherte Zeichnungen und den Export. Zeichnungen werden automatisch gespeichert; Rückgängig ist für diese Sitzung verfügbar."</string>
-    <string name="fill">"Füllen"</string>
-    <string name="paint">"Zeichnen"</string>
+    <string name="help_modes">"Im Modus %1$s zeichnen Sie. Im Modus %2$s können Sie Gezeichnetes auswählen und verschieben."</string>
+    <string name="help_files">"Das Menü %1$s enthält neue und gespeicherte Zeichnungen. Zeichnungen werden automatisch gespeichert; Rückgängig ist für diese Sitzung verfügbar."</string>
     <string name="fill_color">"Füllfarbe"</string>
     <string name="match_color">"Alle gleichfarbigen Elemente verändern"</string>
     <string name="match_width">"Alle gleichbreiten Elemente verändern"</string>
@@ -79,7 +78,8 @@
     <string name="about_original_body">"KaleidoPaint und seine Mathematik stammen von Jeff Weeks."</string>
     <string name="about_licence_heading">"Lizenz"</string>
     <string name="about_source_heading">"Quellcode"</string>
-    <string name="about_source_body">"Der Quellcode wird mit der öffentlichen Version unter derselben Lizenz veröffentlicht."</string>
+    <string name="about_source_body">"Der Quellcode ist unter derselben Lizenz veröffentlicht."</string>
+    <string name="about_privacy_heading">"Datenschutzerklärung"</string>
     <string name="help_editor_title">"Benutzungshinweise für den Bearbeitungsmodus"</string>
     <string name="help_control_points">"Im **Bearbeitungsmodus** zeigt KaleidoPaint die Kontrollpunkte für alle Punkte, Linien und Flächen:"</string>
     <string name="help_control_drag">"Ziehe an einem Kontrollpunkt, um ihn zu verschieben:"</string>
@@ -114,4 +114,8 @@
     <string name="transparent_background">"Transparenter Hintergrund"</string>
     <string name="help_one_finger">"*Ein-Finger-Einsatz* zum Zeichnen"</string>
     <string name="help_two_fingers">"*Zwei-Finger-Einsatz* zum Scrollen, Drehen oder Zoomen."</string>
+    <string name="notation">"Bezeichnung"</string>
+    <string name="notation_none">"Keine"</string>
+    <string name="notation_orbifold">"Orbifold"</string>
+    <string name="notation_crystallographic">"Kristallografisch"</string>
 </resources>

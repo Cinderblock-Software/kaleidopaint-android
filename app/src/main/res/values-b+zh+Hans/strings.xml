@@ -53,9 +53,8 @@
     <string name="clear_drawing">"清除"</string>
     <string name="clear">"清除"</string>
     <string name="clear_explanation">"移除所有元素？关闭应用前仍可撤销。"</string>
-    <string name="help_body">"点按%1$s，再点按区域即可填充。%2$s会显示控制点。%3$s中提供已保存的绘图和导出功能。绘图自动保存，撤销历史仅保留至本次会话结束。"</string>
-    <string name="fill">"填充"</string>
-    <string name="paint">"画图"</string>
+    <string name="help_modes">"在%1$s模式下绘图。在%2$s模式下可选择并移动已绘制的内容。"</string>
+    <string name="help_files">"%1$s菜单中包含新建和已保存的绘图。绘图自动保存，撤销历史仅保留至本次会话结束。"</string>
     <string name="fill_color">"区域色"</string>
     <string name="match_color">"修改同色区域"</string>
     <string name="match_width">"修改相同粗细区域"</string>
@@ -79,7 +78,8 @@
     <string name="about_original_body">"KaleidoPaint 及其数学原理由 Jeff Weeks 创作。"</string>
     <string name="about_licence_heading">"许可证"</string>
     <string name="about_source_heading">"源代码"</string>
-    <string name="about_source_body">"源代码将在公开发布时以相同许可证提供。"</string>
+    <string name="about_source_body">"源代码以相同许可证公开发布。"</string>
+    <string name="about_privacy_heading">"隐私政策"</string>
     <string name="help_editor_title">"使用编辑器"</string>
     <string name="help_control_points">"在**编辑**模式中，每一个点，线条或者填充物都设定有控制点："</string>
     <string name="help_control_drag">"按住控制点以移动它："</string>
@@ -114,4 +114,8 @@
     <string name="transparent_background">"透明背景"</string>
     <string name="help_one_finger">"使用一只手指：在屏幕上画图。"</string>
     <string name="help_two_fingers">"使用两只手指：放大，缩小，旋转或移动图像。"</string>
+    <string name="notation">"符号"</string>
+    <string name="notation_none">"无"</string>
+    <string name="notation_orbifold">"角形"</string>
+    <string name="notation_crystallographic">"结晶群"</string>
 </resources>

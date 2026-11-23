@@ -6,7 +6,6 @@ enum class EditorAction(val reportName: String) {
     REDO("redo"),
     DRAW("draw"),
     EDIT("edit"),
-    FILL("fill"),
     LOCK("lock"),
     GUIDES("guides"),
     COLORS("colors"),

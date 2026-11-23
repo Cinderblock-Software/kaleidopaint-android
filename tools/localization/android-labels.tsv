@@ -3,6 +3,7 @@ about|Über|Acerca de|À propos|Informazioni|このアプリについて|Over|Ac
 about_licence_heading|Lizenz|Licencia|Licence|Licenza|ライセンス|Licentie|Licença|Лицензия|许可证|授權條款|الترخيص
 about_original_heading|Das Original|El original|L’original|L’originale|オリジナル|Het origineel|O original|Оригинал|原作|原作|النسخة الأصلية
 about_source_heading|Quellcode|Código fuente|Code source|Codice sorgente|ソースコード|Broncode|Código-fonte|Исходный код|源代码|原始碼|الشيفرة المصدرية
+about_privacy_heading|Datenschutzerklärung|Política de privacidad|Politique de confidentialité|Informativa sulla privacy|プライバシーポリシー|Privacybeleid|Política de privacidade|Политика конфиденциальности|隐私政策|隱私權政策|سياسة الخصوصية
 back|Zurück|Atrás|Retour|Indietro|戻る|Terug|Voltar|Назад|返回|返回|رجوع
 background|Hintergrund|Fondo|Fond|Sfondo|背景|Achtergrond|Fundo|Фон|背景|背景|الخلفية
 brightness|Helligkeit|Brillo|Luminosité|Luminosità|明るさ|Helderheid|Luminosidade|Яркость|亮度|亮度|السطوع
@@ -17,7 +18,6 @@ drawing_name|Name der Zeichnung|Nombre del dibujo|Nom du dessin|Nome del disegno
 drawing_name_default|Zeichnung|Dibujo|Dessin|Disegno|描画|Tekening|Desenho|Рисунок|绘图|繪圖|رسم
 edit_element|Element bearbeiten|Editar elemento|Modifier l’élément|Modifica elemento|要素を編集|Element bewerken|Editar elemento|Изменить элемент|编辑元素|編輯元素|تعديل العنصر
 export_image|Bild exportieren|Exportar imagen|Exporter l’image|Esporta immagine|画像を書き出す|Afbeelding exporteren|Exportar imagem|Экспорт изображения|导出图像|匯出影像|تصدير صورة
-fill|Füllen|Rellenar|Remplir|Riempi|塗りつぶし|Vullen|Preencher|Заливка|填充|填滿|تعبئة
 help|Hilfe|Ayuda|Aide|Aiuto|ヘルプ|Help|Ajuda|Справка|帮助|說明|المساعدة
 help_android|Android-Bedienung|Controles de Android|Commandes Android|Comandi Android|Androidの操作|Android-bediening|Controlos Android|Управление в Android|Android 操作|Android 操作|عناصر تحكم Android
 hex_color|Hex-Farbe|Color hexadecimal|Couleur hexadécimale|Colore esadecimale|16進数の色|Hexkleur|Cor hexadecimal|Цвет HEX|十六进制颜色|十六進位顏色|اللون الست عشري

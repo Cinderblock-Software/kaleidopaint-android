@@ -242,7 +242,6 @@ internal fun FloatingEditorChrome(
     revision: Int,
     undo: Boolean,
     redo: Boolean,
-    filling: Boolean,
     onAction: (EditorAction) -> Unit,
     onColor: (ColorTarget) -> Unit,
     onPaletteColor: (ColorTarget, LinearDisplayP3Color) -> Unit,
@@ -258,6 +257,10 @@ internal fun FloatingEditorChrome(
     val exportPreferences = remember {
         context.getSharedPreferences("editor-export", android.content.Context.MODE_PRIVATE)
     }
+    val editorPreferences = remember {
+        context.getSharedPreferences("editor", android.content.Context.MODE_PRIVATE)
+    }
+    var notation by remember { mutableStateOf(WallpaperGroupNotation.load(editorPreferences)) }
     var exportSettings by remember {
         mutableStateOf(
             ExportSettings(
@@ -291,7 +294,11 @@ internal fun FloatingEditorChrome(
     BoxWithConstraints(Modifier.fillMaxSize().safeDrawingPadding().padding(8.dp)) {
         val landscape = maxWidth > maxHeight
         val barBottom = if (landscape) 48.dp else 52.dp
-        Row(Modifier.align(Alignment.TopStart), verticalAlignment = Alignment.CenterVertically) {
+        Row(
+            Modifier.align(Alignment.TopStart),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(6.dp),
+        ) {
             Box(Modifier.clip(RoundedCornerShape(50)).background(Color.White.copy(alpha = .9f))) {
                 GlyphButton(
                     "back",
@@ -414,7 +421,7 @@ internal fun FloatingEditorChrome(
                     GlyphButton(
                         "fill",
                         stringResource(R.string.fill_color),
-                        selected = panel == ChromePanel.FILL || filling,
+                        selected = panel == ChromePanel.FILL,
                         tint = display(document.itsFillColor),
                         onClick = { toggle(ChromePanel.FILL) },
                     )
@@ -588,19 +595,6 @@ internal fun FloatingEditorChrome(
                                         onColor(checkNotNull(active.colorTarget))
                                     }
                                 }
-                            if (active == ChromePanel.FILL)
-                                TextButton(
-                                    onClick = {
-                                        panel = null
-                                        onAction(EditorAction.FILL)
-                                    }
-                                ) {
-                                    Text(
-                                        stringResource(
-                                            if (filling) R.string.paint else R.string.fill
-                                        )
-                                    )
-                                }
                         }
                         ChromePanel.WIDTH -> {
                             Text(stringResource(R.string.brush_width))
@@ -712,21 +706,23 @@ internal fun FloatingEditorChrome(
                                                     RoundedCornerShape(16.dp),
                                                 ),
                                         )
-                                        Text(
-                                            bidi.unicodeWrap(
-                                                choice.orbifoldName,
-                                                TextDirectionHeuristics.LTR,
-                                            ),
-                                            color =
-                                                if (choice == group) EditorBlue else Color.Black,
-                                        )
-                                        Text(
-                                            choice.IUCName,
-                                            style = MaterialTheme.typography.labelSmall,
-                                            color = Color.Gray,
-                                        )
+                                        notation.nameOf(choice)?.let { name ->
+                                            Text(
+                                                bidi.unicodeWrap(
+                                                    name,
+                                                    TextDirectionHeuristics.LTR,
+                                                ),
+                                                color =
+                                                    if (choice == group) EditorBlue
+                                                    else Color.Black,
+                                            )
+                                        }
                                     }
                                 }
+                            }
+                            NotationPicker(notation) {
+                                notation = it
+                                it.save(editorPreferences)
                             }
                             ChromeToggle(
                                 stringResource(R.string.color_grid),

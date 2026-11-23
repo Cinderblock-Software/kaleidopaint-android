@@ -53,9 +53,8 @@
     <string name="clear_drawing">"Cancella tutto"</string>
     <string name="clear">"Cancella tutto"</string>
     <string name="clear_explanation">"Rimuovere tutti gli elementi? Puoi annullare finché l’app resta aperta."</string>
-    <string name="help_body">"Tocca %1$s, poi una regione. %2$s mostra i punti di controllo. %3$s contiene i disegni salvati e l’esportazione. I disegni si salvano automaticamente; la cronologia di annullamento dura per questa sessione."</string>
-    <string name="fill">"Riempi"</string>
-    <string name="paint">"Disegna"</string>
+    <string name="help_modes">"In modalità %1$s disegni. In modalità %2$s puoi selezionare e spostare ciò che hai disegnato."</string>
+    <string name="help_files">"Il menu %1$s contiene i disegni nuovi e salvati. I disegni si salvano automaticamente; la cronologia di annullamento dura per questa sessione."</string>
     <string name="fill_color">"Colore riempimento"</string>
     <string name="match_color">"Cambia tutto ciò che ha questo colore"</string>
     <string name="match_width">"Cambia tutto ciò che ha questo spessore"</string>
@@ -79,7 +78,8 @@
     <string name="about_original_body">"KaleidoPaint e la sua matematica sono opera di Jeff Weeks."</string>
     <string name="about_licence_heading">"Licenza"</string>
     <string name="about_source_heading">"Codice sorgente"</string>
-    <string name="about_source_body">"Il codice sorgente accompagnerà la versione pubblica con la stessa licenza."</string>
+    <string name="about_source_body">"Il codice sorgente è pubblicato con la stessa licenza."</string>
+    <string name="about_privacy_heading">"Informativa sulla privacy"</string>
     <string name="help_editor_title">"Come usare l'editor"</string>
     <string name="help_control_points">"Tocca il bottone *Modifica* per accedere alla modalità **edit**.  KaleidoPaint mostrerà i punti di controllo per tutti i punti, le linee e le regioni di riempimento:"</string>
     <string name="help_control_drag">"Trascina un punto di controllo per spostarlo:"</string>
@@ -114,4 +114,8 @@
     <string name="transparent_background">"Sfondo trasparente"</string>
     <string name="help_one_finger">"Usa *un solo dito* per disegnare."</string>
     <string name="help_two_fingers">"Usa *due dita* per fare scorrere, per ruotare e per ingrandire o rimpicciolire."</string>
+    <string name="notation">"Notazione"</string>
+    <string name="notation_none">"Nessuna"</string>
+    <string name="notation_orbifold">"Orbifold"</string>
+    <string name="notation_crystallographic">"Cristallografica"</string>
 </resources>

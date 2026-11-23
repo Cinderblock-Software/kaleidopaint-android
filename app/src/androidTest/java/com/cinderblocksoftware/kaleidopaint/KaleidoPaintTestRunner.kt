@@ -24,7 +24,6 @@ class KaleidoPaintTestRunner : Instrumentation() {
                     "review" -> ReviewChecks.run(this)
                     "gpu-fill" -> GpuFillChecks.run()
                     "gpu-render" -> GpuRenderChecks.run(this)
-                    "performance" -> PerformanceChecks.run(this)
                     "export" -> {
                         ExportChecks.run(this)
                         "GLES preview, transparency, 4096 output and document preservation: PASS"

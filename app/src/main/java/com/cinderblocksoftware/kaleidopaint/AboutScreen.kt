@@ -37,7 +37,7 @@ import androidx.compose.ui.unit.dp
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AboutScreen(onBack: () -> Unit, onPerformance: () -> Unit) {
+fun AboutScreen(onBack: () -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
@@ -84,8 +84,6 @@ fun AboutScreen(onBack: () -> Unit, onPerformance: () -> Unit) {
                 )
             }
 
-            TextButton(onClick = onPerformance) { Text(stringResource(R.string.performance)) }
-
             Heading(stringResource(R.string.about_original_heading))
             Text(stringResource(R.string.about_original_body))
             Link(stringResource(R.string.about_original_url))
@@ -102,6 +100,9 @@ fun AboutScreen(onBack: () -> Unit, onPerformance: () -> Unit) {
             Heading(stringResource(R.string.about_source_heading))
             Text(stringResource(R.string.about_source_body))
             Link(stringResource(R.string.about_source_url))
+
+            Heading(stringResource(R.string.about_privacy_heading))
+            Link(stringResource(R.string.about_privacy_url))
         }
     }
 }

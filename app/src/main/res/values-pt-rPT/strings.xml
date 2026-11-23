@@ -53,9 +53,8 @@
     <string name="clear_drawing">"Apagar todo"</string>
     <string name="clear">"Apagar todo"</string>
     <string name="clear_explanation">"Remover todos os elementos? Pode desfazer até fechar a aplicação."</string>
-    <string name="help_body">"Toque em %1$s e depois numa região. %2$s mostra os pontos de controlo. %3$s contém desenhos guardados e exportação. Os desenhos são guardados automaticamente; o histórico de desfazer dura esta sessão."</string>
-    <string name="fill">"Preencher"</string>
-    <string name="paint">"Desenhar"</string>
+    <string name="help_modes">"No modo %1$s, desenha. No modo %2$s, pode selecionar e mover o que desenhou."</string>
+    <string name="help_files">"O menu %1$s contém desenhos novos e guardados. Os desenhos são guardados automaticamente; o histórico de desfazer dura esta sessão."</string>
     <string name="fill_color">"Cor de preenchimento"</string>
     <string name="match_color">"Mudar tudo com a mesma cor"</string>
     <string name="match_width">"Mudar tudo com a mesma espessura"</string>
@@ -79,7 +78,8 @@
     <string name="about_original_body">"O KaleidoPaint e a sua matemática são da autoria de Jeff Weeks."</string>
     <string name="about_licence_heading">"Licença"</string>
     <string name="about_source_heading">"Código-fonte"</string>
-    <string name="about_source_body">"O código-fonte acompanhará a versão pública sob a mesma licença."</string>
+    <string name="about_source_body">"O código-fonte está publicado sob a mesma licença."</string>
+    <string name="about_privacy_heading">"Política de privacidade"</string>
     <string name="help_editor_title">"Como usar o editor"</string>
     <string name="help_control_points">"No modo **Editar**, KaleidoPaint mostra os pontos de controlo para todos os pontos, linhas e preenchimentos:"</string>
     <string name="help_control_drag">"Arrasta um ponto de controlo para o mover:"</string>
@@ -114,4 +114,8 @@
     <string name="transparent_background">"Fundo transparente"</string>
     <string name="help_one_finger">"Usa *um dedo* para desenhar."</string>
     <string name="help_two_fingers">"Usa *dois dedos* para deslocar, girar ou dar zoom."</string>
+    <string name="notation">"Notação"</string>
+    <string name="notation_none">"Nenhuma"</string>
+    <string name="notation_orbifold">"Orbifold"</string>
+    <string name="notation_crystallographic">"Cristalográfica"</string>
 </resources>

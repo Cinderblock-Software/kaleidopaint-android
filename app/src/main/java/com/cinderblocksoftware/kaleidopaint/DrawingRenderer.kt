@@ -105,7 +105,6 @@ class DrawingRenderer(
         cellReady = false
         cellState = null
         snapshot = null
-        DiagnosticReports.gpu(glGetString(GL_RENDERER), glGetString(GL_VERSION))
         maximumExportDimension =
             IntArray(1).also { glGetIntegerv(GL_MAX_TEXTURE_SIZE, it, 0) }[0].coerceAtMost(4096)
         stripProgram =
@@ -265,21 +264,12 @@ class DrawingRenderer(
         }
         if (renderFailed) return
         try {
-            val frameStart = if (DiagnosticReports.recording) System.nanoTime() else 0L
             snapshot = RenderSnapshot.capture(sourceDocument, snapshot)
             document = snapshot!!.model
             frameSnapshot = snapshot
             renderFrame()
             snapshot!!.publishCaches(sourceDocument)
             snapshot!!.complete()
-            if (frameStart != 0L)
-                DiagnosticReports.frame(
-                    System.nanoTime() - frameStart,
-                    document.itsElements.size,
-                    document.itsWallpaperGroup.orbifoldName,
-                    snapshot!!.captureWaitNs,
-                    snapshot!!.captureHoldNs,
-                )
         } catch (failure: Exception) {
             reportFailure(failure)
         }
@@ -291,11 +281,6 @@ class DrawingRenderer(
         cellReady = false
         cellState = null
         android.util.Log.e("KaleidoPaint", "Renderer failed: " + failure.javaClass.simpleName)
-        if (DiagnosticReports.recording)
-            DiagnosticReports.event(
-                "render_failure",
-                org.json.JSONObject().put("exceptionType", failure.javaClass.simpleName),
-            )
         onRenderFailure?.invoke()
     }
 
@@ -552,15 +537,6 @@ class DrawingRenderer(
                         )
                     fill.itsCachedRLERunsBuffer = mask
                     gpuFillCount++
-                    if (DiagnosticReports.recording)
-                        DiagnosticReports.event(
-                            "fresh_fill",
-                            org.json
-                                .JSONObject()
-                                .put("backend", "gpu")
-                                .put("computeAndReadbackMs", (System.nanoTime() - start) / 1e6)
-                                .put("runs", mask!!.runs.size / 2),
-                        )
                 } catch (error: Exception) {
                     val workLimit = error is GpuFloodFill.WorkLimitException
                     gpuFailed = !workLimit
@@ -575,15 +551,6 @@ class DrawingRenderer(
                         "GPU fill fallback (backend disabled=$gpuFailed): " +
                             error.javaClass.simpleName,
                     )
-                    if (DiagnosticReports.recording)
-                        DiagnosticReports.event(
-                            "gpu_fill_fallback",
-                            org.json
-                                .JSONObject()
-                                .put("reason", error.javaClass.simpleName)
-                                .put("backendDisabled", gpuFailed)
-                                .put("detail", error.message?.take(200)),
-                        )
                 } finally {
                     glBindFramebuffer(GL_FRAMEBUFFER, framebuffer)
                     glBindVertexArray(stripVao)
@@ -629,18 +596,6 @@ class DrawingRenderer(
                 "KaleidoPaint",
                 "CPU fill ${(System.nanoTime()-start)/1_000_000} ms; ${computed.runs.size/2} runs",
             )
-            if (DiagnosticReports.recording)
-                DiagnosticReports.event(
-                    "fresh_fill",
-                    org.json
-                        .JSONObject()
-                        .put("backend", "cpu")
-                        .put("readbackAllocationMs", (readBack - start) / 1e6)
-                        .put("copyMs", (copied - readBack) / 1e6)
-                        .put("floodMs", (filled - copied) / 1e6)
-                        .put("uploadSubmissionMs", (System.nanoTime() - filled) / 1e6)
-                        .put("runs", computed.runs.size / 2),
-                )
             if (BuildConfig.DEBUG)
                 android.util.Log.d(
                     "KaleidoPerf",

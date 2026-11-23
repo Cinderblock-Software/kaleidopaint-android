@@ -4,7 +4,6 @@ package com.cinderblocksoftware.kaleidopaint
 
 import android.graphics.Color as AndroidColor
 import android.os.Bundle
-import android.view.Window
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
@@ -12,7 +11,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.LinearProgressIndicator
@@ -34,17 +32,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.view.WindowCompat
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.ViewModelProvider
 import com.cinderblocksoftware.kaleidopaint.geometry.*
-import org.json.JSONObject
 
 class MainActivity : ComponentActivity() {
-    private var frameListener: Window.OnFrameMetricsAvailableListener? = null
     private val session: EditorSession by lazy {
         ViewModelProvider(this)[EditorSession::class.java]
     }
@@ -67,12 +62,10 @@ class MainActivity : ComponentActivity() {
 
     override fun onStop() {
         session.requestSave(immediate = true)
-        DiagnosticReports.event("app_background")
         super.onStop()
     }
 
     override fun onDestroy() {
-        frameListener?.let { window.removeOnFrameMetricsAvailableListener(it) }
         if (::documentActions.isInitialized) documentActions.close()
         super.onDestroy()
     }
@@ -80,8 +73,6 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         FillAcceleration.initialize(this)
-        DiagnosticReports.initialize(this)
-        frameListener = DiagnosticReports.watch(window)
         documentActions =
             DocumentActions(
                 this,
@@ -154,13 +145,10 @@ fun KaleidoPaintApp(
     onImage: (ByteArray, Boolean) -> Unit,
 ) {
     var showAbout by rememberSaveable { mutableStateOf(false) }
-    var performance by rememberSaveable { mutableStateOf(false) }
 
-    if (performance) {
-        PerformanceScreen(onBack = { performance = false })
-    } else if (showAbout) {
+    if (showAbout) {
         BackHandler { showAbout = false }
-        AboutScreen(onBack = { showAbout = false }, onPerformance = { performance = true })
+        AboutScreen(onBack = { showAbout = false })
     } else {
         DrawingScreen(document, onSave, onFileAction, onImage, onAbout = { showAbout = true })
     }
@@ -178,7 +166,6 @@ fun DrawingScreen(
     var revision by remember { mutableIntStateOf(0) }
     var settingsPanel by remember { mutableStateOf<EditorDialog?>(null) }
     var preparingImage by remember { mutableStateOf(false) }
-    var filling by remember { mutableStateOf(false) }
     var colorPanel by remember { mutableStateOf<ColorTarget?>(null) }
     val context = LocalContext.current
     val barColor = toSRGBHex(document.itsBackgroundColor)
@@ -416,12 +403,6 @@ fun DrawingScreen(
             onDismiss = { colorPanel = null },
             onApply = { color ->
                 colorPanel = null
-                DiagnosticReports.event(
-                    "color_apply",
-                    org.json
-                        .JSONObject()
-                        .put("target", target.name.lowercase(java.util.Locale.ROOT)),
-                )
                 update {
                     when (target) {
                         ColorTarget.FILL -> document.itsFillColor = color
@@ -440,7 +421,6 @@ fun DrawingScreen(
             modifier = Modifier.fillMaxSize(),
             update = { view ->
                 view.onSurfaceReady = { canvasReady = true }
-                view.fillMode = filling
                 view.previewShape = settingsPanel == EditorDialog.SHAPE
             },
         )
@@ -450,12 +430,7 @@ fun DrawingScreen(
                 revision,
                 undo,
                 redo,
-                filling,
                 onAction = { action ->
-                    DiagnosticReports.event(
-                        "action",
-                        JSONObject().put("action", action.reportName),
-                    )
                     when (action) {
                         EditorAction.ABOUT -> onAbout()
                         EditorAction.SHAPE -> {
@@ -471,19 +446,12 @@ fun DrawingScreen(
                                     EditorAction.REDO -> document.itsUndoManager?.redo()
                                     EditorAction.DRAW,
                                     EditorAction.EDIT -> {
-                                        filling = false
                                         document.itsControlHandleHit = null
                                         document.itsTouchMode =
                                             if (action == EditorAction.EDIT) TouchMode.edit
                                             else TouchMode.draw
                                     }
-                                    EditorAction.FILL -> {
-                                        filling = !filling
-                                        document.itsTouchMode = TouchMode.draw
-                                        document.itsControlHandleHit = null
-                                    }
                                     EditorAction.LOCK -> {
-                                        filling = false
                                         document.itsContentIsLocked = !document.itsContentIsLocked
                                         document.itsTouchMode = TouchMode.draw
                                         document.itsControlHandleHit = null
@@ -548,15 +516,6 @@ fun DrawingScreen(
                         )
                     }
                 },
-            )
-        if (DiagnosticReports.recording)
-            Text(
-                stringResource(R.string.recording_badge),
-                modifier =
-                    Modifier.align(androidx.compose.ui.Alignment.TopEnd)
-                        .then(Modifier.padding(top = 48.dp, end = 12.dp)),
-                color = EditorBlue,
-                style = MaterialTheme.typography.bodySmall,
             )
     }
 }
